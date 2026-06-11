@@ -1,0 +1,11 @@
+# Lychee link checker configuration
+
+max_retries = 2
+timeout = 20
+
+exclude = [
+  "https://www.figma.com/.*",
+  "https://figma.com/.*",
+  "https://youtu.be/.*",
+  "https://youtube.com/.*"
+]
