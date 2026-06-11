@@ -43,7 +43,7 @@ To be added after the interactive prototype is prepared.
 ## Link checking
 
 - [Lychee configuration](../../lychee.toml)
-- [Latest successful Lychee run](https://github.com/2OfClubsy/card-duel-project/actions/runs/27347541166)
+- [Latest successful Lychee run](https://github.com/2OfClubsy/card-duel-project/actions/runs/27354984303)
 
 ---
 
