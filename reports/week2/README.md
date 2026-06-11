@@ -62,7 +62,11 @@ All excluded links will be manually verified before submission.
 
 ### Protected default branch
 
-![Protected default branch](images/protected-branch.png)
+![Protected default branch settings 1](images/protected-branch1.png)
+
+![Protected default branch settings 2](images/protected-branch2.png)
+
+![Protected default branch settings 3](images/protected-branch3.png)
 
 ### Example reviewed PR
 
