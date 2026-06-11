@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.local
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Large or private media
+*.mp4
+*.mov
+*.avi
+*.mkv
+recordings/
