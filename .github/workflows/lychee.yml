@@ -1,0 +1,20 @@
+name: Link Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links with Lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml './**/*.md'
