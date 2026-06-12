@@ -103,7 +103,7 @@ The UI should show the player state, opponent state, available cards, and possib
 
 ---
 
-### US-06: Immersive 3D presentation
+## US-06: Immersive 3D presentation
 
 **Requirement Status:** Active
 **MoSCoW priority:** Should Have
