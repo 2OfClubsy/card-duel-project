@@ -103,18 +103,18 @@ The UI should show the player state, opponent state, available cards, and possib
 
 ---
 
-## US-06: Demo version
+### US-06: Immersive 3D presentation
 
-**Requirement Status:** Active  
+**Requirement Status:** Active
 **MoSCoW priority:** Should Have
 
-As a potential player,  
-I want to play the demo version of the game,  
-so that I can decide whether I like the game before buying or continuing with the full version.
+As a player,
+I want the game to have an immersive 3D presentation,
+so that I can feel more involved in the horror atmosphere and game world.
 
 ### Notes and constraints
 
-For the course, the MVP v1 playable loop can act as the first demo version.
+The customer suggested using a mostly 3D format because immersion is important for this type of game. 2D elements can still be used where appropriate, such as UI, cards, menus, and visual overlays.
 
 ---
 
