@@ -1,7 +1,13 @@
 # Customer Meeting Transcript
 
-Publication status: To be added.
+## Publication status
+
+The customer meeting was not recorded. Therefore, no transcript is available.
+
+Detailed meeting notes are provided instead:
+
+[Customer Meeting Notes](customer-meeting-notes.md)
 
 ## Transcript
 
-To be added.
+Not applicable because the meeting was not recorded.
