@@ -20,7 +20,7 @@ This file is the public index for the Assignment 2 submission.
 
 ## Prototype and interface artifacts
 
-- [Miro interactive prototype](https://miro.com/app/board/uXjVHILqoUI=/)
+- [Miro interactive prototype](https://miro.com/app/board/uXjVHILqoUI=/?share_link_id=899607903235)
 
 The prototype includes the main menu, lobby, table interaction, card UI, and game loop diagram.
 
