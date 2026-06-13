@@ -27,8 +27,8 @@ To be added after the interactive prototype is prepared.
 ## MVP v0
 
 - [MVP v0 report](mvp-v0-report.md)
-- Deployment URL or runnable artifact: To be added.
-- Public MVP v0 video demonstration: To be added.
+- [MVP v0 Windows build archive](https://drive.google.com/drive/folders/1P3rSPIW-Alx3KcsHDx0HcvqGbo66a9ZR?usp=sharing)
+- [Public MVP v0 video demonstration](https://drive.google.com/file/d/18vIMUVs3uTnxOA45d65Y24t4WqTotlsf/view?usp=sharing)
 - [Local setup instructions](../../README.md)
 
 ---
