@@ -78,8 +78,7 @@ To be added after the prototype screenshot is prepared.
 
 ### MVP v0
 
-To be added after MVP v0 is deployed or prepared.
-
+![MVP v0 screenshot](images/mvp-v0.png)
 ---
 
 ## Coverage
