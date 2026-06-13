@@ -10,13 +10,13 @@ The goal of MVP v0 is not to deliver the full gameplay loop yet. Instead, it pro
 
 ## Deployment URL or runnable artifact
 
-Runnable artifact: To be added.
+Runnable artifact: [MVP v0 Windows build archive](https://drive.google.com/drive/folders/1P3rSPIW-Alx3KcsHDx0HcvqGbo66a9ZR?usp=sharing)
 
 The MVP v0 build will be shared through Google Drive as a compressed archive. The archive will contain the Windows executable and required project files.
 
 ## Public video demonstration
 
-Video demonstration: To be added.
+Video demonstration: [MVP v0 video demonstration](https://drive.google.com/file/d/18vIMUVs3uTnxOA45d65Y24t4WqTotlsf/view?usp=sharing)
 
 The video demonstration will be shared through Google Drive and will be shorter than two minutes.
 
