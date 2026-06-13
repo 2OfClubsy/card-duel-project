@@ -85,7 +85,27 @@ All excluded links will be manually verified before submission.
 
 ## Coverage
 
-To be completed after the final initial proposed MVP v1 scope, prototype, and MVP v0 are prepared.
+The initial proposed MVP v1 scope is documented in [User stories](user-stories.md). It includes the following stable user story IDs:
+
+- US-05
+- US-09
+- US-10
+
+The Miro prototype represents the planned MVP v1 user experience and covers the following stories:
+
+- US-05: Clear game UI
+- US-09: Interesting mechanics
+- US-10: Understandable challenges
+
+The prototype includes the main menu, lobby, table interaction, card UI, and game loop diagram. These artifacts show how the player enters the game, reaches the main table, sees the card interface, and understands the intended game flow.
+
+MVP v0 is documented in the [MVP v0 report](mvp-v0-report.md). It provides a runnable technical foundation for the product. MVP v0 partially represents:
+
+- US-05: Clear game UI
+- US-09: Interesting mechanics
+- US-10: Understandable challenges
+
+MVP v0 does not implement the full card duel loop yet. It demonstrates the technical base: main menu, 3D scene loading, camera rotation, table interaction, and placeholder card UI.
 
 ---
 
