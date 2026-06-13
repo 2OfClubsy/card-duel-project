@@ -20,7 +20,9 @@ This file is the public index for the Assignment 2 submission.
 
 ## Prototype and interface artifacts
 
-To be added after the interactive prototype is prepared.
+- [Miro interactive prototype](https://miro.com/app/board/uXjVHILqoUI=/)
+
+The prototype includes the main menu, lobby, table interaction, card UI, and game loop diagram.
 
 ---
 
@@ -74,7 +76,7 @@ All excluded links will be manually verified before submission.
 
 ### Prototype
 
-To be added after the prototype screenshot is prepared.
+![Miro prototype screenshot](images/prototype.png)
 
 ### MVP v0
 
