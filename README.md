@@ -18,9 +18,23 @@ MVP v0 is a runnable technical foundation for the project.
 
 [MVP v0 Report](reports/week2/mvp-v0-report.md)
 
+The MVP v0 build is provided as a Windows executable archive through the Week 2 report.
+
 ## Local setup
 
-Local setup instructions will be added after the MVP v0 foundation is created.
+### Run MVP v0 from the Windows build
+
+1. Open the [Week 2 Report](reports/week2/README.md).
+2. Download the MVP v0 Windows build archive from the provided Google Drive link.
+3. Extract the `.rar` archive.
+4. Open the extracted folder.
+5. Run the `.exe` file.
+
+Expected result: the main menu opens, the player can start a new game, enter the 3D scene, rotate the camera, interact with the table, and see the placeholder card UI.
+
+### Development setup
+
+The development setup for the Godot project will be expanded in later assignments.
 
 ## License
 
