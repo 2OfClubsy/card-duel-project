@@ -62,12 +62,15 @@ The Google Drive folder contains the MVP v1 demo video and the game archive in `
 
 ## Core documentation
 
-| Document           | Link                                                                                |
-| ------------------ | ----------------------------------------------------------------------------------- |
-| User Stories Index | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/user-stories.md       |
-| Definition of Done | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/definition-of-done.md |
-| Roadmap            | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/roadmap.md            |
-| Changelog          | https://github.com/2OfClubsy/card-duel-project/blob/main/CHANGELOG.md               |
+| Document           | Link                                                                                    |
+| ------------------ | -----------------------------------------------------------------------------------     |
+| User Stories Index | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/user-stories.md           |
+| Definition of Done | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/definition-of-done.md     |
+| Roadmap            | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/roadmap.md                |
+| Changelog          | https://github.com/2OfClubsy/card-duel-project/blob/main/CHANGELOG.md                   |
+| Reflection         | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/reflection.md    |
+| Retrospective      | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/retrospective.md |
+| LLM Report         | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/llm-report.md    |
 
 ---
 
@@ -186,6 +189,15 @@ https://github.com/2OfClubsy/card-duel-project/blob/main/docs/roadmap.md
 
 ---
 
+## Final Week 3 Required Reports
+
+| Report        | Link                                                                                    |
+| ------------- | --------------------------------------------------------------------------------------- |
+| Reflection    | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/reflection.md    |
+| Retrospective | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/retrospective.md |
+| LLM Report    | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/llm-report.md    |
+
+
 ## Submission notes
 
 This Week 3 report is intended to be used as the main GitHub evidence page for Assignment 3.
@@ -204,3 +216,6 @@ The Moodle PDF should link to:
 * Customer review summary and notes
 * Reviewed issue-linked PR evidence
 * Week 3 screenshots
+* Reflection
+* Retrospective
+* LLM report
