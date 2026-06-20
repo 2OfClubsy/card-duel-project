@@ -68,9 +68,9 @@ The Google Drive folder contains the MVP v1 demo video and the game archive in `
 | Definition of Done | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/definition-of-done.md     |
 | Roadmap            | https://github.com/2OfClubsy/card-duel-project/blob/main/docs/roadmap.md                |
 | Changelog          | https://github.com/2OfClubsy/card-duel-project/blob/main/CHANGELOG.md                   |
-| Reflection         | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/reflection.md    |
-| Retrospective      | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/retrospective.md |
-| LLM Report         | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/llm-report.md    |
+| Reflection         | reports/week3/reflection.md                                                             |
+| Retrospective      | reports/week3/retrospective.md                                                          |
+| LLM Report         | reports/week3/llm-report.md                                                             |
 
 ---
 
@@ -193,9 +193,9 @@ https://github.com/2OfClubsy/card-duel-project/blob/main/docs/roadmap.md
 
 | Report        | Link                                                                                    |
 | ------------- | --------------------------------------------------------------------------------------- |
-| Reflection    | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/reflection.md    |
-| Retrospective | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/retrospective.md |
-| LLM Report    | https://github.com/2OfClubsy/card-duel-project/blob/main/reports/week3/llm-report.md    |
+| Reflection    | reports/week3/reflection.md                                                             |
+| Retrospective | reports/week3/retrospective.md                                                          |
+| LLM Report    | reports/week3/llm-report.md                                                             |
 
 
 ## Submission notes
