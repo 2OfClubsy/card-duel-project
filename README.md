@@ -29,7 +29,7 @@ The public Week 4 report is available here:
 
 The Assignment 4 release will be available here after the Sprint increment is completed:
 
-[Assignment 4 Release v0.2.0](https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.2.0)
+Assignment 4 Release `v0.2.0` — TODO: link after the release is created.
 
 ## Week 2 report
 
