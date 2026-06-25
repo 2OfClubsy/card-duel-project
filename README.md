@@ -6,6 +6,31 @@ A card-based duel game prototype for a course project.
 
 This project explores a short card duel experience where the player competes against an opponent by playing cards, managing risk, and trying to win a duel round.
 
+## Assignment 4 / Sprint 2
+
+Sprint 2 focuses on improving the reliability and verifiability of the Card Duel MVP.
+
+The Assignment 4 increment continues the approved 3D card-duel direction and adds stronger project quality evidence, including:
+
+- customer feedback response;
+- quality requirements;
+- automated quality requirement tests;
+- automated unit and integration tests;
+- CI quality gates;
+- updated Definition of Done;
+- testing documentation;
+- user acceptance testing evidence;
+- customer Sprint Review evidence;
+- a new SemVer release for the Sprint increment.
+
+The public Week 4 report is available here:
+
+[Week 4 Report](reports/week4/README.md)
+
+The Assignment 4 release will be available here after the Sprint increment is completed:
+
+[Assignment 4 Release v0.2.0](https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.2.0)
+
 ## Week 2 report
 
 The Assignment 2 report will be available here:
@@ -62,7 +87,15 @@ Expected result: the main menu opens, the player can start a new game, enter the
 
 ### Development setup
 
-The development setup for the Godot project will be expanded in later assignments.
+The development setup and quality automation documentation are maintained in the project documentation.
+
+See:
+
+- [Testing documentation](docs/testing.md)
+- [Quality requirements](docs/quality-requirements.md)
+- [Quality requirement tests](docs/quality-requirement-tests.md)
+- [Definition of Done](docs/definition-of-done.md)
+- [Roadmap](docs/roadmap.md)
 
 ## License
 
