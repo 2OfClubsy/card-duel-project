@@ -28,13 +28,11 @@ Team #31
 | Sprint Backlog view | [Sprint 2 - Assignment 4](https://github.com/users/2OfClubsy/projects/1/views/4) |
 | Assignment 4 Sprint milestone | [Sprint 2 - Assignment 4 milestone](https://github.com/2OfClubsy/card-duel-project/milestone/3) |
 | Roadmap | [docs/roadmap.md](../../docs/roadmap.md) |
-| Definition of Done | [docs/definition-of-done.md](../../docs/definition-of-done.md) |
-| Quality requirements | [docs/quality-requirements.md](../../docs/quality-requirements.md) |
-| Quality requirement tests | [docs/quality-requirement-tests.md](../../docs/quality-requirement-tests.md) |
-| Testing documentation | [docs/testing.md](../../docs/testing.md) |
-| User acceptance tests | [docs/user-acceptance-tests.md](../../docs/user-acceptance-tests.md) |
-| CHANGELOG | [CHANGELOG.md](../../CHANGELOG.md) |
-| Root README / run instructions | [README.md](../../README.md) |
+| Definition of Done | `docs/definition-of-done.md` — TODO: update/link after Sergey completes quality documentation |
+| Quality requirements | `docs/quality-requirements.md` — TODO: add/link after Sergey completes quality documentation |
+| Quality requirement tests | `docs/quality-requirement-tests.md` — TODO: add/link after Sergey completes QRT documentation |
+| Testing documentation | `docs/testing.md` — TODO: add/link after Sergey completes testing documentation |
+| User acceptance tests | `docs/user-acceptance-tests.md` — TODO: add/link after Danil completes UAT documentation |
 
 ---
 
@@ -262,37 +260,25 @@ Private customer recording links, exact private timecodes, credentials, universi
 
 TODO: add screenshot after CI passes.
 
-![Week 4 CI run](images/week4-ci-run.png)
-
 ### Branch protection or rules evidence
 
 TODO: add screenshot.
-
-![Week 4 branch protection](images/week4-branch-protection.png)
 
 ### Coverage or test report
 
 TODO: add screenshot after test and coverage evidence is available.
 
-![Week 4 coverage report](images/week4-coverage-report.png)
-
 ### Additional QA check result
 
 TODO: add screenshot after additional QA check is available.
-
-![Week 4 additional QA check](images/week4-additional-qa-check.png)
 
 ### SemVer release
 
 TODO: add screenshot after `v0.2.0` release is created.
 
-![Week 4 SemVer release](images/week4-semver-release.png)
-
 ### Example reviewed issue-linked PR
 
 TODO: add screenshot after reviewed PR is available.
-
-![Week 4 reviewed PR example](images/week4-reviewed-pr-example.png)
 
 ---
 
