@@ -91,9 +91,9 @@ The development setup and quality automation documentation are maintained in the
 
 See:
 
-- [Testing documentation](docs/testing.md)
-- [Quality requirements](docs/quality-requirements.md)
-- [Quality requirement tests](docs/quality-requirement-tests.md)
+- `docs/testing.md` — TODO: will be added during Assignment 4.
+- `docs/quality-requirements.md` — TODO: will be added during Assignment 4.
+- `docs/quality-requirement-tests.md` — TODO: will be added during Assignment 4.
 - [Definition of Done](docs/definition-of-done.md)
 - [Roadmap](docs/roadmap.md)
 
