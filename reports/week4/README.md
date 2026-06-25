@@ -98,7 +98,7 @@ Current planned increment:
 
 | Feedback point | Resulting PBI or issue | Status | Response |
 |---|---|---|---|
-| The customer approved the 3D card-duel direction and MVP v1 scope during the Week 3 review. | [Sprint 2 - Assignment 4 milestone](TODO) | In progress | The Sprint continues the approved 3D direction and improves reliability, verification, and evidence. |
+| The customer approved the 3D card-duel direction and MVP v1 scope during the Week 3 review. | Sprint 2 - Assignment 4 milestone — TODO: add link | In progress | The Sprint continues the approved 3D direction and improves reliability, verification, and evidence. |
 | The customer suggested that art references could be added later for a more complete visual direction. | TODO: link backlog item or issue if created | Deferred | This was treated as useful future visual refinement, but the current Sprint prioritizes quality, CI, tests, UAT, and release evidence. |
 | The customer needs a customer-accessible increment for review and UAT. | TODO: link release/build issue | In progress | The team prepares a new SemVer release, run instructions, and UAT scenarios for the customer review. |
 
@@ -122,9 +122,8 @@ Selected Week 4 quality requirements will use at least three different ISO/IEC 2
 
 See:
 
-- [Quality requirements](../../docs/quality-requirements.md)
-- [Quality requirement tests](../../docs/quality-requirement-tests.md)
-
+- `docs/quality-requirements.md` — TODO: will be added by Sergey.
+- `docs/quality-requirement-tests.md` — TODO: will be added by Sergey.
 ---
 
 ## Testing status summary
@@ -177,8 +176,8 @@ Future PBIs should continue to follow the updated Definition of Done:
 
 See:
 
-- [Definition of Done](../../docs/definition-of-done.md)
-- [Testing documentation](../../docs/testing.md)
+- `docs/definition-of-done.md` — TODO: will be updated by Sergey.
+- `docs/testing.md` — TODO: will be added by Sergey.
 
 ---
 
@@ -200,7 +199,7 @@ Private UAT recording link is not committed to the public repository. It will be
 
 See:
 
-- [User acceptance tests](../../docs/user-acceptance-tests.md)
+- `docs/user-acceptance-tests.md` — TODO: will be added by Danil.
 
 ---
 
@@ -208,7 +207,7 @@ See:
 
 | Evidence | Link |
 |---|---|
-| Customer review summary | [customer-review-summary.md](customer-review-summary.md) |
+| Customer review summary | `customer-review-summary.md` — TODO: will be added by Danil |
 | Customer review transcript | TODO: link if public publication is permitted |
 | Customer review notes | TODO: link if transcript publication or recording is refused |
 
@@ -220,9 +219,9 @@ Private customer recording links, exact private timecodes, credentials, universi
 
 | Evidence | Link |
 |---|---|
-| Week 4 reflection | [reflection.md](reflection.md) |
-| Week 4 retrospective | [retrospective.md](retrospective.md) |
-| LLM usage report | [llm-report.md](llm-report.md) |
+| Week 4 reflection | `reflection.md` — TODO: will be added by Danil |
+| Week 4 retrospective | `retrospective.md` — TODO: will be added by Danil |
+| LLM usage report | `llm-report.md` — TODO: will be added by Danil |
 
 ---
 
@@ -231,7 +230,7 @@ Private customer recording links, exact private timecodes, credentials, universi
 | Evidence | Link |
 |---|---|
 | Public sanitized demo video under 2 minutes | TODO |
-| Optional public sanitized presentation PDF | TODO: [presentation.pdf](presentation.pdf) if published |
+| Optional public sanitized presentation PDF | `presentation.pdf` — optional public sanitized copy, TODO if published |
 | Rehearsed presentation video | Submitted privately through Moodle |
 
 ---
