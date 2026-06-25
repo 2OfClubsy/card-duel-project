@@ -24,9 +24,9 @@ Team #31
 
 | Evidence | Link |
 |---|---|
-| Product Backlog view | TODO: add Product Backlog view link |
-| Sprint Backlog view | TODO: add `Sprint 2 - Assignment 4` view link |
-| Assignment 4 Sprint milestone | TODO: add `Sprint 2 - Assignment 4` milestone link |
+| Product Backlog view | [Product Backlog](https://github.com/users/2OfClubsy/projects/1/views/1) |
+| Sprint Backlog view | [Sprint 2 - Assignment 4](https://github.com/users/2OfClubsy/projects/1/views/4) |
+| Assignment 4 Sprint milestone | [Sprint 2 - Assignment 4 milestone](https://github.com/2OfClubsy/card-duel-project/milestone/3) |
 | Roadmap | [docs/roadmap.md](../../docs/roadmap.md) |
 | Definition of Done | [docs/definition-of-done.md](../../docs/definition-of-done.md) |
 | Quality requirements | [docs/quality-requirements.md](../../docs/quality-requirements.md) |
