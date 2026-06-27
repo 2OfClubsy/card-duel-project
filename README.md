@@ -54,27 +54,20 @@ card-duel-project/
 
 The `game/` directory contains the source-level Godot project. Exported builds are not used as the only project artifact.
 
-## Development setup
+## Development setup / Run from source
+
+This section explains how to run from source using the Godot project entry point.
 
 The source project is maintained as a Godot project.
 
-Required editor version:
-
-```text
-Godot 4.6.stable
-```
+Required editor version: Godot 4.6.stable.
 
 To open the project from source:
 
 1. Clone or download this repository.
-2. Open Godot `4.6.stable`.
-3. Click `Import` or `Open`.
-4. Select:
-
-```text
-game/project.godot
-```
-
+2. Open Godot 4.6.stable.
+3. Click Import or Open.
+4. Select `game/project.godot`.
 5. Open the project.
 6. Run the main scene from the Godot editor.
 
