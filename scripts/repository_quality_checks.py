@@ -25,6 +25,9 @@ SOURCE_FOLDERS = [
     "game/scenes",
     "game/scripts",
     "game/assets",
+    "game/Scenes",
+    "game/Scripts",
+    "game/Assets",
 ]
 
 DISALLOWED_EXPORT_EXTENSIONS = {
