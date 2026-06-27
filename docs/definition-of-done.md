@@ -38,7 +38,7 @@ For product source and setup PBIs, the work is Done only when:
 
 - The repository contains the maintained product source files.
 - The repository contains `game/project.godot` or another documented source-level project entry point.
-- Product folders such as `game/scenes/`, `game/scripts/`, `game/assets/`, or equivalent source directories are included where applicable.
+- Product folders such as `game/Assets/`, `game/Scenes/`, `game/Scripts/`, or equivalent source directories are included where applicable.
 - The root `README.md` explains how to run the project from source.
 - The root `README.md` explains the repository structure.
 - The Week 4 report links to the source-level setup instructions.
@@ -114,3 +114,72 @@ If the change is not user-visible, the pull request may explicitly state:
 
 ```text
 No user-visible change.
+```
+
+Released changes must be moved from `[Unreleased]` into a dated SemVer release section when a release is created.
+
+## Public and private evidence handling
+
+Public repository evidence must be sanitized.
+
+The following evidence must not be committed publicly:
+
+- private customer recordings;
+- exact private recording timecodes;
+- private credentials;
+- private access instructions;
+- university emails;
+- customer-identifying evidence;
+- private consent evidence;
+- confidential customer information.
+
+Moodle-only evidence must be submitted privately through Moodle and referenced in the public repository only in sanitized form.
+
+## Customer review and UAT rules
+
+For customer review and UAT PBIs, the work is Done only when:
+
+- customer UAT scenarios are documented;
+- Week 4 UAT execution results are recorded;
+- customer feedback is summarized in sanitized public form;
+- private recording links are kept out of the public repository;
+- transcript or notes publication status is handled consistently across all Week 4 files;
+- resulting feedback is linked to PBIs or explicitly deferred with explanation.
+
+## Release readiness rules
+
+For release-related PBIs, Done also requires:
+
+- the release points to a commit on the protected default branch;
+- the release uses a SemVer tag prefixed with `v`;
+- the release identifies the Sprint increment it maps to;
+- the release links to the Sprint milestone;
+- the release links to run instructions or deployment access;
+- the release links to the public sanitized demo video;
+- the release links to the Week report;
+- release evidence is linked from `reports/week4/README.md`.
+
+## Assignment 4 maintained quality gates
+
+For Assignment 4 and later work, the following gates are maintained project expectations:
+
+- issue-linked pull requests;
+- review by another team member;
+- passing CI checks;
+- automated tests where applicable;
+- automated quality requirement tests;
+- coverage expectations for critical modules;
+- updated testing documentation;
+- updated Definition of Done when the project stack or quality gates change;
+- changelog updates for user-visible changes;
+- sanitized public evidence;
+- source-level product setup in the repository.
+
+## When Done cannot be fully satisfied
+
+If a Done criterion cannot be satisfied because of a technical limitation, missing access, or approved exception, the team must:
+
+- document the limitation;
+- explain the reason;
+- link follow-up work where needed;
+- avoid marking incomplete work as Done unless the exception is explicitly accepted.
