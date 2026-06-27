@@ -31,3 +31,6 @@ jobs:
 
       - name: Check exported build artifacts are not committed
         run: python scripts/repository_quality_checks.py no-exported-builds
+
+      - name: Check source-level project setup
+        run: python scripts/repository_quality_checks.py source-setup
