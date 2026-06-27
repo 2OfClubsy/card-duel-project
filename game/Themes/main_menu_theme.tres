@@ -1,0 +1,32 @@
+[gd_resource type="Theme" format=3 uid="uid://bl2spe6r6p6ts"]
+
+[ext_resource type="FontFile" uid="uid://dpnyp6xyk6mag" path="res://Assets/Fonts/Cairopixel.ttf" id="1_rgh7m"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sobw3"]
+content_margin_left = 20.0
+content_margin_right = 20.0
+content_margin_bottom = 30.0
+bg_color = Color(0, 0, 0, 0.5882353)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(1, 1, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rgh7m"]
+content_margin_left = 20.0
+content_margin_right = 20.0
+content_margin_bottom = 30.0
+bg_color = Color(0, 0, 0, 0.5882353)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(1, 1, 1, 1)
+
+[resource]
+default_font = ExtResource("1_rgh7m")
+default_font_size = 100
+Button/styles/hover = SubResource("StyleBoxFlat_sobw3")
+Button/styles/normal = SubResource("StyleBoxFlat_rgh7m")
+Button/styles/pressed = SubResource("StyleBoxFlat_sobw3")

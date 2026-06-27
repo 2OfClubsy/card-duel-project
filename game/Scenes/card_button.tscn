@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dmw16opdc32b5"]
+
+[ext_resource type="Shader" uid="uid://cegt8r00xm1ib" path="res://Shaders/outline_shader.gdshader" id="1_impa4"]
+[ext_resource type="Texture2D" uid="uid://cbyttd21lv6hh" path="res://Assets/2DAssets/Cards.png" id="2_4nbap"]
+[ext_resource type="Script" uid="uid://b8o56p5v28avk" path="res://Scripts/UIScripts/CardUIScripts/card_button_script.gd" id="3_28rp2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_emqwh"]
+resource_local_to_scene = true
+shader = ExtResource("1_impa4")
+shader_parameter/color = Color(1, 1, 1, 1)
+shader_parameter/width = 0.0
+shader_parameter/pattern = 0
+shader_parameter/inside = true
+shader_parameter/add_margins = false
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ox8xk"]
+resource_local_to_scene = true
+atlas = ExtResource("2_4nbap")
+region = Rect2(0, 0, 240, 320)
+
+[node name="CardButton" type="TextureButton" unique_id=844798434]
+material = SubResource("ShaderMaterial_emqwh")
+texture_normal = SubResource("AtlasTexture_ox8xk")
+script = ExtResource("3_28rp2")

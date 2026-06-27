@@ -1,0 +1,122 @@
+[gd_scene format=3 uid="uid://dvihh3ah57wwh"]
+
+[ext_resource type="Script" uid="uid://ccese16bqtlej" path="res://Scripts/RoomScripts/room_script.gd" id="1_6mpvv"]
+[ext_resource type="Script" uid="uid://crl8i0ay033ka" path="res://Scripts/CameraScripts/camera_movement.gd" id="1_lsht4"]
+[ext_resource type="PackedScene" path="res://Scenes/pause_menu.tscn" id="4_ilpkg"]
+[ext_resource type="Shader" uid="uid://f5sg8mvl86g4" path="res://Shaders/pixel_shader.gdshader" id="4_nfrpb"]
+[ext_resource type="PackedScene" uid="uid://b1tjpmwej3255" path="res://Scenes/cards_ui.tscn" id="5_gkney"]
+[ext_resource type="PackedScene" uid="uid://beyjkmuuarsxy" path="res://Assets/3DModels/Chair/chair.glb" id="5_ojh4s"]
+[ext_resource type="PackedScene" uid="uid://vkadv2pex3mj" path="res://Assets/3DModels/Door/door.glb" id="7_ilpkg"]
+[ext_resource type="Script" uid="uid://di2ibura8ndhx" path="res://Scripts/InteractableScripts/table_interactable.gd" id="7_ojh4s"]
+[ext_resource type="Script" uid="uid://es6cubydvdjr" path="res://Scripts/RoomScripts/table_script.gd" id="9_03u2k"]
+[ext_resource type="PackedScene" uid="uid://pwlqtrb0bmmu" path="res://Assets/3DModels/Table/table.glb" id="9_ilpkg"]
+[ext_resource type="PackedScene" uid="uid://d2hacvj6f7k1k" path="res://Assets/3DModels/Room/room.glb" id="9_jghof"]
+[ext_resource type="Texture2D" uid="uid://cbyttd21lv6hh" path="res://Assets/2DAssets/Cards.png" id="9_wph6n"]
+[ext_resource type="Script" path="res://Scripts/RoomScripts/card_self_script.gd" id="11_03u2k"]
+[ext_resource type="Script" path="res://Scripts/RoomScripts/card_dealer_script.gd" id="12_03u2k"]
+[ext_resource type="Script" uid="uid://cafn1nc4a42fw" path="res://Scripts/InteractableScripts/card_shuz_script.gd" id="12_5fqy3"]
+[ext_resource type="PackedScene" uid="uid://divym8veflngm" path="res://Assets/3DModels/Shuz/shoe.glb" id="14_08xfw"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_ojh4s"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ilpkg"]
+render_priority = 0
+shader = ExtResource("4_nfrpb")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_phao3"]
+size = Vector3(4.2474976, 2.272812, 6.105896)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_08xfw"]
+size = Vector3(4.421936, 1.2156982, 0.50753784)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jghof"]
+atlas = ExtResource("9_wph6n")
+region = Rect2(0, 0, 240, 320)
+
+[node name="Room" type="Node3D" unique_id=167061563]
+script = ExtResource("1_6mpvv")
+
+[node name="CardsUI" parent="." unique_id=736340336 instance=ExtResource("5_gkney")]
+visible = false
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1668130665]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+script = ExtResource("1_lsht4")
+
+[node name="pause_menu" parent="Camera3D" unique_id=634270152 instance=ExtResource("4_ilpkg")]
+visible = false
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Camera3D" unique_id=317242841]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, -0.46448004)
+visible = false
+mesh = SubResource("QuadMesh_ojh4s")
+surface_material_override/0 = SubResource("ShaderMaterial_ilpkg")
+
+[node name="chair" parent="." unique_id=759320028 instance=ExtResource("5_ojh4s")]
+transform = Transform3D(-8.742278e-09, 0, 0.2, 0, 0.2, 0, -0.2, 0, -8.742278e-09, 0, 0, -2.3)
+
+[node name="chair_monster" parent="." unique_id=513268169 instance=ExtResource("5_ojh4s")]
+transform = Transform3D(-8.742278e-09, 0, -0.2, 0, 0.2, 0, 0.2, 0, -8.742278e-09, 0, 0, -6.3)
+
+[node name="InteractableAreaTable" type="Area3D" parent="." unique_id=972660131]
+transform = Transform3D(-3.059797e-08, 0, 0.7, 0, 0.7, 0, -0.7, 0, -3.059797e-08, 0, 0, -4.3)
+script = ExtResource("7_ojh4s")
+zoom_rotation_degrees = -30.0
+metadata/_custom_type_script = "uid://bd4l4b7odmka2"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="InteractableAreaTable" unique_id=723730287]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0035710335, 1.1423875, -0.008148218)
+shape = SubResource("BoxShape3D_phao3")
+
+[node name="Marker3D" type="Marker3D" parent="InteractableAreaTable" unique_id=409948223]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.650987, 3.427183, -1.1587832e-07)
+
+[node name="door" parent="." unique_id=60285277 instance=ExtResource("7_ilpkg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.89)
+
+[node name="table" parent="." unique_id=1521956449 instance=ExtResource("9_ilpkg")]
+transform = Transform3D(-3.059797e-08, 0, 0.7, 0, 0.7, 0, -0.7, 0, -3.059797e-08, 0, 0.63, -4.29)
+script = ExtResource("9_03u2k")
+
+[node name="shoe" parent="table" unique_id=207595498 instance=ExtResource("14_08xfw")]
+transform = Transform3D(0.2, 0, 0, 0, -8.742278e-09, 0.2, 0, -0.2, -8.742278e-09, 0, 1.3504839, 0.7442643)
+
+[node name="CardShuzInteractionArea" type="Area3D" parent="table/shoe" unique_id=1245076081]
+script = ExtResource("12_5fqy3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="table/shoe/CardShuzInteractionArea" unique_id=31717348]
+transform = Transform3D(1, 0, 6.352747e-22, 0, 1, -7.1054274e-15, 0, 7.1054274e-15, 1, -0.29092598, 0.0067749023, 0.25028992)
+shape = SubResource("BoxShape3D_08xfw")
+
+[node name="CardPlayer" type="Sprite3D" parent="table" unique_id=1412044700]
+transform = Transform3D(7.54979e-09, -0.1, -4.371139e-09, 0, -4.371139e-09, 0.1, -0.1, -7.54979e-09, -3.3001182e-16, -0.650156, 1.3371768, -2.8419265e-08)
+shaded = true
+texture = SubResource("AtlasTexture_jghof")
+script = ExtResource("11_03u2k")
+
+[node name="CardDealer" type="Sprite3D" parent="table" unique_id=1188906941]
+transform = Transform3D(7.54979e-09, -0.1, -4.371139e-09, 0, -4.371139e-09, 0.1, -0.1, -7.54979e-09, -3.3001182e-16, 0.68167686, 1.3371768, 2.9796979e-08)
+shaded = true
+texture = SubResource("AtlasTexture_jghof")
+script = ExtResource("12_03u2k")
+
+[node name="room" parent="." unique_id=2100190582 instance=ExtResource("9_jghof")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -0.4900005, 0)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=386190995]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 15.050789, 0)
+light_color = Color(5.198121e-06, 0.8390126, 0.24563709, 1)
+light_energy = 10.0
+shadow_enabled = true
+shadow_bias = 1.1
+shadow_opacity = 0.8
+spot_range = 23.476143
+spot_angle = 50.31148
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1189943514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15.05, 0)
+light_color = Color(1, 0, 0.011764706, 1)
+light_indirect_energy = 1.317
+shadow_enabled = true
+shadow_opacity = 0.7
+omni_range = 23.083

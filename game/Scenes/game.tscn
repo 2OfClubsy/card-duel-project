@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bichmn5fwtul0"]
+
+[ext_resource type="PackedScene" uid="uid://dvihh3ah57wwh" path="res://Scenes/room.tscn" id="1_ebmjs"]
+
+[node name="Game" type="Node3D" unique_id=1948819693]
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=668975935]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+stretch_shrink = 8
+
+[node name="World" type="SubViewport" parent="SubViewportContainer" unique_id=454171081]
+handle_input_locally = false
+physics_object_picking = true
+size = Vector2i(240, 135)
+render_target_update_mode = 4
+
+[node name="Room" parent="SubViewportContainer/World" unique_id=167061563 instance=ExtResource("1_ebmjs")]

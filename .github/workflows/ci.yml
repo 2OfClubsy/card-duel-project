@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  repository-quality:
+    name: Repository quality checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository quality check tests
+        run: python -m unittest discover -s tests -p "test_*.py"
+
+      - name: Check required documentation
+        run: python scripts/repository_quality_checks.py required-docs
+
+      - name: Check public evidence privacy markers
+        run: python scripts/repository_quality_checks.py privacy
+
+      - name: Check exported build artifacts are not committed
+        run: python scripts/repository_quality_checks.py no-exported-builds
+
+      - name: Check source-level project setup
+        run: python scripts/repository_quality_checks.py source-setup

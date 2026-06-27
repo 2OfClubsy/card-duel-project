@@ -31,6 +31,48 @@ The Assignment 4 release will be available here after the Sprint increment is co
 
 Assignment 4 Release `v0.2.0` — TODO: link after the release is created.
 
+## Repository structure
+
+The repository contains both project evidence and product source files.
+
+```text
+card-duel-project/
+├── .github/              # GitHub workflows and templates
+├── docs/                 # Maintained project documentation
+├── game/                 # Godot source project
+│   ├── project.godot     # Godot project entry point
+│   ├── Assets/           # Game assets
+│   ├── Scenes/           # Godot scenes
+│   ├── Scripts/          # Game scripts
+│   ├── Shaders/          # Shader files
+│   └── Themes/           # UI themes
+├── reports/              # Weekly public reports
+├── CHANGELOG.md
+├── README.md
+└── LICENSE
+```
+
+The `game/` directory contains the source-level Godot project. Exported builds are not used as the only project artifact.
+
+## Development setup / Run from source
+
+This section explains how to run from source using the Godot project entry point.
+
+The source project is maintained as a Godot project.
+
+Required editor version: Godot 4.6.stable.
+
+To open the project from source:
+
+1. Clone or download this repository.
+2. Open Godot 4.6.stable.
+3. Click Import or Open.
+4. Select `game/project.godot`.
+5. Open the project.
+6. Run the main scene from the Godot editor.
+
+Expected result: the Godot editor opens the Card Duel Project source, including scenes, scripts, assets, shaders, and themes.
+
 ## Week 2 report
 
 The Assignment 2 report will be available here:
@@ -85,15 +127,15 @@ The MVP v0 build is provided as a Windows executable archive through the Week 2 
 
 Expected result: the main menu opens, the player can start a new game, enter the 3D scene, rotate the camera, interact with the table, and see the placeholder card UI.
 
-### Development setup
+## Project documentation
 
 The development setup and quality automation documentation are maintained in the project documentation.
 
 See:
 
-- `docs/testing.md` — TODO: will be added during Assignment 4.
-- `docs/quality-requirements.md` — TODO: will be added during Assignment 4.
-- `docs/quality-requirement-tests.md` — TODO: will be added during Assignment 4.
+- [Testing documentation](docs/testing.md)
+- [Quality requirements](docs/quality-requirements.md)
+- [Quality requirement tests](docs/quality-requirement-tests.md)
 - [Definition of Done](docs/definition-of-done.md)
 - [Roadmap](docs/roadmap.md)
 
