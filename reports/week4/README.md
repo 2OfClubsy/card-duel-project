@@ -28,11 +28,10 @@ Team #31
 | Sprint Backlog view | [Sprint 2 - Assignment 4](https://github.com/users/2OfClubsy/projects/1/views/4) |
 | Assignment 4 Sprint milestone | [Sprint 2 - Assignment 4 milestone](https://github.com/2OfClubsy/card-duel-project/milestone/3) |
 | Roadmap | [docs/roadmap.md](../../docs/roadmap.md) |
-| Definition of Done | `docs/definition-of-done.md` — TODO: update/link after Sergey completes quality documentation |
-| Quality requirements | `docs/quality-requirements.md` — TODO: add/link after Sergey completes quality documentation |
-| Quality requirement tests | `docs/quality-requirement-tests.md` — TODO: add/link after Sergey completes QRT documentation |
-| Testing documentation | `docs/testing.md` — TODO: add/link after Sergey completes testing documentation |
-| User acceptance tests | `docs/user-acceptance-tests.md` — TODO: add/link after Danil completes UAT documentation |
+| Definition of Done | [docs/definition-of-done.md](../../docs/definition-of-done.md) |
+| Quality requirements | [docs/quality-requirements.md](../../docs/quality-requirements.md) |
+| Quality requirement tests | [docs/quality-requirement-tests.md](../../docs/quality-requirement-tests.md) |
+| Testing documentation | [docs/testing.md](../../docs/testing.md) |
 
 ---
 
@@ -116,14 +115,14 @@ Selected Week 4 quality requirements will use at least three different ISO/IEC 2
 
 | Quality requirement | ISO/IEC 25010 sub-characteristic | Automated QRT |
 |---|---|---|
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
+| QR-01 — Source-level project availability | Maintainability / Modularity | QRT-01 — Repository source-level setup check |
+| QR-02 — Public evidence privacy safety | Security / Confidentiality | QRT-02 — Public evidence privacy check |
+| QR-03 — Customer-facing documentation completeness | Usability / Appropriateness recognizability | QRT-03 — Required documentation presence check |
 
 See:
 
-- `docs/quality-requirements.md` — TODO: will be added by Sergey.
-- `docs/quality-requirement-tests.md` — TODO: will be added by Sergey.
+- [Quality requirements](../../docs/quality-requirements.md)
+- [Quality requirement tests](../../docs/quality-requirement-tests.md)
 ---
 
 ## Testing status summary
@@ -132,12 +131,12 @@ TODO: update after Sergey completes testing and CI work.
 
 | Test / check type | Status | Evidence |
 |---|---|---|
-| Unit tests | TODO | TODO |
-| Integration tests | TODO | TODO |
-| Automated quality requirement tests | TODO | TODO |
-| Coverage for critical modules | TODO | TODO |
-| Additional QA check | TODO | TODO |
-| CI pipeline | TODO | TODO |
+| Unit tests | Passed | Repository quality check unit tests passed in CI |
+| Integration tests | Passed with repository-level checks | Repository documentation, privacy, artifact, and source setup checks passed together in CI |
+| Automated quality requirement tests | Passed | QRT-01, QRT-02, and QRT-03 are covered by repository quality checks |
+| Coverage for critical modules | Documented limitation | Repository checks are covered by unit tests; Godot gameplay line coverage is planned follow-up work |
+| Additional QA check | Passed | Public evidence wording / privacy marker check passed |
+| CI pipeline | Passed | Repository quality checks passed in GitHub Actions |
 
 ## Critical modules and coverage
 
@@ -150,12 +149,12 @@ TODO: update after Sergey completes testing and CI work.
 
 | Evidence | Link |
 |---|---|
-| Unit tests | TODO |
-| Integration tests | TODO |
-| Automated quality requirement tests | TODO |
-| CI pipeline | TODO |
-| Latest protected-default-branch CI run | TODO |
-| Branch protection or rules evidence | TODO |
+| Unit tests | GitHub Actions — Repository quality checks |
+| Integration tests | GitHub Actions — Repository quality checks |
+| Automated quality requirement tests | [docs/quality-requirement-tests.md](../../docs/quality-requirement-tests.md) |
+| CI pipeline | TODO: add final CI run link |
+| Latest protected-default-branch CI run | TODO: add final main branch CI run link after all PRs are merged |
+| Branch protection or rules evidence | TODO: add screenshot or link if available |
 
 ---
 
@@ -254,6 +253,18 @@ Private customer recording links, exact private timecodes, credentials, universi
 ### Sprint Backlog view
 
 ![Week 4 Sprint Backlog view](images/week4-sprint-backlog-view.png)
+
+### Source-level product setup
+
+![Week 4 source-level setup](images/week4-source-level-setup.png)
+
+### Latest CI run
+
+![Week 4 CI run](images/week4-ci-run.png)
+
+### Example reviewed issue-linked PR
+
+![Week 4 reviewed PR example](images/week4-reviewed-pr-example.png)
 
 ### Latest protected-default-branch CI run
 
