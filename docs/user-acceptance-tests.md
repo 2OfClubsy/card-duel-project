@@ -160,12 +160,11 @@ Possible values:
 
 ## Follow-up PBIs
 
-Any feedback from the customer session should be converted into follow-up Product Backlog Items or linked to existing PBIs.
-
 | Feedback / issue | Follow-up PBI | Priority | Status |
-|-----------------------------------------------------------------------------------------|-------------------------------------------------|-----------|-------|
-| Blackjack system foundation exists, but the full blackjack gameplay is not working yet. | Complete blackjack gameplay system              | Must have | To do |
-| The customer approved the 3D direction and wants the team to continue following it.     | Continue developing the 3D card-duel experience | Must have | To do |
+|---|---|---|---|
+| Blackjack system foundation exists, but the full blackjack gameplay is not working yet. | [Complete blackjack gameplay system](https://github.com/2OfClubsy/card-duel-project/issues/80) | Must have | To do |
+| The customer approved the 3D direction and wants the team to continue following it. | [Continue 3D card-duel experience development](https://github.com/2OfClubsy/card-duel-project/issues/82) | Must have | To do |
+| Card selection from the table works and should be expanded. | [Improve table card interaction feedback](https://github.com/2OfClubsy/card-duel-project/issues/81) | Must have | To do |
 
 ## Public and private evidence handling
 
