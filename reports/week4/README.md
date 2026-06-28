@@ -43,8 +43,8 @@ Team #31
 | Sprint dates | 25 June 2026 - 28 June 2026, 23:59 |
 | Sprint Goal | Improve the reliability and verifiability of the Card Duel MVP by responding to customer feedback, adding quality requirements, automated tests, CI checks, and preparing a customer-accessible sprint increment. |
 | Sprint size | 30 Story Points planned |
-| Sprint milestone | TODO: add milestone link |
-| Sprint Backlog | TODO: add Sprint Backlog view link |
+| Sprint milestone | [Sprint 2 - Assignment 4 milestone](https://github.com/2OfClubsy/card-duel-project/milestone/3) |
+| Sprint Backlog | [Sprint 2 - Assignment 4 Project view](https://github.com/users/2OfClubsy/projects/1/views/4) |
 
 ## Sprint scope summary
 
@@ -68,17 +68,31 @@ Selected Sprint work includes:
 
 ## Delivered product changes
 
-TODO: update after Sprint work is completed.
+The Assignment 4 / MVP v2 Sprint increment delivered both product progress and quality evidence.
 
-Current planned increment:
+Compared to MVP v1, the team showed the customer the following MVP v2 progress:
 
-- maintained Sprint 2 / Assignment 4 planning evidence;
-- updated roadmap and root README;
-- Week 4 public report structure;
-- quality requirements and quality requirement tests;
-- automated testing and CI evidence;
-- customer UAT and Sprint Review evidence;
-- new SemVer release mapped to the Assignment 4 Sprint increment.
+- pause menu;
+- ability to select cards from the table;
+- foundation for a blackjack system.
+
+The blackjack system is not fully playable yet. It is documented as follow-up work and should not be presented as a fully completed gameplay feature.
+
+The Sprint also delivered:
+
+- Godot source project under `game/`;
+- source-level setup instructions in the root `README.md`;
+- quality requirements;
+- quality requirement tests;
+- testing documentation;
+- updated Definition of Done;
+- repository quality check script;
+- automated tests for repository quality checks;
+- CI checks for required documentation, privacy markers, exported build artifacts, and source-level setup;
+- Week 4 customer UAT results;
+- customer review notes and summary;
+- reflection, retrospective, and LLM usage report;
+- `v0.2.0` SemVer release.
 
 ---
 
@@ -86,9 +100,10 @@ Current planned increment:
 
 | Evidence | Link |
 |---|---|
-| Deployed product / hosted artifact / runnable product | TODO: add build, deployment, or artifact link |
+| Runnable product source | [game/project.godot](../../game/project.godot) |
 | Current run instructions | [README.md](../../README.md) |
-| SemVer release | TODO: add `v0.2.0` release link after release is created |
+| SemVer release | [v0.2.0 - Assignment 4 / MVP v2 Increment](https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.2.0) |
+| Changelog | [CHANGELOG.md](../../CHANGELOG.md) |
 | Public sanitized demo video | TODO: add public demo video link |
 
 ---
@@ -175,32 +190,8 @@ Future PBIs should continue to follow the updated Definition of Done:
 
 See:
 
-- `docs/definition-of-done.md` — TODO: will be updated by Sergey.
-- `docs/testing.md` — TODO: will be added by Sergey.
-
----
-
-## User Acceptance Testing
-
-TODO: update after Week 4 UAT with the customer.
-
-| UAT scenario | Result | Notes |
-|---|---|---|
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-
-Public sanitized UAT summary:
-
-TODO.
-
-Private UAT recording link is not committed to the public repository. It will be submitted privately through Moodle.
-
-See:
-
-- [docs/user-acceptance-tests.md](../../docs/user-acceptance-tests.md)
-
----
+- [Definition of Done](../../docs/definition-of-done.md)
+- [Testing documentation](../../docs/testing.md)
 
 ## Customer Sprint Review
 
@@ -310,7 +301,7 @@ TODO: add screenshot after additional QA check is available.
 
 ### SemVer release
 
-TODO: add screenshot after `v0.2.0` release is created.
+Release evidence: [v0.2.0 - Assignment 4 / MVP v2 Increment](https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.2.0)
 
 ### Example reviewed issue-linked PR
 
@@ -320,18 +311,19 @@ TODO: add screenshot after reviewed PR is available.
 
 ## Current product status
 
-The project has an approved MVP v1 direction and a runnable 3D prototype foundation. Sprint 2 / Assignment 4 focuses on making the MVP more reliable, verifiable, and easier to assess through customer UAT, automated tests, CI checks, quality requirements, and maintained documentation.
+The project has an approved 3D card-duel direction and a source-level Godot project in the repository.
+
+The MVP v2 increment includes a pause menu, card selection from the table, and a blackjack system foundation. The blackjack gameplay is not fully complete yet and is documented as follow-up work.
+
+The repository now also includes maintained quality evidence: quality requirements, quality requirement tests, testing documentation, Definition of Done, automated repository checks, and CI quality gates.
 
 ---
 
 ## Next steps
 
-- Complete all Sprint 2 / Assignment 4 PBIs.
-- Finish quality requirements and automated quality requirement tests.
-- Complete automated unit and integration tests.
-- Configure CI, coverage, and additional QA check evidence.
-- Conduct customer UAT and Sprint Review.
-- Update public sanitized customer review summary.
-- Prepare private Moodle-only recording links and access instructions.
-- Create the `v0.2.0` SemVer release.
-- Update this Week 4 report with final public links and screenshots.
+- Complete blackjack gameplay system.
+- Improve table card interaction feedback.
+- Continue developing the 3D card-duel experience.
+- Add stronger Godot gameplay tests when the test framework is ready.
+- Keep source-level setup, CI checks, QRTs, and Definition of Done active during later project work.
+- Prepare the Week 5 presentation and demo.
