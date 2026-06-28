@@ -6,29 +6,49 @@ The project follows a SemVer-based release workflow. Each public release is mapp
 
 ## [Unreleased]
 
+No unreleased changes yet.
+
+## [v0.2.0] - 2026-06-28
+
 ### Added
 
 - Added Assignment 4 Sprint planning evidence through the `Sprint 2 - Assignment 4` milestone and Project view.
 - Added Week 4 public report structure in `reports/week4/`.
-- Added updated roadmap direction for Sprint 2 / Assignment 4.
-- Planned quality requirements and quality requirement test documentation.
-- Planned automated unit and integration test evidence.
-- Planned CI quality gates and additional QA check evidence.
-- Planned UAT scenarios and Week 4 customer review evidence.
-- Planned public sanitized demo video evidence for the Assignment 4 increment.
+- Added Godot source project under `game/`.
+- Added source-level setup instructions in `README.md`.
+- Added Week 4 user acceptance test scenarios.
+- Added Week 4 customer UAT results.
+- Added Week 4 customer review notes.
+- Added Week 4 customer review summary.
+- Added Week 4 reflection.
+- Added Week 4 retrospective.
+- Added Week 4 LLM usage report.
+- Added quality requirements.
+- Added quality requirement tests.
+- Added testing documentation.
+- Added repository quality check script and automated tests.
+- Added CI checks for required documentation, privacy markers, exported build artifacts, and source-level setup.
+- Added follow-up Product Backlog Items based on Week 4 customer feedback.
 
 ### Changed
 
 - Updated the roadmap to reflect the current Sprint, expected next Sprint, and maintained quality or automation work.
-- Updated the root README to include Assignment 4 / Sprint 2 direction and links to Week 4 evidence.
+- Updated the root README with Assignment 4 / Sprint 2 direction and source-level setup instructions.
+- Updated the Week 4 report with quality, CI, source setup, customer UAT, customer feedback, reflection, retrospective, and LLM usage evidence.
+- Updated Definition of Done for Assignment 4 quality gates.
+- Updated testing documentation to describe repository quality checks, CI checks, coverage expectations, and known Godot testing limitations.
+- Linked customer feedback to follow-up PBIs for MVP v3.
 - Continued the GitHub workflow using issue-linked branches, reviewed pull requests, Story Points, and Sprint milestone traceability.
 - Continued separating public sanitized evidence from private Moodle-only evidence.
 
 ### Customer feedback
 
-- Continued tracking the Week 3 customer suggestion about adding art references as optional future visual refinement.
-- Assignment 4 feedback response, UAT results, and Sprint Review results will be documented in the Week 4 report after the customer meeting.
-
+- The customer generally approved the Sprint Backlog and MVP v2 direction.
+- The customer completed all prepared UAT scenarios without blocking issues.
+- The customer approved the project direction with minor comments.
+- The customer accepted the pause menu and table card selection progress.
+- The customer noted that the blackjack system should be completed before it is presented as a fully working MVP v2 feature.
+- The customer confirmed that the team should continue developing the game as a 3D card-duel experience instead of moving toward a simple 2D prototype.
 ## [v0.1.0] - 2026-06-19
 
 ### Added
