@@ -104,7 +104,7 @@ The Sprint also delivered:
 | Current run instructions | [README.md](../../README.md) |
 | SemVer release | [v0.2.0 - Assignment 4 / MVP v2 Increment](https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.2.0) |
 | Changelog | [CHANGELOG.md](../../CHANGELOG.md) |
-| Public sanitized demo video | TODO: add public demo video link |
+| Public sanitized demo video and product archive | [Card Duel Project v0.2.0 Week 4 Demo and Archive](https://drive.google.com/drive/folders/11zMskWm4cS25pYxuM-SGSfuZunUNJ0_x) |
 
 ---
 
@@ -245,7 +245,7 @@ See:
 
 | Evidence | Link |
 |---|---|
-| Public sanitized demo video under 2 minutes | TODO |
+| Public sanitized demo video under 2 minutes | [Card Duel Project v0.2.0 Week 4 Demo and Archive](https://drive.google.com/drive/folders/11zMskWm4cS25pYxuM-SGSfuZunUNJ0_x) |
 | Optional public sanitized presentation PDF | `presentation.pdf` — optional public sanitized copy, TODO if published |
 | Rehearsed presentation video | Submitted privately through Moodle |
 
