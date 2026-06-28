@@ -75,9 +75,9 @@ The customer approved the Sprint Backlog and MVP v2 direction in general. The ma
 
 | Feedback / issue | Follow-up PBI | Priority | Status |
 |---|---|---|---|
-| Blackjack system foundation exists, but the full blackjack gameplay is not working yet. | Complete blackjack gameplay system | Must have | To do |
-| The customer approved the 3D direction and wants the team to continue following it. | Continue developing the 3D card-duel experience | Must have | To do |
-| Card selection from the table works and should be expanded. | Improve table card interaction and feedback | Should have | To do |
+| Blackjack system foundation exists, but the full blackjack gameplay is not working yet. | [Complete blackjack gameplay system](../../issues/80) | Must have | To do |
+| The customer approved the 3D direction and wants the team to continue following it. | [Continue 3D card-duel experience development](../../issues/82) | Must have | To do |
+| Card selection from the table works and should be expanded. | [Improve table card interaction feedback](../../issues/81) | Must have | To do |
 
 ## Public/private evidence handling
 
