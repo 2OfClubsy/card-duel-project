@@ -245,9 +245,9 @@ See:
 
 | Evidence | Link |
 |---|---|
-| Week 4 reflection | `reflection.md` — TODO: will be added by Danil |
-| Week 4 retrospective | `retrospective.md` — TODO: will be added by Danil |
-| LLM usage report | `llm-report.md` — TODO: will be added by Danil |
+| Week 4 reflection | [reflection.md](reflection.md) |
+| Week 4 retrospective | [retrospective.md](retrospective.md) |
+| LLM usage report | [llm-report.md](llm-report.md) |
 
 ---
 
