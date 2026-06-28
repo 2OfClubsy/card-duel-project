@@ -198,7 +198,7 @@ Private UAT recording link is not committed to the public repository. It will be
 
 See:
 
-- `docs/user-acceptance-tests.md` — TODO: will be added by Danil.
+- [docs/user-acceptance-tests.md](../../docs/user-acceptance-tests.md)
 
 ---
 
@@ -206,11 +206,37 @@ See:
 
 | Evidence | Link |
 |---|---|
-| Customer review summary | `customer-review-summary.md` — TODO: will be added by Danil |
-| Customer review transcript | TODO: link if public publication is permitted |
-| Customer review notes | TODO: link if transcript publication or recording is refused |
+| Customer review summary | [customer-review-summary.md](customer-review-summary.md) |
+| Customer review notes | [customer-review-notes.md](customer-review-notes.md) |
+| User acceptance tests | [docs/user-acceptance-tests.md](../../docs/user-acceptance-tests.md) |
 
-Private customer recording links, exact private timecodes, credentials, university emails, and customer-identifying evidence are not committed to the public repository. They will be submitted privately through Moodle when required.
+Private customer recording links, exact private timecodes, credentials, university emails, and customer-identifying evidence are not committed to the public repository.
+
+The Week 4 customer session was conducted offline face-to-face. The team used sanitized written notes as public evidence.
+
+## Customer UAT and Sprint Review
+
+The Week 4 customer UAT and Sprint Review was conducted offline face-to-face.
+
+The customer reviewed the Sprint Backlog and generally approved it. The customer also completed all three prepared UAT scenarios without blocking issues.
+
+Customer approval status: **Approved with minor comments**.
+
+The main follow-up request is to complete the blackjack gameplay system before presenting it as a fully working MVP v2 feature.
+
+See:
+
+- [User acceptance tests](../../docs/user-acceptance-tests.md)
+- [Customer review summary](customer-review-summary.md)
+- [Customer review notes](customer-review-notes.md)
+
+## UAT results
+
+| Scenario | Result | Summary |
+|---|---|---|
+| UAT-01 — Start the prototype and enter the lobby | Passed | The customer reached the prototype flow without blocking issues. |
+| UAT-02 — Explore the 3D lobby view | Passed | The customer understood and approved the 3D direction and visual style. |
+| UAT-03 — Interact with the card table | Passed | The customer was able to interact with the table and select cards. |
 
 ---
 
@@ -218,9 +244,9 @@ Private customer recording links, exact private timecodes, credentials, universi
 
 | Evidence | Link |
 |---|---|
-| Week 4 reflection | `reflection.md` — TODO: will be added by Danil |
-| Week 4 retrospective | `retrospective.md` — TODO: will be added by Danil |
-| LLM usage report | `llm-report.md` — TODO: will be added by Danil |
+| Week 4 reflection | [reflection.md](reflection.md) |
+| Week 4 retrospective | [retrospective.md](retrospective.md) |
+| LLM usage report | [llm-report.md](llm-report.md) |
 
 ---
 
