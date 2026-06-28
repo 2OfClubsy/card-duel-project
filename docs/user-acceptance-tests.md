@@ -59,11 +59,11 @@ To be filled after the customer session.
 
 ### Status
 
-Planned.
+Passed.
 
 ### Customer notes
 
-To be filled after the customer session.
+The customer approved the general MVP v2 direction and confirmed that the project continues to follow the requested 3D style.
 
 ## Scenario 2 — Explore the 3D lobby view
 
@@ -90,15 +90,15 @@ The 3D direction should address the previous customer feedback that the game sho
 
 ### Actual result
 
-To be filled after the customer session.
+The customer explored the 3D lobby and understood the table-centered card-duel direction.
 
 ### Status
 
-Planned.
+Passed.
 
 ### Customer notes
 
-To be filled after the customer session.
+The customer liked the visual style and noted that the project still follows one of the main early feedback points: the game should stay in 3D instead of becoming a 2D prototype.
 
 ## Scenario 3 — Interact with the card table
 
@@ -125,29 +125,31 @@ The scenario should demonstrate that the prototype supports the approved card-du
 
 ### Actual result
 
-To be filled after the customer session.
+The customer interacted with the card table and was able to select cards from the table without blocking issues.
 
 ### Status
 
-Planned.
+Passed.
 
 ### Customer notes
 
-To be filled after the customer session.
+The customer approved the card interaction direction. The customer also noted that the blackjack system should be completed before it is presented as a fully working MVP v2 feature.
 
 ## UAT execution summary
 
 This section will be completed after the Week 4 customer session.
 
-| Scenario | Result | Notes |
-|---|---|---|
-| UAT-01 — Start the prototype and enter the lobby | Planned | To be filled after the session |
-| UAT-02 — Explore the 3D lobby view | Planned | To be filled after the session |
-| UAT-03 — Interact with the card table | Planned | To be filled after the session |
+| Scenario  | Result | Notes |
+|----------------------------------------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------|
+| UAT-01 — Start the prototype and enter the lobby | Planned | To be filled after the session  | Passed | The customer reached the 3D lobby without blocking issues.                                                  |
+| UAT-02 — Explore the 3D lobby view | Planned | To be filled after the session                | Passed | The customer approved the 3D direction and visual style.                                                    |
+| UAT-03 — Interact with the card table | Planned | To be filled after the session             | Passed | The customer selected cards from the table successfully. Blackjack gameplay completion remains a follow-up. |
 
 ## Customer approval status
 
-To be filled after the customer session.
+Approved with minor comments.
+
+The customer approved the Sprint Backlog and MVP v2 direction in general. The main requested follow-up is to complete the blackjack system before presenting it as a fully working gameplay feature.
 
 Possible values:
 
@@ -161,8 +163,9 @@ Possible values:
 Any feedback from the customer session should be converted into follow-up Product Backlog Items or linked to existing PBIs.
 
 | Feedback / issue | Follow-up PBI | Priority | Status |
-|---|---|---|---|
-| To be filled after the session | To be filled after the session | To be filled after the session | To be filled after the session |
+|-----------------------------------------------------------------------------------------|-------------------------------------------------|-----------|-------|
+| Blackjack system foundation exists, but the full blackjack gameplay is not working yet. | Complete blackjack gameplay system              | Must have | To do |
+| The customer approved the 3D direction and wants the team to continue following it.     | Continue developing the 3D card-duel experience | Must have | To do |
 
 ## Public and private evidence handling
 
