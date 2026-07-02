@@ -1,0 +1,19 @@
+@startuml "Sequence Diagram"
+!theme plain
+actor Player
+participant "CardShuz" as Shoe
+participant "Table" as Tbl
+participant "CardResource" as Card
+Player -> Shoe : Interacts (Clicks shoe)
+activate Shoe
+Shoe -> Tbl : Request draw card
+activate Tbl
+Tbl -> Card : Generate random card data
+activate Card
+Card --> Tbl : Return card instance
+deactivate Card
+Tbl --> Shoe : Confirm draw success
+deactivate Tbl
+Shoe -> Player : Display card on table
+deactivate Shoe
+@enduml

@@ -1,0 +1,15 @@
+@startuml "Deployment Diagram"
+!theme plain
+node "User Device (PC/Mac/Linux)" {
+    node "OS Environment" {
+        artifact "Godot Export Executable" {
+            component "Card Duel Game"
+        }
+    }
+}
+cloud "GitHub Platform" {
+    component "Source Code Repository"
+    component "CI/CD Actions"
+}
+[CI/CD Actions] ..> [Godot Export Executable] : Builds
+@enduml

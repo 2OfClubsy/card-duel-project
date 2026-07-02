@@ -1,0 +1,24 @@
+@startuml "Component Diagram"
+!theme plain
+skinparam componentStyle uml2
+package "Godot Engine" {
+    component "UI Layer" {
+        [Main Menu Scene]
+        [Cards Side Panel]
+    }
+    component "Gameplay Layer" {
+        [Room Scene]
+        [Table Script]
+        [TableInteractable]
+        [CardShuz Script]
+    }
+    component "Data Layer" {
+        [CardResource]
+    }
+}
+[Main Menu Scene] --> [Room Scene] : Loads
+[Room Scene] --> [Table Script] : Manages
+[Table Script] *-- [TableInteractable] : Contains
+[Table Script] *-- [CardShuz Script] : Contains
+[CardShuz Script] --> [CardResource] : Instantiates
+@enduml

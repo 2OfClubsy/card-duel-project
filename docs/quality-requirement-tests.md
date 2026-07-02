@@ -14,6 +14,11 @@ Quality requirement tests are maintained project assets. They should remain acti
 
 ---
 
+## MVP v2 testing notes
+
+The MVP v2 quality requirement tests should include visual 3D interaction verification and architecture validation. This helps ensure that the new gameplay flow and the architecture documentation remain part of the maintained quality checks.
+
+
 ## QRT-01 — Repository source-level setup check
 
 ### Linked quality requirement

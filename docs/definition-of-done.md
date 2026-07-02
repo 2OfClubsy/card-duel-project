@@ -78,6 +78,12 @@ CI should include relevant checks such as:
 - coverage checks where applicable;
 - additional QA checks required for the Sprint.
 
+MVP v2 changes must pass the repository CI checks before merge.
+
+## UAT rules
+
+Customer UAT scenarios must be approved by the customer for the relevant Sprint increment. Work is not considered complete until UAT approval evidence is documented in the issue, pull request, or sprint report.
+
 Failing CI checks must be fixed before merge unless there is a documented and approved exception.
 
 ## Coverage expectations
