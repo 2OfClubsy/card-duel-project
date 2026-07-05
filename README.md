@@ -138,7 +138,7 @@ See:
 - [Quality requirement tests](docs/quality-requirement-tests.md)
 - [Definition of Done](docs/definition-of-done.md)
 - [Roadmap](docs/roadmap.md)
-
+- [Development process](docs/development-process.md)
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
