@@ -164,19 +164,19 @@ The following Week 4 scenarios were already executed and are kept here as histor
 
 ## Week 5 UAT execution summary
 
-This section will be completed after the Week 5 customer session.
+The Week 5 customer session and Sprint Review were completed, and the results are recorded below.
 
 | Scenario | Linked issue / evidence | Result | Notes |
 |---|---|---|---|
-| UAT-MVP2-01 — Blackjack round resolution | [#87](https://github.com/2OfClubsy/card-duel-project/issues/87) | Planned | To be filled after the customer session. |
-| UAT-MVP2-02 — Card draw feedback | [#88](https://github.com/2OfClubsy/card-duel-project/issues/88) | Planned | To be filled after the customer session. |
-| UAT-MVP2-03 — 3D table interaction continuity | ADR-0002 | Planned | To be filled after the customer session. |
+| UAT-MVP2-01 — Blackjack round resolution | [#87](https://github.com/2OfClubsy/card-duel-project/issues/87) | Passed | The customer confirmed random dealing, correct scoring, bust detection, dealer turn, win/loss evaluation, and restart loop. |
+| UAT-MVP2-02 — Card draw feedback | [#88](https://github.com/2OfClubsy/card-duel-project/issues/88) | Passed with follow-up | The customer confirmed the draw flow; follow-up feedback requested post-processing, faster delivery, and font revision. |
+| UAT-MVP2-03 — 3D table interaction continuity | ADR-0002 | Passed | The customer confirmed the 3D lobby and table interaction direction. |
 
 ---
 
 ## Customer approval status
 
-Not approved yet.
+Approved with minor comments.
 
 Possible values:
 
@@ -185,16 +185,14 @@ Possible values:
 - Not approved yet;
 - Needs follow-up.
 
-The final approval status will be updated after the Week 5 customer UAT and Sprint Review session.
-
 ---
 
 ## Follow-up PBIs
 
 | Feedback / issue | Follow-up PBI | Priority | Status |
 |---|---|---|---|
-| Blackjack system must be completed before MVP v2 is presented as fully working. | [#87 — Implement round resolution and win/loss condition for Blackjack](https://github.com/2OfClubsy/card-duel-project/issues/87) | Must have | In Progress |
-| Card draw interaction should be easier to understand. | [#88 — Add visual/audio feedback when drawing cards from the shoe](https://github.com/2OfClubsy/card-duel-project/issues/88) | Must have | In Progress |
+| Blackjack system must be completed before MVP v2 is presented as fully working. | [#87 — Implement round resolution and win/loss condition for Blackjack](https://github.com/2OfClubsy/card-duel-project/issues/87) | Must have | Completed |
+| Card draw interaction should be easier to understand. | [#88 — Add visual/audio feedback when drawing cards from the shoe](https://github.com/2OfClubsy/card-duel-project/issues/88) | Must have | Completed |
 | Assignment 5 public evidence must be completed and linked. | [#91 — Complete Assignment 5 report, UAT, release, and evidence links](https://github.com/2OfClubsy/card-duel-project/issues/91) | Must have | In Progress |
 
 ---

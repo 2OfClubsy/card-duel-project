@@ -68,10 +68,10 @@ During Sprint 3, the team improved the blackjack gameplay loop and prepared the 
 | Artifact | Link |
 |---|---|
 | Product access artifact / MVP v2 build | [Google Drive folder](https://drive.google.com/drive/folders/1Nw1Wg9QzIJyZzXM1cbRJmDAVqr3V5eNB?usp=sharing) |
-| Public sanitized demo video | [Google Drive folder](https://drive.google.com/drive/folders/1Nw1Wg9QzIJyZzXM1cbRJmDAVqr3V5eNB?usp=sharing) |
+| Public sanitized demo video | [Pending teammate-provided public demo video link] |
 | Current run instructions | [Root README](../../README.md) |
 
-The Google Drive folder contains the public demo video and the MVP v2 build / product access artifact.
+The Google Drive folder contains the MVP v2 build / product access artifact, while the public demo video link is pending the teammate's final update.
 
 ---
 
@@ -80,8 +80,8 @@ The Google Drive folder contains the public demo video and the MVP v2 build / pr
 | Feedback point | Resulting PBI or issue | Status | Response |
 |---|---|---|---|
 | Continue the project as a 3D card-duel experience, not a simple 2D prototype. | ADR-0002 and MVP v2 product direction | Maintained | The team kept the 3D lobby and table interaction as the core product direction. |
-| Complete the blackjack system before presenting MVP v2 as fully working. | [#87](https://github.com/2OfClubsy/card-duel-project/issues/87) | Addressed in Sprint 3 work | The team added blackjack round progress, pass/end-turn behavior, dealer turn, bust detection, win/loss resolution, and new game restart. |
-| Improve table card interaction feedback. | [#88](https://github.com/2OfClubsy/card-duel-project/issues/88) | Addressed in Sprint 3 work | The team improved the card draw interaction direction and prepared UAT coverage for this behavior. |
+| Complete the blackjack system before presenting MVP v2 as fully working. | [#87](https://github.com/2OfClubsy/card-duel-project/issues/87) | Addressed in Sprint 3 work | The team implemented random initial dealing, correct scoring, bust detection, dealer turn, win/loss evaluation, and restart logic. |
+| Improve table card interaction feedback. | [#88](https://github.com/2OfClubsy/card-duel-project/issues/88) | Addressed in Sprint 3 work | The team captured follow-up feedback to add post-processing, speed up development, and revise fonts. |
 
 ### Feedback not addressed
 
@@ -164,7 +164,7 @@ The GitHub release `v0.3.0` must be created after the final Assignment 5 changes
 | UAT artifact | Link / Status |
 |---|---|
 | Maintained UAT scenarios | [`docs/user-acceptance-tests.md`](../../docs/user-acceptance-tests.md) |
-| Public UAT results summary | See `docs/user-acceptance-tests.md` after customer session update |
+| Public UAT results summary | See [`docs/user-acceptance-tests.md`](../../docs/user-acceptance-tests.md) |
 | Private UAT recording | Submitted privately through Moodle only |
 
 ### Public UAT summary
