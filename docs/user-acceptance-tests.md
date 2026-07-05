@@ -1,155 +1,182 @@
 # User Acceptance Tests
 
-This document contains Week 4 customer user acceptance test scenarios for Card Duel Project.
+This document contains maintained customer User Acceptance Test scenarios for the Card Duel Project.
 
-The purpose of these scenarios is to let the customer check whether the delivered prototype increment matches the expected direction of the project.
+For Assignment 5, the UAT focuses on Sprint 3 and the MVP v2 increment. The scenarios are designed to let the customer check whether the current product direction, table interaction, blackjack round flow, and card draw feedback match the expected product value.
 
-The customer execution results will be filled after the Week 4 customer UAT and Sprint Review session.
+Private recording links, exact private timecodes, credentials, customer-identifying evidence, and consent evidence must not be committed to the public repository. They are submitted privately through Moodle only.
+
+---
 
 ## Session information
 
 | Field | Value |
 |---|---|
 | Project | Card Duel Project |
-| Sprint | Sprint 2 - Assignment 4 |
+| Team | Team #31 |
+| Sprint | Sprint 3 — Assignment 5 |
+| Target increment | MVP v2 |
 | Session type | Customer UAT and Sprint Review |
 | Customer execution status | Planned |
 | Recording permission | To be asked before the session |
 | Transcript / notes publication permission | To be asked before the session |
-| Public repository evidence | Sanitized summary only |
-| Private evidence | Recording link and private details submitted through Moodle only |
+| Public repository evidence | Sanitized scenario descriptions and sanitized result summary only |
+| Private evidence | Recording link, exact timecodes, consent evidence, private access details submitted through Moodle only |
+
+---
 
 ## UAT scope
 
-The current UAT focuses on the delivered Godot-based 3D prototype and the Sprint 2 increment.
+The Week 5 UAT focuses on the MVP v2 increment and selected Sprint 3 work.
 
 The customer should check:
 
-- whether the project can be opened or accessed from the delivered prototype;
-- whether the 3D prototype direction is understandable;
-- whether the lobby and table interaction support the approved card-duel concept;
-- whether the current increment is acceptable as a foundation for the next MVP work.
+- whether the prototype still follows the approved 3D card-duel direction;
+- whether the customer can understand the table-centered interaction model;
+- whether the card draw interaction provides understandable feedback;
+- whether the blackjack round result can be observed or explained through the current MVP v2 build;
+- whether the product is acceptable as the next increment after MVP v1.
 
-## Scenario 1 — Start the prototype and enter the lobby
+---
+
+## Active Week 5 UAT scenarios
+
+### UAT-MVP2-01 — Blackjack round resolution
 
 | Field | Description |
 |---|---|
-| Scenario ID | UAT-01 |
-| Goal | Verify that the customer can start the prototype and reach the 3D lobby. |
-| Preconditions | The prototype or Godot source project is available. |
+| Goal | Verify that the player can observe or complete a blackjack round and understand the result. |
+| Linked issue / PBI | [#87 — Implement round resolution and win/loss condition for Blackjack](https://github.com/2OfClubsy/card-duel-project/issues/87) |
+| Preconditions | The MVP v2 build or source project is available. The table interaction area can be opened. |
 | User role | Customer / player |
 | Priority | Must have |
 
-### Steps
+#### Steps
 
 1. Start the Card Duel prototype.
-2. Select the option to begin or load the game flow.
-3. Wait until the lobby scene is opened.
-4. Observe whether the scene is understandable as a 3D card-duel environment.
+2. Enter the table interaction area.
+3. Draw or observe cards in the blackjack flow.
+4. Continue until the round result can be resolved or demonstrated.
+5. Confirm whether the result is understandable to the player.
 
-### Expected result
+#### Expected result
 
-The customer can start the prototype and reach the 3D lobby without blocking errors.
+The customer can understand the blackjack round result, such as win, loss, draw, or bust. The result should be visible in the game or clearly demonstrated through the current MVP v2 behavior.
 
-The lobby should be recognizable as the starting environment for the card-duel game.
-
-### Actual result
+#### Actual result
 
 To be filled after the customer session.
 
-### Status
+#### Status
 
-Passed.
+Planned.
 
-### Customer notes
+#### Customer notes
 
-The customer approved the general MVP v2 direction and confirmed that the project continues to follow the requested 3D style.
+To be filled after customer execution.
 
-## Scenario 2 — Explore the 3D lobby view
+---
 
-| Field | Description |
-|---|---|
-| Scenario ID | UAT-02 |
-| Goal | Verify that the customer can inspect the 3D lobby and understand the table-centered scene. |
-| Preconditions | The lobby scene is opened. |
-| User role | Customer / player |
-| Priority | Must have |
-
-### Steps
-
-1. Use the available camera or look-around controls.
-2. Look around the lobby.
-3. Identify the central table or main interaction area.
-4. Comment whether the 3D direction feels suitable for the project concept.
-
-### Expected result
-
-The customer can inspect the lobby and understand that the central table is the main place for the card-duel interaction.
-
-The 3D direction should address the previous customer feedback that the game should not feel like a simple 2D prototype.
-
-### Actual result
-
-The customer explored the 3D lobby and understood the table-centered card-duel direction.
-
-### Status
-
-Passed.
-
-### Customer notes
-
-The customer liked the visual style and noted that the project still follows one of the main early feedback points: the game should stay in 3D instead of becoming a 2D prototype.
-
-## Scenario 3 — Interact with the card table
+### UAT-MVP2-02 — Card draw feedback
 
 | Field | Description |
 |---|---|
-| Scenario ID | UAT-03 |
-| Goal | Verify that the customer can reach or interact with the table and see the card-duel setup. |
-| Preconditions | The lobby scene is opened and the table is visible. |
+| Goal | Verify that card drawing from the shoe gives understandable visual or audio feedback. |
+| Linked issue / PBI | [#88 — Add visual/audio feedback when drawing cards from the shoe](https://github.com/2OfClubsy/card-duel-project/issues/88) |
+| Preconditions | The MVP v2 build or source project is available. The card shoe interaction is available. |
 | User role | Customer / player |
 | Priority | Must have |
 
-### Steps
+#### Steps
 
-1. Move the view toward the central table or interaction area.
-2. Use the available interaction action if the prototype provides one.
-3. Observe whether the card-duel setup appears.
-4. Check whether the cards or duel area are visible enough to understand the next gameplay direction.
+1. Start the Card Duel prototype.
+2. Enter the table interaction area.
+3. Interact with the card shoe.
+4. Observe the feedback after the interaction.
+5. Repeat the action if possible.
+6. Confirm whether the feedback makes the action understandable.
 
-### Expected result
+#### Expected result
 
-The customer can understand the table interaction direction and can see the card-duel setup or card presentation.
+The customer can clearly understand that a card draw action happened. The visual or audio feedback should support the 3D table interaction and reduce confusion during gameplay.
 
-The scenario should demonstrate that the prototype supports the approved card-duel concept and can be extended in the next MVP increment.
+#### Actual result
 
-### Actual result
+To be filled after the customer session.
 
-The customer interacted with the card table and was able to select cards from the table without blocking issues.
+#### Status
 
-### Status
+Planned.
 
-Passed.
+#### Customer notes
 
-### Customer notes
+To be filled after customer execution.
 
-The customer approved the card interaction direction. The customer also noted that the blackjack system should be completed before it is presented as a fully working MVP v2 feature.
+---
 
-## UAT execution summary
+### UAT-MVP2-03 — 3D table interaction continuity
 
-This section will be completed after the Week 4 customer session.
+| Field | Description |
+|---|---|
+| Goal | Verify that the product still feels like a 3D card-duel experience rather than a simple 2D prototype. |
+| Linked issue / PBI | Related to 3D product direction and architecture decision ADR-0002 |
+| Preconditions | The MVP v2 build or source project is available. |
+| User role | Customer / player |
+| Priority | Must have |
 
-| Scenario  | Result | Notes |
-|----------------------------------------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------|
-| UAT-01 — Start the prototype and enter the lobby | Planned | To be filled after the session  | Passed | The customer reached the 3D lobby without blocking issues.                                                  |
-| UAT-02 — Explore the 3D lobby view | Planned | To be filled after the session                | Passed | The customer approved the 3D direction and visual style.                                                    |
-| UAT-03 — Interact with the card table | Planned | To be filled after the session             | Passed | The customer selected cards from the table successfully. Blackjack gameplay completion remains a follow-up. |
+#### Steps
+
+1. Start the Card Duel prototype.
+2. Enter the lobby or table interaction area.
+3. Look at the 3D environment and central table.
+4. Interact with the available table/card elements.
+5. Comment whether the product direction still matches the approved 3D card-duel concept.
+
+#### Expected result
+
+The customer confirms that the product continues to follow the approved 3D card-duel direction and that the table remains the central interaction point.
+
+#### Actual result
+
+To be filled after the customer session.
+
+#### Status
+
+Planned.
+
+#### Customer notes
+
+To be filled after customer execution.
+
+---
+
+## Previous UAT results from Week 4
+
+The following Week 4 scenarios were already executed and are kept here as historical context for Sprint 3 planning.
+
+| Scenario | Result | Notes |
+|---|---|---|
+| Start the prototype and enter the lobby | Passed | The customer reached the 3D lobby without blocking issues. |
+| Explore the 3D lobby view | Passed | The customer approved the 3D direction and visual style. |
+| Interact with the card table | Passed | The customer selected cards from the table successfully. Blackjack gameplay completion remained a follow-up. |
+
+---
+
+## Week 5 UAT execution summary
+
+This section will be completed after the Week 5 customer session.
+
+| Scenario | Linked issue / evidence | Result | Notes |
+|---|---|---|---|
+| UAT-MVP2-01 — Blackjack round resolution | [#87](https://github.com/2OfClubsy/card-duel-project/issues/87) | Planned | To be filled after the customer session. |
+| UAT-MVP2-02 — Card draw feedback | [#88](https://github.com/2OfClubsy/card-duel-project/issues/88) | Planned | To be filled after the customer session. |
+| UAT-MVP2-03 — 3D table interaction continuity | ADR-0002 | Planned | To be filled after the customer session. |
+
+---
 
 ## Customer approval status
 
-Approved with minor comments.
-
-The customer approved the Sprint Backlog and MVP v2 direction in general. The main requested follow-up is to complete the blackjack system before presenting it as a fully working gameplay feature.
+Not approved yet.
 
 Possible values:
 
@@ -158,79 +185,19 @@ Possible values:
 - Not approved yet;
 - Needs follow-up.
 
-## Scenario 4 — Blackjack round resolution
+The final approval status will be updated after the Week 5 customer UAT and Sprint Review session.
 
-| Field | Description |
-|---|---|
-| Scenario ID | UAT-MVP2-01 |
-| Goal | Verify that the player can draw cards, resolve the round, and see a Win/Loss result. |
-| Preconditions | The card shoe interaction is available and the table is visible. |
-| User role | Customer / player |
-| Priority | Must have |
-
-### Steps
-
-1. Start a game and enter the table interaction area.
-2. Click the card shoe to draw cards.
-3. Observe the round resolution behavior after drawing cards.
-4. Confirm that the UI displays a Win or Loss outcome.
-
-### Expected result
-
-The system resolves the round and displays a clear Win/Loss message in the UI.
-
-### Actual result
-
-To be filled after the customer session.
-
-### Status
-
-[PENDING: UAT not executed yet]
-
-### Customer notes
-
-To be filled after customer execution.
-
-## Scenario 5 — Card interaction feedback
-
-| Field | Description |
-|---|---|
-| Scenario ID | UAT-MVP2-02 |
-| Goal | Verify that the card shoe interaction triggers reliable visual/audio feedback. |
-| Preconditions | The card shoe is interactable and the table UI is visible. |
-| User role | Customer / player |
-| Priority | Must have |
-
-### Steps
-
-1. Click the card shoe in the table interaction area.
-2. Observe the visual and audio feedback generated by the interaction.
-3. Confirm that the feedback is consistent and reliable.
-4. Repeat the interaction once or twice to verify consistency.
-
-### Expected result
-
-Visual/audio feedback triggers when the card shoe is clicked and supports the player’s understanding of the action.
-
-### Actual result
-
-To be filled after the customer session.
-
-### Status
-
-[PENDING: UAT not executed yet]
-
-### Customer notes
-
-To be filled after customer execution.
+---
 
 ## Follow-up PBIs
 
 | Feedback / issue | Follow-up PBI | Priority | Status |
 |---|---|---|---|
-| Blackjack system foundation exists, but the full blackjack gameplay is not working yet. | [Complete blackjack gameplay system](https://github.com/2OfClubsy/card-duel-project/issues/80) | Must have | To do |
-| The customer approved the 3D direction and wants the team to continue following it. | [Continue 3D card-duel experience development](https://github.com/2OfClubsy/card-duel-project/issues/82) | Must have | To do |
-| Card selection from the table works and should be expanded. | [Improve table card interaction feedback](https://github.com/2OfClubsy/card-duel-project/issues/81) | Must have | To do |
+| Blackjack system must be completed before MVP v2 is presented as fully working. | [#87 — Implement round resolution and win/loss condition for Blackjack](https://github.com/2OfClubsy/card-duel-project/issues/87) | Must have | In Progress |
+| Card draw interaction should be easier to understand. | [#88 — Add visual/audio feedback when drawing cards from the shoe](https://github.com/2OfClubsy/card-duel-project/issues/88) | Must have | In Progress |
+| Assignment 5 public evidence must be completed and linked. | [#91 — Complete Assignment 5 report, UAT, release, and evidence links](https://github.com/2OfClubsy/card-duel-project/issues/91) | Must have | In Progress |
+
+---
 
 ## Public and private evidence handling
 
@@ -239,7 +206,9 @@ Public repository evidence may include:
 - sanitized UAT scenario descriptions;
 - sanitized UAT results;
 - customer feedback summary without private details;
-- links to public project evidence.
+- links to public project evidence;
+- public Sprint Review summary;
+- public demo video link.
 
 Public repository evidence must not include:
 
@@ -249,6 +218,7 @@ Public repository evidence must not include:
 - customer private data;
 - credentials;
 - university emails;
-- confidential customer information.
+- confidential customer information;
+- consent evidence.
 
-Private evidence, including recording links and private permission evidence, must be submitted through Moodle only.
+Private evidence, including recording links, exact timecodes, private access instructions, and permission evidence, must be submitted through Moodle only.

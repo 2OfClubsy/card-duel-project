@@ -189,3 +189,23 @@ If a Done criterion cannot be satisfied because of a technical limitation, missi
 - explain the reason;
 - link follow-up work where needed;
 - avoid marking incomplete work as Done unless the exception is explicitly accepted.
+
+---
+
+## Assignment 5 / MVP v2 Definition of Done update
+
+For Assignment 5, a Sprint 3 item is considered Done only when:
+
+- the linked issue has clear acceptance criteria;
+- the implementation or documentation change satisfies the acceptance criteria;
+- the PR is linked to the issue;
+- the PR is reviewed by a team member different from the implementer;
+- relevant CI checks pass, or manual verification is documented when automatic checks are not enough;
+- related maintained documentation is updated;
+- public and private evidence are separated correctly;
+- no private customer recordings, credentials, private access links, exact private timecodes, or consent evidence are committed publicly;
+- release or report links are updated if the item affects MVP v2 delivery evidence.
+
+For product changes, Done also means that the change can be demonstrated during UAT, Sprint Review, or the public sanitized demo video.
+
+For documentation and evidence changes, Done means that the artifact is readable, linked from the expected place, and consistent with the current Sprint 3 / MVP v2 status.
