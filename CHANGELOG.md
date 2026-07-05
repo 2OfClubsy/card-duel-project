@@ -6,7 +6,12 @@ The project follows a SemVer-based release workflow. Each public release is mapp
 
 ## [Unreleased]
 
-No unreleased changes yet.
+### Added
+
+- Prepared architecture documentation and ADRs for Assignment 5.
+- Added Week 5 report artifacts and UAT planning for Sprint 3.
+- Added draft Sprint Review notes and summary placeholders pending customer review.
+- Added quality requirement and testing documentation references for MVP v2 planning.
 
 ## [v0.2.0] - 2026-06-28
 

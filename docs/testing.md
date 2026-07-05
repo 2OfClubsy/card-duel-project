@@ -145,6 +145,10 @@ Current or planned CI checks:
 - source-level project setup check;
 - coverage reporting where technically available.
 
+## MVP v2 testing notes
+
+The MVP v2 testing scope now includes visual 3D interaction verification and architecture validation. This means manual or automated checks should confirm the card shoe interaction, table feedback, and the architecture documentation against the current design.
+
 ## Additional QA check
 
 The Assignment 4 additional QA check must be distinct from link checking, formatting, type checking, build, unit tests, integration tests, coverage, and QRTs.

@@ -11,6 +11,8 @@ The quality model is based on ISO/IEC 25010 quality characteristics and sub-char
 | QR-01 | Source-level project availability | Maintainability | Modularity | QRT-01 |
 | QR-02 | Public evidence privacy safety | Security | Confidentiality | QRT-02 |
 | QR-03 | Customer-facing documentation completeness | Usability | Appropriateness recognizability | QRT-03 |
+| QR-04 | 3D interaction continuity | Usability | Customer satisfaction | QRT-04 |
+| QR-05 | Card data modifiability | Maintainability | Modifiability | QRT-05 |
 
 ---
 
@@ -50,6 +52,7 @@ Previous feedback noted that the repository looked like it contained documentati
 - Related documentation: `README.md`
 - Related testing documentation: `docs/testing.md`
 - Linked quality requirement test: QRT-01
+- Related ADR: `docs/architecture/adr/0001-use-plantuml-for-diagrams-as-code.md`
 
 ---
 
@@ -136,3 +139,70 @@ The project is evaluated through both product increment evidence and repository 
 - Related file: `reports/week4/README.md`
 - Related file: `docs/roadmap.md`
 - Related quality requirement test: QRT-03
+- Related ADR: `docs/architecture/adr/0002-retain-3d-table-as-core-interaction-ui.md`
+
+---
+
+## QR-04 — 3D interaction continuity
+
+### Quality attribute
+
+Usability
+
+### ISO/IEC 25010 sub-characteristic
+
+Customer satisfaction
+
+### Requirement
+
+The game must retain a 3D table-based interaction model rather than shifting to a purely 2D UI presentation.
+
+### Scenario
+
+When customers interact with the prototype, they should feel the product is a 3D card-duel experience.
+
+### Measurable target
+
+The prototype should preserve 3D interactables like `TableInteractable` and `CardShuz`, and continue supporting the card-table interaction flow.
+
+### Rationale
+
+Customer feedback from MVP v1 emphasized that the game should remain a 3D experience rather than becoming a simple 2D prototype.
+
+### Traceability
+
+- Related issue: Continue 3D card-duel experience development
+- Related ADR: `docs/architecture/adr/0002-retain-3d-table-as-core-interaction-ui.md`
+
+---
+
+## QR-05 — Card data modifiability
+
+### Quality attribute
+
+Maintainability
+
+### ISO/IEC 25010 sub-characteristic
+
+Modifiability
+
+### Requirement
+
+Card attributes and card behavior should be managed through data resources rather than hardcoded script logic.
+
+### Scenario
+
+When the team adds new cards or card properties, they should be able to update resources instead of changing gameplay scripts.
+
+### Measurable target
+
+The project should use Godot `CardResource` for card data and keep gameplay logic separate from card definitions.
+
+### Rationale
+
+Separating card data from game logic reduces maintenance effort and supports future expansion of card types and mechanics.
+
+### Traceability
+
+- Related issue: Improve card selection and blackjack logic
+- Related ADR: `docs/architecture/adr/0003-isolate-card-data-in-resources.md`

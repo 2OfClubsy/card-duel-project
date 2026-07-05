@@ -8,32 +8,28 @@ Card Duel Project is a 3D card-duel prototype inspired by dark tabletop card-gam
 
 The project direction after MVP v1 is to keep the prototype customer-accessible while improving product reliability, quality evidence, and the ability to verify important behavior through automated tests and CI checks.
 
-## Current Sprint — Sprint 2 / Assignment 4
+## Current Sprint — Sprint 3 / Assignment 5
 
-Sprint 2 focuses on improving the reliability and verifiability of the MVP instead of only adding new gameplay features.
+Sprint 3 is focused on finishing the MVP v2 implementation and hardening the development assets for customer review.
 
 ### Sprint Goal
 
-Improve the reliability and verifiability of the Card Duel MVP by responding to customer feedback, adding quality requirements, automated tests, CI checks, and preparing a customer-accessible sprint increment.
+Finish the core 3D blackjack loop, improve table card interaction feedback, and harden the architecture documentation and quality evidence.
 
 ### Sprint focus
 
-The Assignment 4 Sprint focuses on:
+The Assignment 5 Sprint focuses on:
 
-- responding to customer feedback from the previous MVP review;
-- defining measurable quality requirements;
-- defining automated quality requirement tests;
-- adding automated unit and integration tests for important product logic;
-- configuring CI quality gates;
-- updating the Definition of Done;
-- updating testing documentation;
-- preparing UAT scenarios and customer review evidence;
-- preparing a new SemVer release for the Sprint increment;
-- keeping public and private evidence separated correctly.
+- finishing the core 3D blackjack loop;
+- improving table card interaction feedback;
+- hardening architecture documentation and ADRs;
+- defining quality requirements and UAT scenarios for the updated MVP;
+- updating testing documentation and CI checks to cover the new game flow;
+- preparing the repository evidence for Assignment 5 review.
 
 ### Expected Sprint increment
 
-The expected Sprint increment is a more reliable and verifiable version of the MVP that can be accessed by the customer and evaluated through UAT, tests, CI, and documented quality evidence.
+The expected Sprint increment is a more complete MVP v2 candidate with a finished blackjack loop, improved interaction feedback, and maintained architecture evidence.
 
 ## MVP v1 — First playable vertical slice
 
@@ -53,19 +49,26 @@ Completed MVP v1 scope included:
 
 MVP v1 was reviewed with the customer during the Week 3 Sprint Review. The customer approved the backlog structure, backlog content, user stories, acceptance criteria, and MVP v1 scope as sufficient for the approval mark.
 
-## MVP v2 — Basic card-duel interaction and quality improvement
+## MVP v2 — Finished core blackjack loop, improved feedback, and hardened architecture
 
-MVP v2 should extend the prototype from a visual and interaction setup into a simple playable card-duel loop while also improving reliability and verification.
+MVP v2 should finish the core 3D blackjack loop, improve table card interaction feedback, and harden the architecture documentation and decision records.
 
 Planned MVP v2 product direction:
 
-- allow the player to select a card during a round;
-- allow the player to play a selected card;
-- add an opponent or opponent placeholder at the table;
-- show basic round result feedback;
-- improve the table interaction flow;
-- refine visual direction based on customer feedback;
-- optionally add art references to make the visual direction more complete.
+- finish the core 3D blackjack loop with win/loss resolution;
+- improve table card interaction feedback and reliability;
+- harden architecture documentation and ADR traceability;
+- preserve the 3D card-duel experience and the table interaction flow;
+- ensure the prototype remains customer-accessible for UAT and review.
+
+Planned MVP v2 quality direction:
+
+- maintain documented quality requirements;
+- keep automated quality requirement tests linked to quality requirements;
+- keep unit and integration tests passing;
+- keep CI checks active for future pull requests;
+- preserve testing and coverage evidence for critical modules;
+- update the Definition of Done when the product stack or quality gates change.
 
 Planned MVP v2 quality direction:
 
@@ -89,7 +92,8 @@ Possible MVP v3 improvements:
 - add more complete game loop logic;
 - improve opponent behavior;
 - add balance and replayability improvements;
-- improve release packaging and customer access if needed.
+- improve release packaging and customer access if needed;
+- add opponent behavior and audio polish as the next expected increment.
 
 ## Customer feedback direction
 
