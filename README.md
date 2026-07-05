@@ -142,6 +142,12 @@ See:
   * [Development process](docs/development-process.md)
   * [Architecture documentation](docs/architecture/README.md)
 
+### Hosted documentation
+
+The maintained documentation site is published with GitHub Pages from the `docs/` folder.
+
+Hosted documentation link: [PENDING: add GitHub Pages link after deployment]
+
 ### Assignment 5 maintained documentation
 
 Assignment 5 documentation is maintained in `docs/` and `docs/architecture/`. The Week 5 public report will be finalized in `reports/week5/README.md` after Sprint 3 implementation, UAT, Sprint Review, release, demo video, and screenshots are complete.
