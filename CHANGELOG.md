@@ -12,39 +12,23 @@ The project follows a SemVer-based release workflow. Each public release is mapp
 - Added Week 5 report artifacts and UAT planning for Sprint 3.
 - Added draft Sprint Review notes and summary placeholders pending customer review.
 - Added quality requirement and testing documentation references for MVP v2 planning.
-
-## [v0.2.0] - 2026-06-28
-
-### Added
-
-- Added Assignment 4 Sprint planning evidence through the `Sprint 2 - Assignment 4` milestone and Project view.
-- Added Week 4 public report structure in `reports/week4/`.
-- Added Godot source project under `game/`.
-- Added source-level setup instructions in `README.md`.
-- Added Week 4 user acceptance test scenarios.
-- Added Week 4 customer UAT results.
-- Added Week 4 customer review notes.
-- Added Week 4 customer review summary.
-- Added Week 4 reflection.
-- Added Week 4 retrospective.
-- Added Week 4 LLM usage report.
-- Added quality requirements.
-- Added quality requirement tests.
-- Added testing documentation.
-- Added repository quality check script and automated tests.
-- Added CI checks for required documentation, privacy markers, exported build artifacts, and source-level setup.
-- Added follow-up Product Backlog Items based on Week 4 customer feedback.
+- Added random initial card dealing instead of using one fixed starting card.
+- Added correct score calculation when the player draws additional cards.
+- Added bust/loss detection when the player's total score exceeds 21.
+- Added pass/end-turn behavior so the player can finish their turn.
+- Added dealer turn after the player passes.
+- Added win/loss result resolution after comparing the player and dealer outcomes.
+- Added the ability to start a new game after a round ends.
+- Added Assignment 5 maintained documentation updates for architecture, ADR traceability, development process, UAT planning, roadmap, and hosted documentation setup.
 
 ### Changed
 
-- Updated the roadmap to reflect the current Sprint, expected next Sprint, and maintained quality or automation work.
-- Updated the root README with Assignment 4 / Sprint 2 direction and source-level setup instructions.
-- Updated the Week 4 report with quality, CI, source setup, customer UAT, customer feedback, reflection, retrospective, and LLM usage evidence.
-- Updated Definition of Done for Assignment 4 quality gates.
-- Updated testing documentation to describe repository quality checks, CI checks, coverage expectations, and known Godot testing limitations.
-- Linked customer feedback to follow-up PBIs for MVP v3.
-- Continued the GitHub workflow using issue-linked branches, reviewed pull requests, Story Points, and Sprint milestone traceability.
-- Continued separating public sanitized evidence from private Moodle-only evidence.
+- Updated MVP v2 documentation to reflect Sprint 3 / Assignment 5 scope.
+- Updated UAT scenarios for MVP v2 gameplay verification.
+- Updated architecture documentation with static, dynamic, and deployment views.
+- Updated ADRs to link architecture decisions with quality requirements.
+- Updated roadmap to describe Sprint 3, MVP v2, and the next expected increment.
+- Updated root README links to maintained Assignment 5 documentation.
 
 ### Customer feedback
 
