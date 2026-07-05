@@ -209,3 +209,23 @@ If the product stack, source structure, quality requirements, or CI configuratio
 - `docs/definition-of-done.md`;
 - `.github/workflows/ci.yml`;
 - Week report evidence where applicable.
+
+---
+
+## Assignment 5 / MVP v2 testing update
+
+For Assignment 5, testing and verification focus on the Sprint 3 MVP v2 increment and the maintained evidence required for release.
+
+The team verifies:
+
+- selected Sprint 3 product changes;
+- customer-facing card table behavior;
+- blackjack round result behavior;
+- card draw feedback behavior;
+- maintained quality requirement tests;
+- GitHub Actions / CI status;
+- Markdown documentation rendering and links;
+- public/private evidence separation;
+- UAT scenarios in `docs/user-acceptance-tests.md`.
+
+If a change cannot be fully verified automatically, the related PR must include manual verification notes. For product changes, manual verification may include running the Godot project and checking the changed table or card interaction flow. For documentation changes, manual verification includes checking Markdown structure, links, diagrams, and evidence privacy.
