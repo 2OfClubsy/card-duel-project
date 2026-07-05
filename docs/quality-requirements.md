@@ -6,13 +6,13 @@ The quality model is based on ISO/IEC 25010 quality characteristics and sub-char
 
 ## Quality requirements summary
 
-| ID | Quality requirement | ISO/IEC 25010 characteristic | ISO/IEC 25010 sub-characteristic | Linked QRT |
-|---|---|---|---|---|
-| QR-01 | Source-level project availability | Maintainability | Modularity | QRT-01 |
-| QR-02 | Public evidence privacy safety | Security | Confidentiality | QRT-02 |
-| QR-03 | Customer-facing documentation completeness | Usability | Appropriateness recognizability | QRT-03 |
-| QR-04 | 3D interaction continuity | Usability | Customer satisfaction | QRT-04 |
-| QR-05 | Card data modifiability | Maintainability | Modifiability | QRT-05 |
+| ID | Quality requirement | ISO/IEC 25010 characteristic | ISO/IEC 25010 sub-characteristic | Linked QRT | Linked ADR |
+|---|---|---|---|---|---|
+| QR-01 | Source-level project availability | Maintainability | Modularity | QRT-01 | [ADR-0001](architecture/adr/0001-use-plantuml-for-diagrams-as-code.md) |
+| QR-02 | Public evidence privacy safety | Security | Confidentiality | QRT-02 | [ADR-0001](architecture/adr/0001-use-plantuml-for-diagrams-as-code.md) |
+| QR-03 | Customer-facing documentation completeness | Usability | Appropriateness recognizability | QRT-03 | [ADR-0001](architecture/adr/0001-use-plantuml-for-diagrams-as-code.md), [ADR-0002](architecture/adr/0002-retain-3d-table-as-core-interaction-ui.md) |
+| QR-04 | 3D interaction continuity | Usability | Customer satisfaction | QRT-04 | [ADR-0002](architecture/adr/0002-retain-3d-table-as-core-interaction-ui.md) |
+| QR-05 | Card data modifiability | Maintainability | Modifiability | QRT-05 | [ADR-0003](architecture/adr/0003-isolate-card-data-in-resources.md) |
 
 ---
 
@@ -95,6 +95,7 @@ Assignment evidence must separate public sanitized artifacts from private Moodle
 - Related file: `reports/week4/README.md`
 - Related documentation: `docs/definition-of-done.md`
 - Related quality requirement test: QRT-02
+- Related ADR: `docs/architecture/adr/0001-use-plantuml-for-diagrams-as-code.md`
 
 ---
 
@@ -206,3 +207,15 @@ Separating card data from game logic reduces maintenance effort and supports fut
 
 - Related issue: Improve card selection and blackjack logic
 - Related ADR: `docs/architecture/adr/0003-isolate-card-data-in-resources.md`
+
+---
+
+## ADR traceability for Assignment 5
+
+Assignment 5 requires quality requirements and architecture decisions to be traceable. The team links relevant quality requirements to ADRs so that each important architecture decision is connected to a concrete quality concern.
+
+| ADR | Related quality requirements | Reason |
+|---|---|---|
+| [ADR-0001 — Use PlantUML for diagrams-as-code](architecture/adr/0001-use-plantuml-for-diagrams-as-code.md) | QR-01, QR-02, QR-03 | Diagrams-as-code and maintained documentation improve reviewability, traceability, and public/private artifact control. |
+| [ADR-0002 — Retain 3D table as core interaction UI](architecture/adr/0002-retain-3d-table-as-core-interaction-ui.md) | QR-03, QR-04 | The 3D table direction supports customer-facing understanding and preserves the customer-requested 3D product experience. |
+| [ADR-0003 — Isolate card data in resources](architecture/adr/0003-isolate-card-data-in-resources.md) | QR-05 | Isolating card data supports maintainability, modifiability, and future card-system extension. |
