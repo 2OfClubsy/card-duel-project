@@ -146,7 +146,7 @@ See:
 
 The maintained documentation site is published with GitHub Pages from the `docs/` folder.
 
-Hosted documentation link: [PENDING: add GitHub Pages link after deployment]
+Hosted documentation link: https://2ofclubsy.github.io/card-duel-project/
 
 ### Assignment 5 maintained documentation
 
