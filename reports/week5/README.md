@@ -150,7 +150,7 @@ Sprint 3 verification combines CI checks, documentation review, manual verificat
 
 | Item | Link |
 |---|---|
-| SemVer release mapped to Assignment 5 / MVP v2 | Pending after merge: GitHub Release `v0.3.0` |
+| SemVer release mapped to Assignment 5 / MVP v2 | [v0.3.0 — Assignment 5 / MVP v2](https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.3.0) |
 | Product access artifact | [Google Drive folder](https://drive.google.com/drive/folders/1Nw1Wg9QzIJyZzXM1cbRJmDAVqr3V5eNB?usp=sharing) |
 | Public sanitized demo video | [Google Drive folder](https://drive.google.com/drive/folders/1Nw1Wg9QzIJyZzXM1cbRJmDAVqr3V5eNB?usp=sharing) |
 | Changelog | [`CHANGELOG.md`](../../CHANGELOG.md) |
@@ -195,7 +195,7 @@ The public repository contains only sanitized Sprint Review notes and summary. P
 
 | Item | Link |
 |---|---|
-| Hosted documentation site | Pending after merge: GitHub Pages from the `docs/` folder |
+| Hosted documentation site | [GitHub Pages documentation](https://2ofclubsy.github.io/card-duel-project/) |
 | Hosted documentation source | [`docs/index.md`](../../docs/index.md) |
 
 The hosted documentation site is published from the `docs/` folder using GitHub Pages after the final Assignment 5 changes are merged into `main`.
@@ -213,6 +213,8 @@ Screenshots are stored in [`reports/week5/images/`](./images/).
 | Latest protected-default-branch CI run | [`latest-ci-run.png`](./images/latest-ci-run.png) |
 | Example reviewed issue-linked PR | [`example-reviewed-pr.png`](./images/example-reviewed-pr.png) |
 | Product access artifact / demo folder | [`product-access-artifact.png`](./images/product-access-artifact.png) |
+| SemVer release | [`semver-release.png`](./images/semver-release.png) |
+| Hosted documentation site | [`hosted-docs-site.png`](./images/hosted-docs-site.png) |
 
 ### Screenshot evidence
 
@@ -235,6 +237,14 @@ Screenshots are stored in [`reports/week5/images/`](./images/).
 #### Product access artifact
 
 ![Product access artifact](./images/product-access-artifact.png)
+
+#### SemVer release
+
+![SemVer release](./images/semver-release.png)
+
+#### Hosted documentation site
+
+![Hosted documentation site](./images/hosted-docs-site.png)
 
 ---
 
