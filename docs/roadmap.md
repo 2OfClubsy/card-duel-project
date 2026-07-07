@@ -1,117 +1,100 @@
 # Roadmap
 
-This roadmap describes the maintained product direction for the Card Duel Project during Sprint 3 / Assignment 5 and after the MVP v2 increment.
+This roadmap describes the maintained product direction for Card Duel Project during Assignment 6 Week 6 and the expected follow-up direction for Week 7.
 
-The roadmap is a living project artifact. It should be updated when product scope, customer feedback, architecture decisions, deployment model, quality requirements, or process expectations change.
-
----
+The roadmap is a living project artifact. It should be updated when product scope, customer feedback, architecture decisions, deployment model, quality requirements, access details, or process expectations change.
 
 ## Product direction
 
-Card Duel Project is a 3D card-duel prototype inspired by dark tabletop card-game experiences. The approved product direction focuses on:
+Card Duel Project is a 3D card-duel prototype inspired by dark tabletop card-game experiences.
+
+The approved product direction focuses on:
 
 - a 3D environment;
 - a clear lobby-to-table flow;
 - table-centered card interaction;
 - a blackjack-inspired gameplay foundation;
 - customer-accessible playable increments;
-- maintainable architecture and documented development process.
+- maintainable architecture and documented development process;
+- clear handover and transition evidence.
 
-The project must continue to feel like a 3D card-duel experience rather than becoming a simple 2D prototype. This direction follows earlier customer feedback and is documented in the architecture decision to retain the 3D table as the core interaction UI.
+The project must continue to feel like a 3D card-duel experience rather than becoming a simple 2D prototype.
 
----
+## Current product state after MVP v2
 
-## Current Sprint — Sprint 3 / Assignment 5
+MVP v2 improved the prototype from a first playable vertical slice into a more complete blackjack-inspired gameplay loop.
 
-Sprint 3 is the current Assignment 5 Sprint. It focuses on preparing a verifiable MVP v2 increment and strengthening the maintained project evidence.
+The current product state includes:
+
+- random initial card dealing;
+- correct total calculation when drawing additional cards;
+- bust / loss detection when the player's total exceeds 21;
+- pass / end-turn behavior;
+- dealer play after the player passes;
+- win/loss result resolution;
+- ability to start a new game or round after one round ends;
+- maintained architecture, testing, UAT, quality, and development-process documentation.
+
+MVP v2 also confirmed that the team should continue the 3D card-duel direction and keep the product focused on a playable, customer-reviewable tabletop experience.
+
+## Current Sprint — Sprint 4 / Assignment 6 Week 6
+
+Sprint 4 is the Week 6 Sprint for Assignment 6.
 
 ### Sprint Goal
 
-Deliver a verifiable MVP v2 increment by completing the core blackjack round flow, improving table interaction feedback, and connecting the product changes with architecture, testing, UAT, and release evidence.
+Deliver a stable Week 6 trial / handover-candidate release for Card Duel Project, make the current product accessible for customer review, and prepare the repository, documentation, and handover materials for transition readiness.
 
-### Selected Sprint 3 scope
+### Selected Sprint 4 scope
 
 | Issue | Scope | Reason |
 |---|---|---|
-| [#87 — Implement round resolution and win/loss condition for Blackjack](https://github.com/2OfClubsy/card-duel-project/issues/87) | Product increment | Addresses the customer request to make the blackjack system more complete before presenting MVP v2 as a working gameplay increment. |
-| [#88 — Add visual/audio feedback when drawing cards from the shoe](https://github.com/2OfClubsy/card-duel-project/issues/88) | Product increment | Improves the understandability and responsiveness of the main table interaction. |
-| [#91 — Complete Assignment 5 report, UAT, release, and evidence links](https://github.com/2OfClubsy/card-duel-project/issues/91) | Documentation and evidence | Ensures that Assignment 5 evidence is complete, traceable, and separated correctly between public repository artifacts and private Moodle evidence. |
+| [#95 — Week 6 documentation and handover update](https://github.com/2OfClubsy/card-duel-project/issues/95) | Documentation and handover | Updates the repository entry point, handover guide, roadmap, contributor guidance, and agent guidance for Week 6 transition readiness. |
+| [#96 — Week 6 public report and evidence index](https://github.com/2OfClubsy/card-duel-project/issues/96) | Public report and evidence | Creates the public Week 6 evidence index required for Sprint 4 and Assignment 6. |
+| [#98 — Week 6 trial release and changelog](https://github.com/2OfClubsy/card-duel-project/issues/98) | Release and changelog | Prepares release notes, changelog updates, and public evidence for the Week 6 trial / handover-candidate release. |
+| [#99 — Week 6 customer review and transition readiness](https://github.com/2OfClubsy/card-duel-project/issues/99) | Customer review and transition readiness | Captures customer documentation review, customer trial or UAT results, transition-readiness discussion, and follow-up actions for Week 7. |
 
-### Sprint 3 value
+### Sprint 4 value
 
-The selected scope is valuable because it combines product progress with maintainability and verification work:
+The selected Sprint 4 scope is valuable because it prepares the product for customer-facing trial use and final transition work:
 
-- customer value: the prototype becomes easier to understand and review as MVP v2;
-- product value: blackjack round behavior and card draw feedback improve the playable experience;
-- maintainability value: architecture documentation, ADRs, and process documentation become maintained assets;
-- quality value: quality requirements, UAT scenarios, testing notes, and Definition of Done are connected to the current increment;
-- delivery value: Week 5 report, release, demo, screenshots, and private Moodle evidence can be assembled from traceable artifacts.
+- customer value: the customer receives a clearer trial version and practical access / handover guidance;
+- product value: the current gameplay increment can be reviewed before final delivery;
+- documentation value: README, roadmap, handover guide, contributor guidance, and agent guidance become current;
+- process value: Sprint 4 work remains traceable through GitHub issues, milestone, Project view, PRs, and reports;
+- delivery value: Week 6 report evidence and release evidence can be assembled from inspectable repository artifacts.
 
----
+## Week 6 trial / handover-candidate release
 
-## MVP v1 — First playable vertical slice
+The Week 6 release is intended to be a stable trial or handover-candidate version.
 
-MVP v1 focused on proving the approved product direction and delivering a usable first increment.
+Expected Week 6 release direction:
 
-Completed MVP v1 scope included:
+- provide a customer-accessible trial artifact;
+- keep source access through the GitHub repository;
+- update run or access instructions;
+- update the changelog with Sprint 4 changes;
+- link the release to the Sprint 4 milestone;
+- link the release to `docs/customer-handover.md`;
+- link the release to `reports/week6/README.md`.
 
-- start a new game from the main menu;
-- enter a 3D lobby;
-- look around the lobby;
-- interact with the card table;
-- see the initial player cards;
-- present the prototype primarily as a 3D experience;
-- provide a runnable build or access artifact;
-- provide clear run instructions;
-- verify MVP v1 acceptance criteria.
+The Week 6 release is not the final MVP v3 release. It is used to support customer trial, documentation review, and transition-readiness feedback.
 
-MVP v1 helped confirm that the 3D card-duel direction was acceptable and should continue into later increments.
+## Week 7 expected follow-up direction
 
----
+Week 7 follow-up work will be refined after the Week 6 customer trial and transition-readiness meeting.
 
-## MVP v2 — Blackjack flow, interaction feedback, and maintained evidence
+Expected Week 7 follow-up categories:
 
-MVP v2 is the target increment for Assignment 5. It should improve the product beyond the first vertical slice while keeping the 3D card-duel direction.
+- product fixes or usability improvements discovered during the Week 6 trial;
+- documentation updates requested by the customer;
+- access, run, or deployment instruction fixes;
+- final handover level confirmation;
+- customer-confirmation status collection;
+- final MVP v3 release preparation;
+- final Week 7 public report and private Moodle evidence.
 
-### MVP v2 product direction
-
-MVP v2 should include:
-
-- blackjack round progress or round result behavior;
-- clearer win/loss/draw/bust direction where supported by the implementation;
-- improved card draw feedback from the shoe;
-- preserved 3D lobby and table interaction;
-- customer-accessible build or source access instructions;
-- public sanitized demo video;
-- customer UAT and Sprint Review evidence.
-
-### MVP v2 documentation and architecture direction
-
-MVP v2 must also be supported by maintained project documentation:
-
-- [`docs/architecture/README.md`](architecture/README.md) for static, dynamic, and deployment views;
-- [`docs/architecture/adr/`](architecture/adr/) for Architecture Decision Records;
-- [`docs/development-process.md`](development-process.md) for workflow and configuration management;
-- [`docs/quality-requirements.md`](quality-requirements.md) for maintained quality requirements;
-- [`docs/quality-requirement-tests.md`](quality-requirement-tests.md) for quality requirement verification;
-- [`docs/testing.md`](testing.md) for testing and manual verification strategy;
-- [`docs/user-acceptance-tests.md`](user-acceptance-tests.md) for customer UAT scenarios;
-- [`docs/definition-of-done.md`](definition-of-done.md) for completion criteria.
-
-### MVP v2 quality direction
-
-For MVP v2, the team should maintain:
-
-- issue-linked Sprint work;
-- reviewed Pull Requests;
-- active CI checks;
-- documented manual verification when automatic checks are not enough;
-- quality requirements linked to ADRs;
-- UAT scenarios linked to Sprint 3 issues;
-- public/private evidence separation;
-- release notes and changelog updates.
-
----
+This roadmap does not define a fixed Sprint 5 backlog yet because the most important Week 7 work depends on the Week 6 customer feedback.
 
 ## Customer feedback direction
 
@@ -121,68 +104,42 @@ Important feedback and response direction:
 
 | Feedback | Roadmap response |
 |---|---|
-| The game should stay as a 3D card-duel experience, not a simple 2D prototype. | Keep the 3D lobby and table interaction as the core product direction. This is supported by ADR-0002. |
-| The blackjack system should be completed before MVP v2 is presented as fully working. | Prioritize blackjack round result and win/loss condition work in Sprint 3 through issue #87. |
-| Card/table interaction should be easier to understand. | Improve card draw feedback through issue #88 and verify it through UAT. |
-| Future visual direction could use stronger art references. | Keep this as a future visual refinement item after MVP v2 functionality and evidence are stable. |
+| The game should stay as a 3D card-duel experience, not a simple 2D prototype. | Keep the 3D lobby and table interaction as the core product direction. |
+| The blackjack system should be completed before it is presented as a fully working MVP v2 feature. | The MVP v2 gameplay loop was improved with random cards, score calculation, bust behavior, pass/end-turn, dealer play, result resolution, and new round behavior. |
+| Card/table interaction should be understandable for the customer. | Verify the Week 6 trial through customer review or UAT and record follow-up issues if interaction remains unclear. |
+| Customer-facing documentation must be clear enough for handover. | Maintain README, customer handover guide, run instructions, troubleshooting notes, and known limitations during Week 6 and Week 7. |
 
-Feedback that is not implemented in the current Sprint should remain visible in the Product Backlog or be explicitly deferred with an explanation in the Week 5 report.
+Feedback that is not implemented during Week 6 should remain visible as Week 7 follow-up work or be explicitly explained in the Week 6 report.
 
----
+## Maintained documentation direction
 
-## Architecture, quality, and process work that must continue later
+Assignment 6 documentation is maintained, not one-time submission text.
 
-The Assignment 5 architecture and process artifacts are maintained project assets, not one-time submission files.
+The team should keep the following files current:
 
-Future work should continue to maintain:
+- [README.md](../README.md)
+- [Customer handover guide](customer-handover.md)
+- [Definition of Done](definition-of-done.md)
+- [Testing documentation](testing.md)
+- [Quality requirements](quality-requirements.md)
+- [Quality requirement tests](quality-requirement-tests.md)
+- [User acceptance tests](user-acceptance-tests.md)
+- [Development process](development-process.md)
+- [Architecture documentation](architecture/README.md)
 
-- static, dynamic, and deployment architecture views;
-- PlantUML diagram sources;
-- ADRs for important architecture decisions;
-- quality requirements and quality requirement tests;
-- Definition of Done;
-- testing documentation;
-- UAT documentation;
-- development process and configuration management documentation;
-- changelog and release evidence;
-- public/private evidence separation.
+These artifacts should be updated when product access, setup steps, release process, workflow expectations, architecture, tests, UAT scenarios, limitations, or transition status change.
 
-The team should update these artifacts when the product scope, architecture, deployment model, workflow, CI configuration, or customer access method changes.
+## Current next steps for Week 6
 
----
+The current Week 6 next steps are:
 
-## Expected next increment — MVP v3
-
-After MVP v2, the next increment should focus on deeper gameplay clarity, atmosphere, and polish.
-
-Possible MVP v3 improvements:
-
-- improve opponent behavior or add a stronger opponent placeholder;
-- improve card visuals and card movement;
-- add clearer UI prompts for player actions;
-- improve round result feedback and replay flow;
-- add basic atmosphere sounds;
-- improve table and room environment;
-- improve release packaging and customer access;
-- extend UAT scenarios for new gameplay behavior;
-- add or improve automated verification for critical game logic;
-- update ADRs if the architecture changes.
-
-MVP v3 should build on the maintained architecture and quality foundation created in Assignment 5.
-
----
-
-## Current next steps
-
-For Sprint 3 / Assignment 5, the current next steps are:
-
-- keep Sprint 3 issues, milestone, and Project view updated;
-- complete product implementation work for #87 and #88 through the product implementation team;
-- complete documentation and evidence work for #91;
-- keep architecture documentation and ADR traceability updated;
-- update UAT results after the customer session;
-- record or link the public sanitized demo video;
-- create the Assignment 5 SemVer release mapped to MVP v2;
-- add required screenshots to `reports/week5/images/`;
-- finalize `reports/week5/README.md` after all links are ready;
-- submit private recording links, exact timecodes, credentials, and access details through Moodle only.
+- keep Sprint 4 issues, milestone, and Project view updated;
+- update the public repository entry point;
+- update the customer handover guide;
+- update contributor and agent guidance;
+- prepare Week 6 public report files;
+- prepare the Week 6 trial / handover-candidate release;
+- update the changelog;
+- collect customer documentation review and transition-readiness feedback;
+- convert customer feedback into traceable Week 7 follow-up actions;
+- keep private recordings, credentials, exact timecodes, and private access details outside the public repository.
