@@ -23,7 +23,7 @@ The Week 6 trial release is not the final MVP v3 release. Final MVP v3 delivery 
 - Week 6 trial build: TODO: add Week 6 build or access link after the trial artifact is prepared
 - Hosted documentation site: https://2ofclubsy.github.io/card-duel-project/
 - Customer handover guide: [docs/customer-handover.md](docs/customer-handover.md)
-- Week 6 public report: [reports/week6/README.md](reports/week6/README.md)
+- Week 6 public report: TODO: add link after `reports/week6/README.md` is created
 - GitHub releases: https://github.com/2OfClubsy/card-duel-project/releases
 
 Private credentials, exact private access instructions, private recordings, customer-identifying evidence, and private timecodes are not stored in the public repository. They are provided only through the private Moodle PDF submission when required.
@@ -133,7 +133,7 @@ Important entry points:
 - [Week 2 report](reports/week2/README.md)
 - [Week 4 report](reports/week4/README.md)
 - [Week 5 report](reports/week5/README.md)
-- [Week 6 report](reports/week6/README.md)
+- Week 6 report: TODO: add link after `reports/week6/README.md` is created
 
 ## Historical builds and increments
 
