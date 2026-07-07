@@ -1,39 +1,90 @@
 # Card Duel Project
 
-A card-based duel game prototype for a course project.
+Card Duel Project is a 3D card-duel game prototype developed as a customer-driven course project.
 
-## Project description
+The player enters a dark tabletop environment, interacts with a card table, and plays a blackjack-inspired duel round against the dealer. The project follows a Sprint-based maintained-product model with public documentation, weekly reports, release evidence, testing evidence, and customer feedback traceability.
 
-This project explores a short card duel experience where the player competes against an opponent by playing cards, managing risk, and trying to win a duel round.
+## Current status
 
-## Assignment 4 / Sprint 2
+The current Assignment 6 Week 6 goal is to prepare a stable trial / handover-candidate version of the product.
 
-Sprint 2 focuses on improving the reliability and verifiability of the Card Duel MVP.
+Sprint 4 focuses on:
 
-The Assignment 4 increment continues the approved 3D card-duel direction and adds stronger project quality evidence, including:
+- preparing the Week 6 trial release candidate;
+- updating customer-facing documentation;
+- reviewing product access and run instructions;
+- preparing customer handover guidance;
+- collecting customer feedback for Week 7 follow-up work.
 
-- customer feedback response;
-- quality requirements;
-- automated quality requirement tests;
-- automated unit and integration tests;
-- CI quality gates;
-- updated Definition of Done;
-- testing documentation;
-- user acceptance testing evidence;
-- customer Sprint Review evidence;
-- a new SemVer release for the Sprint increment.
+The Week 6 trial release is not the final MVP v3 release. Final MVP v3 delivery and final transition confirmation are planned for Week 7 after customer trial feedback.
 
-The public Week 4 report is available here:
+## Current product access
 
-[Week 4 Report](reports/week4/README.md)
+- Week 6 trial build: TODO: add Week 6 build or access link after the trial artifact is prepared
+- Hosted documentation site: https://2ofclubsy.github.io/card-duel-project/
+- Customer handover guide: [docs/customer-handover.md](docs/customer-handover.md)
+- Week 6 public report: [reports/week6/README.md](reports/week6/README.md)
+- GitHub releases: https://github.com/2OfClubsy/card-duel-project/releases
 
-The Assignment 4 release will be available here after the Sprint increment is completed:
+Private credentials, exact private access instructions, private recordings, customer-identifying evidence, and private timecodes are not stored in the public repository. They are provided only through the private Moodle PDF submission when required.
 
-Assignment 4 Release `v0.2.0` — TODO: link after the release is created.
+## Product overview
+
+The current product direction is a 3D card-duel experience inspired by dark tabletop card-game references.
+
+The current prototype includes or targets the following core experience:
+
+- 3D lobby and table-centered interaction;
+- blackjack-inspired duel flow;
+- random initial card dealing;
+- correct score calculation when drawing cards;
+- bust / loss detection when the player exceeds 21;
+- pass / end-turn behavior;
+- dealer turn and win/loss result resolution;
+- ability to start a new round after one game round ends;
+- maintained documentation, testing, architecture, and release evidence.
+
+## How to run from source
+
+The source project is maintained as a Godot project.
+
+Required editor version:
+
+```text
+Godot 4.6.stable
+```
+
+To open the project from source:
+
+1. Clone or download this repository.
+2. Open Godot 4.6.stable.
+3. Click **Import** or **Open**.
+4. Select:
+
+   ```text
+   game/project.godot
+   ```
+
+5. Open the project.
+6. Run the main scene from the Godot editor.
+
+Expected result: the Godot editor opens the Card Duel Project source, including scenes, scripts, assets, shaders, and themes.
+
+## How to run the current trial build
+
+TODO: add Week 6 trial build instructions after the trial artifact is prepared.
+
+Expected public-safe instructions should include:
+
+1. where to access the build;
+2. how to download it;
+3. how to extract it;
+4. which executable to run;
+5. what the customer or TA should see after launch.
+
+Restricted credentials or private access details must not be committed to this public file.
 
 ## Repository structure
-
-The repository contains both project evidence and product source files.
 
 ```text
 card-duel-project/
@@ -48,109 +99,89 @@ card-duel-project/
 │   └── Themes/           # UI themes
 ├── reports/              # Weekly public reports
 ├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── AGENTS.md
 ├── README.md
 └── LICENSE
 ```
 
 The `game/` directory contains the source-level Godot project. Exported builds are not used as the only project artifact.
 
-## Development setup / Run from source
+## Maintained documentation
 
-This section explains how to run from source using the Godot project entry point.
+The main maintained documentation is stored in `docs/`.
 
-The source project is maintained as a Godot project.
+Important entry points:
 
-Required editor version: Godot 4.6.stable.
+- [Customer handover guide](docs/customer-handover.md)
+- [Roadmap](docs/roadmap.md)
+- [Definition of Done](docs/definition-of-done.md)
+- [Testing documentation](docs/testing.md)
+- [Quality requirements](docs/quality-requirements.md)
+- [Quality requirement tests](docs/quality-requirement-tests.md)
+- [User acceptance tests](docs/user-acceptance-tests.md)
+- [Development process](docs/development-process.md)
+- [Architecture documentation](docs/architecture/README.md)
 
-To open the project from source:
+## Contributor and agent guidance
 
-1. Clone or download this repository.
-2. Open Godot 4.6.stable.
-3. Click Import or Open.
-4. Select `game/project.godot`.
-5. Open the project.
-6. Run the main scene from the Godot editor.
+- [CONTRIBUTING.md](CONTRIBUTING.md) explains the expected issue-linked workflow, branch usage, pull request review, and verification expectations.
+- [AGENTS.md](AGENTS.md) explains safe AI/tool-assisted contribution expectations and public/private evidence boundaries.
 
-Expected result: the Godot editor opens the Card Duel Project source, including scenes, scripts, assets, shaders, and themes.
+## Weekly reports
 
-## Week 2 report
+- [Week 2 report](reports/week2/README.md)
+- [Week 4 report](reports/week4/README.md)
+- [Week 5 report](reports/week5/README.md)
+- [Week 6 report](reports/week6/README.md)
 
-The Assignment 2 report will be available here:
+## Historical builds and increments
 
-[Week 2 Report](reports/week2/README.md)
+Earlier project increments are preserved as historical evidence.
 
-## MVP v1
+### MVP v1
 
-MVP v1 is the first playable vertical slice of Card Duel Project approved during the Week 3 customer Sprint Review.
+MVP v1 was the first playable vertical slice approved during the Week 3 customer Sprint Review.
 
-The MVP v1 scope focuses on the core 3D card-duel direction:
+MVP v1 focused on:
 
-- Start a new game from the main menu.
-- Enter the 3D lobby.
-- Look around the lobby.
-- Interact with the card table.
-- See the initial card setup.
-- Present the prototype primarily as a 3D experience.
+- starting a new game from the main menu;
+- entering the 3D lobby;
+- looking around the lobby;
+- interacting with the card table;
+- seeing the initial card setup;
+- presenting the prototype primarily as a 3D experience.
 
-The MVP v1 build access details are documented here:
+MVP v1 build access details are documented here:
 
 [MVP v1 Build Access](docs/mvp-v1-build.md)
 
-## Run MVP v1 from the Windows build
+### MVP v0
 
-1. Open the [MVP v1 Build Access](docs/mvp-v1-build.md) document.
-2. Download the MVP v1 Windows build archive from the provided link.
-3. Extract the archive to a local folder.
-4. Open the extracted folder.
-5. Run the `.exe` file.
-6. Use the main menu to start a new game.
-
-Expected result: the main menu opens, the player can start a new game, enter the 3D lobby, rotate the camera, interact with the card table, and see the initial card setup.
-
-## MVP v0
-
-MVP v0 is a runnable technical foundation for the project.
+MVP v0 was the runnable technical foundation for the project.
 
 [MVP v0 Report](reports/week2/mvp-v0-report.md)
 
-The MVP v0 build is provided as a Windows executable archive through the Week 2 report.
+## Changelog and releases
 
-## Local setup
+User-visible changes are tracked in:
 
-### Run MVP v0 from the Windows build
+- [CHANGELOG.md](CHANGELOG.md)
+- [GitHub releases](https://github.com/2OfClubsy/card-duel-project/releases)
 
-1. Open the [Week 2 Report](reports/week2/README.md).
-2. Download the MVP v0 Windows build archive from the provided Google Drive link.
-3. Extract the `.rar` archive.
-4. Open the extracted folder.
-5. Run the `.exe` file.
+The Week 6 trial / handover-candidate release will be linked from the Week 6 report after it is created.
 
-Expected result: the main menu opens, the player can start a new game, enter the 3D scene, rotate the camera, interact with the table, and see the placeholder card UI.
+## Current handover status
 
-## Project documentation
+The current handover status is:
 
-The development setup and quality automation documentation are maintained in the project documentation.
+```text
+Week 6 trial / handover-candidate
+```
 
-See:
+The product is being prepared for customer trial, documentation review, and transition-readiness discussion.
 
-  * [Roadmap](docs/roadmap.md)
-  * [Definition of Done](docs/definition-of-done.md)
-  * [Testing documentation](docs/testing.md)
-  * [Quality requirements](docs/quality-requirements.md)
-  * [Quality requirement tests](docs/quality-requirement-tests.md)
-  * [User acceptance tests](docs/user-acceptance-tests.md)
-  * [Development process](docs/development-process.md)
-  * [Architecture documentation](docs/architecture/README.md)
-
-### Hosted documentation
-
-The maintained documentation site is published with GitHub Pages from the `docs/` folder.
-
-Hosted documentation link: https://2ofclubsy.github.io/card-duel-project/
-
-### Assignment 5 maintained documentation
-
-Assignment 5 documentation is maintained in `docs/` and `docs/architecture/`. The Week 5 public report will be finalized in `reports/week5/README.md` after Sprint 3 implementation, UAT, Sprint Review, release, demo video, and screenshots are complete.
+The final handover level and customer-confirmation status will be confirmed in Week 7 after customer feedback and final follow-up work.
 
 ## License
 
