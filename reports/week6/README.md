@@ -238,19 +238,41 @@ Update this table after PRs, reviews, customer trial, and release evidence are c
 
 ## Public screenshots
 
-Screenshots should be stored in `reports/week6/images/`.
+Public sanitized screenshot evidence is stored in:
 
-Required or useful Week 6 screenshots:
+[reports/week6/images/](images/)
 
-| Screenshot | Suggested file | Status |
+The screenshots below provide inspectable Week 6 evidence for Sprint 4 planning, reviewed work, release/access evidence, and the visible product increment.
+
+| Screenshot | File | Purpose |
 |---|---|---|
-| Sprint 4 milestone | `images/sprint-4-milestone.png` | TODO |
-| Sprint 4 Project view | `images/sprint-4-project-view.png` | TODO |
-| Week 6 release | `images/week6-release.png` | TODO |
-| Example reviewed PR | `images/week6-reviewed-pr.png` | TODO |
-| Product access or build evidence | `images/week6-product-access.png` | TODO |
-| Updated game room | `images/week6-updated-room.png` | TODO |
-| Blackjack active cards / split | `images/week6-blackjack-split.png` | TODO |
-| Pause menu settings / saves | `images/week6-pause-menu.png` | TODO |
+| Sprint 4 milestone | `images/sprint-4-milestone.png` | Shows that Sprint 4 exists as a formal Assignment 6 Week 6 milestone. |
+| Sprint 4 Project view | `images/sprint-4-project-view.png` | Shows the Sprint 4 backlog view with selected Week 6 issues. |
+| Example reviewed PR | `images/week6-reviewed-pr.png` | Shows issue-linked PR review evidence for Sprint 4. |
+| Week 6 release | `images/week6-release.png` | Shows the Week 6 trial / handover-candidate release evidence. |
+| Product access or build evidence | `images/week6-product-access.png` | Shows public-safe evidence of product access or build availability. |
+| Updated game room | `images/week6-updated-room.png` | Shows the updated room where the card duel takes place. |
 
-Screenshots are listed here as expected evidence. They should be embedded only after the actual files are added, to avoid broken public links.
+### Sprint 4 milestone
+
+![Sprint 4 milestone](images/sprint-4-milestone.png)
+
+### Sprint 4 Project view
+
+![Sprint 4 Project view](images/sprint-4-project-view.png)
+
+### Example reviewed PR
+
+![Example reviewed PR](images/week6-reviewed-pr.png)
+
+### Week 6 release
+
+![Week 6 release](images/week6-release.png)
+
+### Product access or build evidence
+
+![Product access or build evidence](images/week6-product-access.png)
+
+### Updated game room
+
+![Updated game room](images/week6-updated-room.png)
