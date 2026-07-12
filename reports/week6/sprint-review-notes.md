@@ -11,10 +11,10 @@ Private recording links, exact timecodes, private customer-identifying details, 
 | Field | Value |
 |---|---|
 | Sprint | Sprint 4 — Assignment 6 Week 6 |
-| Date | TODO: add meeting date |
-| Format | TODO: offline / online / mixed |
+| Date | 2026-07-12 |
+| Format | offline |
 | Participants | Customer / stakeholder, team representatives |
-| Note-taker | TODO |
+| Note-taker | Sergey |
 
 ## Agenda
 
