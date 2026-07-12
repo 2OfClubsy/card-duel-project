@@ -64,7 +64,7 @@ Betting flow and quota-related mechanics are treated as work in progress during 
 
 | Item | Status |
 |---|---|
-| Week 6 trial release | TODO: add GitHub release link after the release is created from `main` |
+| Week 6 trial release | https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.3.0-week6-trial |
 | Product access artifact | https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing |
 | Run instructions | Download the archived build from Google Drive, extract it, and run the game `.exe` file. |
 | Changelog | [CHANGELOG.md](../../CHANGELOG.md) |
