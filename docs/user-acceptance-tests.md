@@ -514,15 +514,29 @@ Customer feedback is captured and converted into traceable Week 7 follow-up work
 
 | Scenario | Result | Notes |
 |---|---|---|
-| UAT-W6-01 — Access the Week 6 trial artifact | TODO | TODO |
-| UAT-W6-02 — Start the product | TODO | TODO |
-| UAT-W6-03 — Reach the updated game room | TODO | TODO |
-| UAT-W6-04 — Reach the card table interaction | TODO | TODO |
-| UAT-W6-05 — Observe the blackjack round flow | TODO | TODO |
-| UAT-W6-06 — Use or observe active cards | TODO | TODO |
-| UAT-W6-07 — Use or observe split functionality | TODO | TODO |
-| UAT-W6-08 — Review pause menu settings and save options | TODO | TODO |
-| UAT-W6-09 — Review customer-facing documentation | TODO | TODO |
-| UAT-W6-10 — Identify Week 7 follow-up items | TODO | TODO |
+| UAT-W6-01 — Access the Week 6 trial artifact | Available for review | The Week 6 build is provided through Google Drive: https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing |
+| UAT-W6-02 — Start the product | Available for review | The reviewer should download the archived build, extract it, open the extracted folder, and run the game `.exe` file. |
+| UAT-W6-03 — Reach the updated game room | Available for review | The updated room where the card duel takes place is part of the Week 6 build. |
+| UAT-W6-04 — Reach the card table interaction | Available for trial review | The card-table interaction can be inspected through the Week 6 build. |
+| UAT-W6-05 — Observe the blackjack round flow | Partially available / needs Week 7 follow-up | Blackjack was improved with active card usage and split functionality, but the full game loop still needs completion and verification. |
+| UAT-W6-06 — Use or observe active cards | Available for trial review | Active card usage was added to the blackjack system. |
+| UAT-W6-07 — Use or observe split functionality | Available for trial review | Split functionality was added to the blackjack system. |
+| UAT-W6-08 — Review pause menu settings and save options | Available for trial review | The pause menu now includes settings and save options. |
+| UAT-W6-09 — Review customer-facing documentation | Reviewed during Week 6 | The documentation review contributed to the transition-readiness discussion and helped identify Week 7 follow-up work. |
+| UAT-W6-10 — Identify Week 7 follow-up items | Completed | Customer feedback produced concrete follow-up items: post-processing, camera redesign, cleaner fonts, visual button redesign, game loop completion, and monster integration. |
 
-Results should be updated after the Week 6 customer trial or Sprint Review. Failed or unclear scenarios should be linked to Week 7 follow-up issues or explicit transition actions.
+## Week 6 UAT conclusion
+
+The Week 6 trial version is available for review and supports customer feedback collection. The customer review identified that the product still needs Week 7 follow-up work before final MVP v3 delivery.
+
+The most important Week 7 follow-up areas are:
+
+- stronger visual post-processing;
+- gameplay camera redesign, possibly top-down;
+- cleaner non-pixel fonts;
+- more visual image-based in-game buttons;
+- full game loop completion and verification;
+- monster integration.
+
+The Week 6 build should therefore be treated as a trial / handover-candidate build, not as the final MVP v3 version.
+
