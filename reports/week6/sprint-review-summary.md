@@ -37,8 +37,8 @@ The team avoided claiming final MVP v3 completion during Week 6. Betting flow an
 | Team representative | Arthur |
 | Product / development contributors | Maria, Sergey, Andrei |
 | Documentation / GitHub contributors | Arthur, Danil |
-| Note-taker | TODO: add note-taker |
-| Other participants | TODO: add if applicable |
+| Note-taker | Arthur |
+| Other participants | Not applicable |
 
 Public reports use sanitized participant descriptions where needed. Private identity details are provided only through the Week 6 Moodle PDF if required.
 
