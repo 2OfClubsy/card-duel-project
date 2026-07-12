@@ -62,36 +62,31 @@ Betting flow and quota-related mechanics are treated as work in progress during 
 
 ## Week 6 trial-release summary
 
-The Week 6 trial / handover-candidate release is intended to provide a stable version for customer review before final Week 7 follow-up work.
-
-Current release status:
-
 | Item | Status |
 |---|---|
-| Week 6 trial release | TODO: add release link after release is created |
-| Product access artifact | TODO: add Week 6 build or access link |
-| Run instructions | [README.md](../../README.md) and [docs/customer-handover.md](../../docs/customer-handover.md) |
+| Week 6 trial release | TODO: add GitHub release link after the release is created from `main` |
+| Product access artifact | https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing |
+| Run instructions | Download the archived build from Google Drive, extract it, and run the game `.exe` file. |
 | Changelog | [CHANGELOG.md](../../CHANGELOG.md) |
-
-Expected Week 6 release purpose:
-
-- provide a customer-accessible trial artifact;
-- show the current Week 6 product increment;
-- support customer documentation review;
-- support transition-readiness discussion;
-- collect feedback for Week 7 follow-up work;
-- avoid presenting the Week 6 trial as final MVP v3.
 
 ## Current product access
 
 | Access item | Link or status |
 |---|---|
-| Week 6 trial build | TODO: add Week 6 build or access link |
+| Week 6 trial build | https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing |
 | Source repository | https://github.com/2OfClubsy/card-duel-project |
 | Hosted documentation | https://2ofclubsy.github.io/card-duel-project/ |
 | Customer handover guide | [docs/customer-handover.md](../../docs/customer-handover.md) |
 
-Private credentials, exact private access instructions, private recordings, customer-identifying evidence, and private timecodes are not committed to the public repository. Required private evidence is provided only through the Week 6 Moodle PDF submission.
+To run the Week 6 build:
+
+1. Open the Google Drive folder with the Week 6 build.
+2. Download the archived build.
+3. Extract the archive to a local folder.
+4. Open the extracted folder.
+5. Run the game `.exe` file.
+
+Expected result: the Week 6 build starts and the reviewer can inspect the current trial / handover-candidate version of Card Duel Project.
 
 ## Customer-facing documentation review
 
@@ -117,29 +112,28 @@ Current documentation review status:
 
 ## Transition-readiness summary
 
-The Week 6 transition-readiness discussion should answer whether the product is ready for final transition after Week 7 follow-up work.
-
-Current transition-readiness status:
-
 | Question | Week 6 answer |
 |---|---|
-| Is the product complete enough for trial use? | TODO |
-| Which parts are ready? | TODO |
-| Which parts still need changes? | TODO |
-| Is the customer already using the product? | TODO |
-| Has the product been deployed or operated on the customer side? | TODO |
-| What must happen in Week 7? | TODO |
-| What would make the product more useful after final delivery? | TODO |
-
-Expected Week 7 follow-up work will be finalized after the Week 6 customer trial and transition-readiness meeting.
+| Is the product complete enough for trial use? | Yes, the Week 6 build is available for trial review through Google Drive. However, the product still needs Week 7 follow-up work before final MVP v3 delivery. |
+| Which parts are ready? | The updated game room, blackjack improvements, active card usage, split functionality, pause menu improvements, and additional puzzle-related models are available as Week 6 progress. |
+| Which parts still need changes? | Visual post-processing, gameplay camera view, fonts, in-game buttons, full game loop completion, and monster integration need follow-up work. |
+| Is the customer already using the product? | Not confirmed as independently used by the customer. The Week 6 evidence supports trial review and feedback collection. |
+| Has the product been deployed or operated on the customer side? | Not confirmed. The current access arrangement is a Google Drive build for trial review. |
+| What must happen in Week 7? | The team must process the Week 6 feedback, prioritize follow-up actions, complete or stabilize the game loop, update visual/UI elements where possible, update documentation, and prepare the final MVP v3 release. |
+| What would make the product more useful after final delivery? | Better visual polish, improved camera angle, clearer non-pixel UI fonts, more visual buttons, a complete gameplay cycle, and a monster to strengthen the atmosphere. |
 
 ## Customer feedback response table
 
 | Feedback point | Source | Response | Resulting issue or action | Status |
 |---|---|---|---|---|
-| TODO | Week 6 customer review / trial | TODO | TODO | TODO |
+| Add stronger post-processing | Week 6 customer review / trial | The customer wants the game to look more polished and atmospheric. | Week 7 follow-up action for post-processing and visual polish. | Planned for Week 7 |
+| Change or redesign the in-game camera view | Week 6 customer review / trial | The customer suggested changing the gameplay camera to a top-down view or redesigning the current camera angle. | Week 7 follow-up action for camera view redesign. | Planned for Week 7 |
+| Replace pixel-style fonts | Week 6 customer review / trial | The customer found the current fonts too pixel-like and requested a cleaner font style. | Week 7 follow-up action for UI font update. | Planned for Week 7 |
+| Redesign in-game buttons | Week 6 customer review / trial | The customer wants larger image-based buttons instead of mostly text-based buttons. | Week 7 follow-up action for in-game UI button redesign. | Planned for Week 7 |
+| Finish the game loop | Week 6 customer review / trial | The customer expects the final version to have a more complete gameplay cycle. | Week 7 follow-up action for completing and verifying the game loop. | Planned for Week 7 |
+| Add a monster | Week 6 customer review / trial | The customer requested a monster to strengthen the game atmosphere and final experience. | Week 7 follow-up action for adding or integrating a monster. | Planned for Week 7 |
 
-Feedback not addressed during Week 6 will be explained here and converted into Week 7 follow-up work where appropriate.
+The feedback above will be used to define the Week 7 follow-up scope. The team will prioritize the requests that are most important for final MVP v3 delivery and transition readiness.
 
 ## UAT / customer trial results
 
@@ -151,14 +145,14 @@ Week 6 customer trial / UAT summary:
 
 | Scenario or trial activity | Result | Notes |
 |---|---|---|
-| Customer accesses the Week 6 trial artifact | TODO | TODO |
-| Customer starts the product | TODO | TODO |
-| Customer reaches the updated game room | TODO | TODO |
-| Customer reaches the card-table interaction | TODO | TODO |
-| Customer observes the blackjack round flow | TODO | TODO |
-| Customer observes active card usage or split functionality | TODO | TODO |
-| Customer reviews the pause menu changes | TODO | TODO |
-| Customer reviews documentation for independent use | TODO | TODO |
+| Customer accesses the Week 6 trial artifact | Available for review | The Week 6 build is provided through Google Drive. |
+| Customer starts the product | Available for review | The reviewer should download the archive, extract it, and launch the `.exe` file. |
+| Customer reaches the updated game room | Available in Week 6 build | The room where the game takes place was updated during Sprint 4. |
+| Customer reaches the card-table interaction | Available for trial review | The card-duel flow can be inspected through the Week 6 build. |
+| Customer observes the blackjack round flow | Partially available / needs Week 7 follow-up | Blackjack was improved with active card usage and split functionality, but the full game loop still needs completion. |
+| Customer observes active card usage or split functionality | Available for trial review | Active card usage and split functionality were added to the blackjack system. |
+| Customer reviews the pause menu changes | Available for trial review | The pause menu now includes settings and save options. |
+| Customer reviews documentation for independent use | Reviewed during Week 6 | Documentation review contributed to transition-readiness discussion and Week 7 follow-up planning. |
 
 Failed scenarios or unclear behavior will be converted into follow-up issues or explicit Week 7 transition actions.
 
