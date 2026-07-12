@@ -6,6 +6,48 @@ The project follows a SemVer-based release workflow. Each public release is mapp
 
 ## [Unreleased]
 
+## [v0.3.0-week6-trial] - TODO: add release date
+
+### Added
+
+- Added Week 6 trial / handover-candidate release preparation for Assignment 6 Sprint 4.
+- Added customer handover guidance for the Week 6 trial stage.
+- Added public Week 6 report evidence structure under `reports/week6/`.
+- Added contributor and agent guidance through `CONTRIBUTING.md` and `AGENTS.md`.
+- Added additional puzzle-related 3D models for future gameplay expansion.
+
+### Changed
+
+- Updated the main game room where the card duel takes place.
+- Improved the blackjack system with active card usage.
+- Added split functionality to the blackjack system.
+- Improved the pause menu with settings and save options.
+- Updated the repository `README.md` as the main public entry point for customer and TA review.
+- Updated `docs/roadmap.md` to reflect the Week 6 trial release and expected Week 7 follow-up direction.
+
+### In progress
+
+- Started work on betting flow for blackjack rounds.
+- Started work on quota-related mechanics.
+
+These betting and quota-related mechanics are treated as work in progress during Week 6 and should not be presented as fully completed stable customer-facing functionality until verified by the implementation team.
+
+### Documentation
+
+- Added `docs/customer-handover.md` for Week 6 transition-readiness and trial handover guidance.
+- Added `reports/week6/README.md` as the canonical Week 6 public evidence index.
+- Added `reports/week6/sprint-review-summary.md`.
+- Added `reports/week6/sprint-review-notes.md`.
+- Added `reports/week6/reflection.md`.
+- Added `reports/week6/retrospective.md`.
+- Added `reports/week6/llm-report.md`.
+
+### Release notes
+
+- This release is intended as the Week 6 trial / handover-candidate release for Assignment 6.
+- This release is not the final MVP v3 release.
+- Final MVP v3 delivery and transition confirmation are planned for Week 7 after customer feedback and follow-up work.
+
 ### Added
 
 - Prepared architecture documentation and ADRs for Assignment 5.
