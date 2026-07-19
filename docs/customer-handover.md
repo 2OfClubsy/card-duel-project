@@ -6,27 +6,30 @@ It is intended for the customer, TA, and course reviewers who need to understand
 
 ## Current handover stage
 
-Current stage: Week 7 final delivery in progress
+Current stage: Week 7 final delivery
 
 Target final version: MVP v3
 
-Planned handover level:
+Reached handover level: Ready for independent use
 
-Ready for independent use
+Customer-confirmation status: Accepted with follow-up items
 
-Planned customer-confirmation status:
-
-Accepted with follow-up items
-
-These values must be confirmed during the Week 7 customer meeting. If the customer gives a different response, this document must be updated honestly.
+The customer confirmed that the demo works and accepted the reached handover state with follow-up items. The remaining follow-up is minor interface polishing before a stronger portfolio / itch.io-ready version.
 
 ## Product access
 
 ### Final Week 7 MVP v3 build
 
-TODO: add new Week 7 Google Drive build link after the final build is uploaded.
+Final MVP v3 product access folder:
 
-Expected build format:
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
+
+The folder contains:
+
+- final MVP v3 Windows build archive;
+- public sanitized demo video in `.mp4` format.
+
+Build format:
 
 - archived Windows build;
 - includes `.exe` file;
@@ -202,15 +205,12 @@ Main handover entry point: docs/customer-handover.md
 
 ## Known limitations at Week 7
 
-Current known limitations before final confirmation:
+Current known limitations:
 
-- final Week 7 build link is not added yet;
-- final public sanitized demo video link is not added yet;
-- final MVP v3 release is not created yet;
-- final customer confirmation is not recorded yet;
-- customer-side deployment or operation is not confirmed yet.
-
-Possible remaining product follow-up items must be updated after the Week 7 customer meeting.
+- customer-side deployment or operation is not confirmed;
+- post-processing was requested by the customer but removed from Week 7 scope;
+- minor interface polishing remains as a follow-up item;
+- the product is ready for independent review and course evaluation, but not claimed as a fully polished commercial release.
 
 ## Week 6 feedback response
 
@@ -225,24 +225,29 @@ Possible remaining product follow-up items must be updated after the Week 7 cust
 
 ## Final transition confirmation
 
-The Week 7 customer meeting is planned for:
+The Week 7 customer meeting was held on:
 
 2026-07-19 at 20:30
 
-Planned meeting evidence:
+Meeting evidence:
 
 - recording: yes;
 - note-taker: Sergey;
-- customer will watch the demo and try the final build.
+- customer reviewed the demo and confirmed that it works.
 
-During the meeting, the team must confirm:
+Final handover level:
 
-- whether the customer can access the final build;
-- whether the customer can run the product with the provided instructions;
-- whether the product is ready for independent use;
-- whether the customer accepts the current handover documentation;
-- whether the customer-confirmation status is Accepted, Accepted with follow-up items, or Not yet accepted;
-- what limitations or follow-up items remain.
+Ready for independent use
+
+Customer-confirmation status:
+
+Accepted with follow-up items
+
+Customer feedback summary:
+
+The customer confirmed that the demo works and gave confirmation for the reached handover state. The customer positively noted the updated font and improved atmosphere. The remaining follow-up item is minor interface polishing before a stronger itch.io / portfolio-ready version.
+
+END
 
 ## Support expectations
 

@@ -82,20 +82,25 @@ The Week 7 MVP v3 product increment includes the following changes:
 
 | Item | Link or status |
 |---|---|
-| Final MVP v3 product access artifact | TODO: add new Week 7 Google Drive build link |
-| Build format | New archived Windows build with `.exe` |
+| Final MVP v3 product access artifact | PASTE_GOOGLE_DRIVE_FOLDER_LINK_HERE |
+| Build format | Archived Windows build with `.exe` |
 | Current run or access instructions | Download the archive, extract it, open the extracted folder, and run the game `.exe` file. |
-| Final public sanitized demo video | TODO: add public sanitized demo video link after Sergey records and uploads it |
+| Final public sanitized demo video | https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link |
+
+The Google Drive folder contains:
+
+- final MVP v3 Windows build archive;
+- public sanitized demo video in `.mp4` format.
 
 The final product access artifact must remain accessible until grading is complete.
 
 ## Public sanitized demo video
 
-Status: TODO
+Public sanitized demo video:
 
-The public sanitized demo video will be recorded by Sergey / SergeyUse.
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
 
-The demo should show the final MVP v3 state, including:
+The demo video shows the final MVP v3 state, including:
 
 - main game menu;
 - main lobby;
@@ -105,13 +110,13 @@ The demo should show the final MVP v3 state, including:
 - quota system;
 - inventory and item usage;
 - environment interaction;
+- monster content;
 - music and sound settings;
 - changed fonts and visual buttons;
 - changed gameplay camera;
 - save and load system.
-- monster model and dialogue, if included in the final build;
 
-This video is different from the private rehearsed presentation video. It should be linked from this Week 7 report and from the final MVP v3 release.
+This video is different from the private customer meeting recording and from the private rehearsed presentation video.
 
 ## Repository documentation links
 
@@ -130,41 +135,42 @@ This video is different from the private rehearsed presentation video. It should
 
 ## Final transition outcome
 
-Planned handover level:
+Final handover level:
 
 Ready for independent use
 
-Planned customer-confirmation status:
+Customer-confirmation status:
 
 Accepted with follow-up items
 
-These values must be confirmed after the Week 7 customer meeting on 2026-07-19 at 20:30.
-
-If the customer confirms these values, this report and `docs/customer-handover.md` should state them as final. If the customer gives a different response, the final report should be updated honestly.
+The customer confirmed that the demo works and gave confirmation for the reached handover level. The customer also noted that the updated font and improved atmosphere are good, while minor interface polishing remains as a follow-up item.
 
 ## Week 7 customer meeting and Sprint Review
 
 | Field | Value |
 |---|---|
-| Planned meeting date | 2026-07-19 |
-| Planned meeting time | 20:30 |
+| Meeting date | 2026-07-19 |
+| Meeting time | 20:30 |
 | Recording | Yes |
 | Note-taker | Sergey |
-| Customer activity | The customer will watch the demo and also try the final build. |
+| Customer activity | The customer reviewed the demo and confirmed that it works. |
 
-The Week 7 meeting should cover final MVP v3, Week 6 feedback response, final product access, UAT, customer-facing documentation, transition status, and remaining follow-up items.
+The Week 7 meeting covered final MVP v3, Week 6 feedback response, final product access, UAT, customer-facing documentation, transition status, and remaining follow-up items.
 
 ## Transition summary
 
-Current planned transition state:
+Final transition state:
 
-- final MVP v3 will be provided as a downloadable Google Drive build;
-- the build will be distributed as an archive with a `.exe` file;
+- final MVP v3 is provided as a downloadable Google Drive build;
+- the build is distributed as an archive with a `.exe` file;
+- the same Google Drive folder also contains the public sanitized demo video;
 - run instructions are documented in README and `docs/customer-handover.md`;
 - the public repository contains Week 7 report, UAT, Sprint Review evidence, changelog, release, and handover documentation;
-- final customer confirmation will be collected during the Week 7 customer meeting.
+- the customer confirmed that the demo works;
+- the reached handover level is Ready for independent use;
+- the customer-confirmation status is Accepted with follow-up items.
 
-Final transition status must be updated after the Week 7 customer meeting.
+The remaining follow-up item is minor interface polishing before a stronger portfolio / itch.io-ready version.
 
 ## Remaining blockers and limitations
 
@@ -180,26 +186,24 @@ Expected product follow-up items after Week 7 may still exist if the customer ac
 
 ## Week 7 UAT / customer-trial results
 
-Status: TODO
+Week 7 UAT was completed during the final customer review.
 
-Week 7 UAT results will be updated after the final customer meeting and build testing.
+Summary:
 
-Expected UAT focus:
-
-- access final MVP v3 build;
-- start the product from `.exe`;
-- open main menu and lobby;
-- inspect the updated gameplay camera;
-- place a bet;
-- start gameplay with quota system;
-- interact with environment objects;
-- collect and use inventory items;
-- observe monster model and dialogue;
-- check music and sound effects;
-- adjust audio settings;
-- use save and load functionality;
-- review customer-facing documentation;
-- confirm final handover status.
+| Scenario | Result | Notes |
+|---|---|---|
+| Access final MVP v3 build | Passed | Final product access is provided through Google Drive. |
+| Run final MVP v3 build | Passed | The customer confirmed that the demo works. |
+| Main menu and lobby | Passed | Final demo includes main menu and lobby. |
+| Betting system | Passed | Betting system is included in MVP v3. |
+| Quota system | Passed | Quota system is included in MVP v3. |
+| Inventory and item usage | Passed | Inventory and item-based interaction are included. |
+| Interactive environment objects | Passed | Environment interaction was added. |
+| Monster content | Passed | Monster content was added to the final MVP v3 scope. |
+| Audio and settings | Passed | Music, sound effects, and adjustable settings are included. |
+| UI fonts, visual buttons, and camera view | Passed with follow-up | Fonts and buttons were improved and camera view was changed. Minor interface polishing remains. |
+| Save and load | Passed | Save and load functionality is included. |
+| Customer-facing documentation and handover | Accepted with follow-up items | Customer confirmed the demo works and left minor interface polish as follow-up. |
 
 Detailed UAT documentation:
 
@@ -262,19 +266,22 @@ Sprint 5 has been planned and Week 7 product work is in progress. The expected f
 
 ## Screenshot evidence
 
-Screenshots should be placed in:
+The following screenshots provide public Week 7 evidence for Sprint 5 planning, final product access, and review workflow.
 
-`reports/week7/images/`
+| Screenshot | Description |
+|---|---|
+| [Sprint 5 milestone](images/sprint-5-milestone.png) | Shows the Week 7 Sprint 5 milestone used for final MVP v3 planning. |
+| [Sprint 5 Project view](images/sprint-5-project-view.png) | Shows the Week 7 Project view used to track final evidence and delivery tasks. |
+| [Final product access folder](images/final-product-access-google-drive.png) | Shows the Google Drive folder containing the final MVP v3 build archive and demo video. |
+| [Reviewed Week 7 PR](images/reviewed-pr-week7-evidence.png) | Shows issue-linked Week 7 review workflow evidence. |
 
-Planned screenshots:
+Additional final gameplay evidence is provided through the public sanitized demo video in the final MVP v3 Google Drive product access folder.
 
-- Sprint 5 milestone;
-- Sprint 5 Project view;
-- final MVP v3 release;
-- final product access artifact / Google Drive build;
-- public sanitized demo video;
-- example reviewed issue-linked PR;
-- final updated game screenshot;
-- final transition or handover evidence if public-safe.
+## Remaining blockers and limitations
 
-TODO: embed final screenshots after they are added.
+Current remaining limitations:
+
+- customer-side deployment or operation is not confirmed;
+- post-processing was requested during Week 6 but removed from Week 7 scope;
+- minor interface polishing remains as a follow-up item after MVP v3;
+- the product is ready for independent review and course evaluation, but not claimed as a fully polished commercial release.
