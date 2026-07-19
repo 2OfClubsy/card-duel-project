@@ -540,3 +540,291 @@ The most important Week 7 follow-up areas are:
 
 The Week 6 build should therefore be treated as a trial / handover-candidate build, not as the final MVP v3 version.
 
+## Week 7 MVP v3 UAT Scenarios
+
+These scenarios are maintained for Assignment 6 Week 7 / Sprint 5 and focus on the final MVP v3 product state, final customer trial, and transition readiness.
+
+Private recording links, exact timecodes, customer-identifying details, credentials, and consent evidence are not included in this public file. Private evidence is submitted through Moodle where required.
+
+### Week 7 UAT context
+
+| Field | Value |
+|---|---|
+| Sprint | Sprint 5 — Assignment 6 Week 7 |
+| Target release | MVP v3 |
+| Planned customer meeting date | 2026-07-19 |
+| Planned customer meeting time | 20:30 |
+| Recording | Yes |
+| Note-taker | Sergey |
+| Customer activity | Customer will watch the demo and try the final build. |
+| Planned handover level | Ready for independent use |
+| Planned customer-confirmation status | Accepted with follow-up items |
+
+### UAT-07-01 — Access final MVP v3 build
+
+**Goal:** Verify that the customer or reviewer can access the final MVP v3 product artifact.
+
+**Preconditions:**
+
+- Final Week 7 Google Drive build link is available.
+- The build archive is shared with the required reviewer or customer access level.
+
+**Steps:**
+
+1. Open the final Week 7 build link.
+2. Download the archived build.
+3. Confirm that the archive is available and not blocked by permissions.
+
+**Expected result:**
+
+The customer or reviewer can access and download the final MVP v3 build.
+
+**Status:** TODO after final build upload.
+
+---
+
+### UAT-07-02 — Run final MVP v3 build
+
+**Goal:** Verify that the final build can be started using the documented instructions.
+
+**Preconditions:**
+
+- Final build archive was downloaded.
+- The archive was extracted.
+
+**Steps:**
+
+1. Open the extracted build folder.
+2. Run the game `.exe` file.
+3. Wait for the game to start.
+
+**Expected result:**
+
+The game starts successfully and shows the main menu or first playable screen.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-03 — Main menu and lobby
+
+**Goal:** Verify that the customer can reach the main lobby from the main menu.
+
+**Steps:**
+
+1. Start the final build.
+2. Use the main menu.
+3. Enter the main lobby.
+4. Inspect the 3D environment.
+
+**Expected result:**
+
+The player can move from the main menu into the main lobby and inspect the 3D game environment.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-04 — Betting system
+
+**Goal:** Verify that the player can place money before starting gameplay.
+
+**Steps:**
+
+1. Start a playable round.
+2. Open or reach the betting interaction.
+3. Place a bet.
+4. Continue to the card gameplay.
+
+**Expected result:**
+
+The player can place money before playing, and the game continues after the bet is placed.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-05 — Quota system
+
+**Goal:** Verify that the player receives or sees quota goals during gameplay.
+
+**Steps:**
+
+1. Start gameplay.
+2. Check whether quota goals are visible or understandable.
+3. Continue the round while observing quota-related progress.
+
+**Expected result:**
+
+The quota system gives the player goals that must be completed during gameplay.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-06 — Inventory and item usage
+
+**Goal:** Verify that the player can collect items and use them for puzzle-related interaction.
+
+**Steps:**
+
+1. Interact with an item in the environment.
+2. Collect the item.
+3. Open or inspect the inventory.
+4. Use the item in a relevant puzzle or interaction.
+
+**Expected result:**
+
+The collected item appears in inventory and can be used where the game expects item-based interaction.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-07 — Interactive environment objects
+
+**Goal:** Verify that environment objects require correct interaction instead of only playing simple animations.
+
+**Steps:**
+
+1. Approach an interactive environment object.
+2. Try to interact with it.
+3. Check whether the object responds to the correct interaction.
+
+**Expected result:**
+
+The environment object reacts to player interaction in a meaningful way.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-08 — Monster content
+
+**Goal:** Verify the final monster status in the MVP v3 build.
+
+**Steps:**
+
+1. Start the final build.
+2. Reach the part of the game where monster content should appear.
+3. Check whether the monster model is visible.
+4. Check whether monster dialogue or interaction is available.
+
+**Expected result:**
+
+Monster content is visible or otherwise confirmed in the final build if included in the completed MVP v3 scope.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-09 — Audio and settings
+
+**Goal:** Verify that music, sound effects, and audio settings work.
+
+**Steps:**
+
+1. Start the game.
+2. Listen for music and sound effects.
+3. Open settings.
+4. Adjust audio settings.
+
+**Expected result:**
+
+Music and sound effects are present, and the player can adjust audio settings.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-10 — UI fonts, visual buttons, and camera view
+
+**Goal:** Verify that customer UI feedback from Week 6 was addressed.
+
+**Steps:**
+
+1. Start the game.
+2. Inspect the updated fonts.
+3. Inspect in-game buttons.
+4. Start or enter gameplay.
+5. Inspect the changed gameplay camera view.
+
+**Expected result:**
+
+Fonts are changed from the earlier pixel-style version, buttons are more visual, and the gameplay camera view is updated.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-11 — Save and load
+
+**Goal:** Verify that saving and loading can be inspected in the final build.
+
+**Steps:**
+
+1. Start the game.
+2. Reach a state where saving is available.
+3. Save the game.
+4. Return to menu or reload the build.
+5. Load the saved game.
+
+**Expected result:**
+
+The game supports save and load behavior where implemented.
+
+**Status:** TODO after final build testing.
+
+---
+
+### UAT-07-12 — Customer-facing documentation and handover
+
+**Goal:** Verify that the customer can understand the final product access and handover instructions.
+
+**Steps:**
+
+1. Open `README.md`.
+2. Open `docs/customer-handover.md`.
+3. Check final build access instructions.
+4. Check run instructions.
+5. Check known limitations.
+6. Check final transition status.
+
+**Expected result:**
+
+The customer can understand how to access, run, and review the product. The handover document explains the actual final transition state and remaining limitations.
+
+**Status:** TODO after customer review.
+
+---
+
+## Week 7 UAT result summary
+
+Status: TODO after final customer meeting and final build testing.
+
+Current planned result summary:
+
+| Scenario | Result | Notes |
+|---|---|---|
+| UAT-07-01 — Access final MVP v3 build | TODO | Waiting for final build link. |
+| UAT-07-02 — Run final MVP v3 build | TODO | Waiting for final build testing. |
+| UAT-07-03 — Main menu and lobby | TODO | Waiting for final build testing. |
+| UAT-07-04 — Betting system | TODO | Waiting for final build testing. |
+| UAT-07-05 — Quota system | TODO | Waiting for final build testing. |
+| UAT-07-06 — Inventory and item usage | TODO | Waiting for final build testing. |
+| UAT-07-07 — Interactive environment objects | TODO | Waiting for final build testing. |
+| UAT-07-08 — Monster content | TODO | Waiting for final build testing. |
+| UAT-07-09 — Audio and settings | TODO | Waiting for final build testing. |
+| UAT-07-10 — UI fonts, visual buttons, and camera view | TODO | Waiting for final build testing. |
+| UAT-07-11 — Save and load | TODO | Waiting for final build testing. |
+| UAT-07-12 — Customer-facing documentation and handover | TODO | Waiting for customer review. |
+
+### Week 7 feedback handling
+
+Post-processing was requested during Week 6, but it was removed from the Week 7 implementation scope. It remains a known limitation / possible future improvement rather than a final MVP v3 feature.
+
+Monster content is being added for Week 7 and must be confirmed after final build testing.
+
+### Public/private evidence note
+
+The public UAT summary does not include private recordings, exact timecodes, customer-identifying details, credentials, or consent evidence.
