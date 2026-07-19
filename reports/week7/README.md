@@ -60,23 +60,19 @@ The Week 6 report contains Sprint 4 trial-release evidence, customer feedback, t
 | Finish the full game loop | The final game loop is part of the MVP v3 completion work. |
 | Add a monster | Monster content is being added for Week 7. Final status must be confirmed after the final build is tested. |
 
-## Final MVP v3 product changes
+## Final MVP v3 release
 
-The Week 7 MVP v3 product increment includes the following changes:
+| Item | Link or status |
+|---|---|
+| Final SemVer release | https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.4.0-mvp-v3 |
+| Release tag | `v0.4.0-mvp-v3` |
+| Changelog | [../../CHANGELOG.md](../../CHANGELOG.md) |
+| Sprint 5 milestone | https://github.com/2OfClubsy/card-duel-project/milestone/6 |
+| Final MVP v3 product access folder | https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link |
 
-- working betting system: the player can place money before playing;
-- working quota system that gives the player goals to complete during gameplay;
-- inventory system for collected items;
-- usable inventory items for puzzle-solving;
-- interactive environment objects that require correct interaction instead of only playing simple animations;
-- monster dialogue and interaction with the player;
-- monster model;
-- music and sound effects;
-- adjustable audio settings;
-- changed fonts;
-- more visual in-game buttons;
-- changed camera view during gameplay;
-- saving and loading system.
+The final release has higher SemVer precedence than `v0.3.0-week6-trial` and identifies that it maps to MVP v3.
+
+The release links the final MVP v3 build archive, public sanitized demo video, Week 7 report, customer handover guide, UAT documentation, changelog, and Sprint 5 planning evidence.
 
 ## Final product access
 

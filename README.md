@@ -10,17 +10,21 @@ The project follows a Sprint-based maintained-product model with public document
 
 The current stage is:
 
-```text
-Assignment 6 Week 7 — Sprint 5
-```
+Assignment 6 Week 7 — Sprint 5 completed
 
-The current target release is:
+The final target release is:
 
-```text
 MVP v3
-```
 
-Sprint 5 focuses on:
+Final handover level:
+
+Ready for independent use
+
+Customer-confirmation status:
+
+Accepted with follow-up items
+
+Sprint 5 focused on:
 
 - responding to Week 6 customer feedback;
 - completing the final MVP v3 product increment;
@@ -31,31 +35,30 @@ Sprint 5 focuses on:
 - preparing the Week 7 public report and Moodle submission evidence;
 - preparing Demo Day materials and public sanitized demo video.
 
-Planned handover level:
-
-```text
-Ready for independent use
-```
-
-Planned customer-confirmation status:
-
-```text
-Accepted with follow-up items
-```
-
-These values must be confirmed during the Week 7 customer meeting. If the customer gives a different response, the Week 7 report and customer handover guide must be updated honestly.
+The customer confirmed that the demo works. The customer positively noted the updated font and improved atmosphere. The remaining follow-up item is minor interface polishing before a stronger itch.io / portfolio-ready version.
 
 ## Current product access
 
 ### Week 7 final MVP v3 build
 
-TODO: add new Week 7 Google Drive build link after the final build is uploaded.
+Final MVP v3 product access folder:
 
-Expected build format:
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
+
+The folder contains:
+
+- final MVP v3 Windows build archive;
+- public sanitized demo video in `.mp4` format.
+
+Build format:
 
 - archived Windows build;
 - includes `.exe` file;
-- reviewer downloads the archive, extracts it, and runs the `.exe` file.
+- reviewer downloads the archive, extracts it, and runs the game `.exe` file.
+
+### Final MVP v3 GitHub release
+
+https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.4.0-mvp-v3
 
 ### Week 6 trial build
 
@@ -130,17 +133,21 @@ Expected result: the Godot editor opens the Card Duel Project source, including 
 
 ### Final Week 7 MVP v3 build
 
-TODO: add final Week 7 build link after the build is uploaded.
+Final MVP v3 product access folder:
 
-Expected public-safe run instructions:
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
 
-1. Open the Week 7 Google Drive build folder.
-2. Download the archived build.
+Run instructions:
+
+1. Open the Google Drive product access folder.
+2. Download the final MVP v3 build archive.
 3. Extract the archive to a local folder.
 4. Open the extracted folder.
 5. Run the game `.exe` file.
 
 Expected result: the final MVP v3 build starts and the reviewer can inspect the final product state.
+
+The same Google Drive folder also contains the public sanitized demo video.
 
 ### Week 6 trial build
 
@@ -220,7 +227,8 @@ The Week 7 report is the final Assignment 6 public submission index. It links th
 | Sprint 5 Backlog view | https://github.com/users/2OfClubsy/projects/1/views/7 |
 | Sprint 5 milestone | https://github.com/2OfClubsy/card-duel-project/milestone/6 |
 | Week 6 release | https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.3.0-week6-trial |
-| Final MVP v3 release | TODO: add final release link after `v0.4.0-mvp-v3` is created |
+| Final MVP v3 release | https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.4.0-mvp-v3 |
+| Final MVP v3 product access folder | https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link |
 
 ## Historical builds and increments
 
@@ -273,35 +281,36 @@ User-visible changes are tracked in:
 - [CHANGELOG.md](CHANGELOG.md)
 - [GitHub releases](https://github.com/2OfClubsy/card-duel-project/releases)
 
-Current planned final release tag:
+Current final release tag:
 
-```text
 v0.4.0-mvp-v3
-```
 
-The final MVP v3 release will be linked here after it is created from `main`.
+Final MVP v3 release:
+
+https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.4.0-mvp-v3
+
+Final MVP v3 product access folder:
+
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
+
 
 ## Current handover status
 
 The current handover status is:
 
-```text
-Week 7 final delivery in progress
-```
+Week 7 final delivery completed
 
-Target handover level:
+Final handover level:
 
-```text
 Ready for independent use
-```
 
-Target customer-confirmation status:
+Final customer-confirmation status:
 
-```text
 Accepted with follow-up items
-```
 
-The final handover level and customer-confirmation status will be confirmed during the Week 7 customer meeting and documented in:
+The customer confirmed that the demo works and accepted the reached handover state with follow-up items. The remaining follow-up item is minor interface polishing before a stronger itch.io / portfolio-ready version.
+
+The final handover level and customer-confirmation status are documented in:
 
 - [docs/customer-handover.md](docs/customer-handover.md)
 - [reports/week7/README.md](reports/week7/README.md)

@@ -6,6 +6,76 @@ The project follows a SemVer-based release workflow. Each public release is mapp
 
 ## [Unreleased]
 
+## [v0.4.0-mvp-v3] - 2026-07-19
+
+### Added
+
+- Added final MVP v3 build access for Assignment 6 Week 7 / Sprint 5.
+- Added public sanitized demo video evidence for MVP v3.
+- Added working betting system before gameplay.
+- Added quota system for gameplay goals.
+- Added inventory system for collected items.
+- Added item usage for puzzle-related interaction.
+- Added interactive environment object behavior.
+- Added monster content for the final MVP v3 scope.
+- Added music and sound effects.
+- Added adjustable audio settings.
+- Added save and load functionality.
+- Added final Week 7 UAT result summary.
+- Added final Sprint Review and transition evidence.
+- Added final customer confirmation evidence summary.
+- Added minimal Week 7 screenshot evidence.
+
+### Changed
+
+- Changed gameplay camera view.
+- Changed fonts for better readability.
+- Improved in-game buttons with more visual presentation.
+- Improved atmosphere and final product presentation.
+- Updated the root `README.md` for final Week 7 / MVP v3 status.
+- Updated `docs/customer-handover.md` with final transition status.
+- Updated `docs/user-acceptance-tests.md` with final Week 7 UAT results.
+- Updated `reports/week7/README.md` as the final Assignment 6 public submission index.
+- Updated Week 7 Sprint Review summary and notes.
+- Updated Week 7 reflection, retrospective, and LLM usage report.
+- Added final MVP v3 GitHub release link to public documentation.
+
+### Customer confirmation
+
+The customer confirmed that the demo works and accepted the reached handover state with follow-up items.
+
+The customer positively noted that the font was updated and the atmosphere was improved.
+
+The remaining follow-up item is minor interface polishing before a stronger itch.io / portfolio-ready version.
+
+### Handover
+
+- Final handover level: Ready for independent use.
+- Customer-confirmation status: Accepted with follow-up items.
+- Remaining follow-up: minor interface polishing.
+
+### Product access
+
+Final MVP v3 product access folder:
+
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
+
+The folder contains:
+
+- final MVP v3 Windows build archive;
+- public sanitized demo video in `.mp4` format.
+
+### Release link
+
+Final MVP v3 GitHub release:
+
+https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.4.0-mvp-v3
+
+### Not included
+
+- Post-processing was requested during Week 6 but removed from Week 7 scope. It remains a possible future improvement.
+- Customer-side deployment or operation is not confirmed.
+
 ## [v0.3.0-week6-trial] - 2026-07-12
 
 ### Added
