@@ -11,16 +11,17 @@ Sprint 5 — Assignment 6 Week 7
 - The product received important final features such as betting, quota system, inventory, interactive environment, monster content, audio, UI changes, camera changes, and save/load functionality.
 - Documentation and evidence work was kept separate from implementation work.
 - Public and private evidence rules were followed.
+- PRs were separated more carefully so that one PR does not close several unrelated issues at once.
 
 ## What did not go well
 
-TODO: update after the Week 7 Sprint Review.
-
-Possible points:
+Current points before final Sprint Review:
 
 - final build and final demo video links were not available at the start of documentation work;
 - some final evidence depends on work that can only be completed after the customer meeting;
-- the presentation needed more rehearsal and less reading from the script.
+- the presentation needed more rehearsal and less reading from the script;
+- post-processing was requested by the customer but removed from Week 7 scope;
+- final transition status cannot be finalized before customer confirmation.
 
 ## What we learned
 
@@ -29,6 +30,8 @@ Possible points:
 - A trial release is useful because it reveals what must be fixed before final MVP delivery.
 - Handover documentation should describe the actual current state, not an ideal future state.
 - Presentation quality depends on rehearsal, timing, and clear links.
+- Smaller issue-focused PRs are easier to review and better match the repository workflow.
+- Public evidence and private evidence must be separated from the beginning, not only at the end.
 
 ## Action items
 
@@ -41,10 +44,14 @@ Possible points:
 | Confirm final handover status with customer | Whole team | Planned |
 | Create final MVP v3 GitHub release | Arthur | Planned |
 | Complete Week 7 Moodle PDF | Arthur | Planned |
+| Keep PRs focused on one issue where possible | Arthur / reviewers | In progress |
+| Update final UAT results after customer meeting | Arthur / Sergey | Planned |
 
 ## Team process reflection
 
-The team divided Week 7 work between implementation and GitHub/evidence tasks. Maria, Sergey, and Andrei focused on product work, while Arthur and Danil focused on GitHub, documentation, reports, release evidence, and Moodle submission support.
+The team divided Week 7 work between implementation and GitHub/evidence tasks.
+
+Maria, Sergey, and Andrei focused on product work. Arthur and Danil focused on GitHub, documentation, reports, release evidence, review support, and Moodle submission materials.
 
 This separation helped the team work in parallel, but it also made final documentation dependent on receiving the final build, demo video, and customer confirmation on time.
 
