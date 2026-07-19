@@ -43,11 +43,11 @@ The Week 6 report contains Sprint 4 trial-release evidence, customer feedback, t
 
 | Issue | Title | Story Points | Implementer | Reviewer | Status |
 |---|---|---:|---|---|---|
-| #107 | Finalize Week 7 public report and final evidence index | 3 | Arthur | Danil | In progress |
-| #108 | Update final handover documentation and repository entry point | 3 | Arthur | Maria | Planned |
-| #109 | Update Week 7 UAT, Sprint Review, reflection, retrospective, and LLM evidence | 3 | Arthur | Danil | Planned |
-| #110 | Prepare final MVP v3 release, changelog, and demo evidence | 2 | Arthur | Sergey | Planned |
-| #111 | Prepare Week 7 Moodle PDF and updated presentation evidence | 1 | Arthur | Danil | Planned |
+| #107 | Finalize Week 7 public report and final evidence index | 3 | Arthur | Danil | Done |
+| #108 | Update final handover documentation and repository entry point | 3 | Arthur | Danil | Done |
+| #109 | Update Week 7 UAT, Sprint Review, reflection, retrospective, and LLM evidence | 3 | Arthur | Danil | Done |
+| #110 | Prepare final MVP v3 release, changelog, and demo evidence | 2 | Arthur | Danil | Done |
+| #111 | Prepare Week 7 Moodle PDF and updated presentation evidence | 1 | Arthur | Danil | Done |
 
 ## Week 6 feedback and Week 7 response
 
