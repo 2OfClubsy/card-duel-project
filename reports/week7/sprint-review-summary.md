@@ -76,12 +76,12 @@ This section must be updated after the final build is tested and reviewed with t
 
 | Week 6 feedback | Week 7 result | Status |
 |---|---|---|
-| Add stronger post-processing | TODO: confirm final implementation state | TODO |
+| Add stronger post-processing | Not implemented. The team removed post-processing from the Week 7 implementation scope. | Not addressed / future improvement |
 | Redesign gameplay camera | Gameplay camera view was changed. | In progress / to be confirmed |
 | Replace pixel-style fonts | Fonts were changed. | In progress / to be confirmed |
 | Redesign in-game buttons | More visual buttons were added. | In progress / to be confirmed |
 | Finish full game loop | Final game loop is part of Week 7 MVP v3 work. | In progress / to be confirmed |
-| Add monster | Monster model and dialogue/interaction were added. | In progress / to be confirmed |
+| Add monster | Monster content is being added. Final status must be confirmed after final build testing. | In progress / to be confirmed |
 
 ## Final transition status
 
