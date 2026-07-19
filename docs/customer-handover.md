@@ -216,12 +216,12 @@ Possible remaining product follow-up items must be updated after the Week 7 cust
 
 | Week 6 feedback | Week 7 response |
 |---|---|
-| Add stronger post-processing | Visual polish and atmosphere improvements are part of Week 7 work where feasible. |
+| Add stronger post-processing | Not implemented in Week 7. The team removed post-processing from Sprint 5 scope and keeps it as a remaining limitation / possible future improvement. |
 | Change or redesign gameplay camera | Gameplay camera view was changed. |
 | Replace pixel-style fonts | Fonts were changed. |
 | Redesign in-game buttons | More visual buttons were added. |
 | Finish the full game loop | Final game loop is part of MVP v3 completion work. |
-| Add a monster | Monster model and monster dialogue/interaction were added. |
+| Add a monster | Monster content is being added for Week 7. Final status must be confirmed after the final build is tested. |
 
 ## Final transition confirmation
 
