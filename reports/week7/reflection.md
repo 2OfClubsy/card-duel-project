@@ -20,51 +20,85 @@ The team planned to:
 
 The Week 6 customer feedback helped the team understand that the final version needed not only more features, but also clearer presentation, better UI, better camera, and stronger atmosphere.
 
-The most important follow-up areas were gameplay completion, camera view, fonts, visual buttons, and monster integration.
+The team converted customer feedback into concrete Week 7 follow-up areas:
+
+- camera changes;
+- font changes;
+- visual buttons;
+- full game loop work;
+- monster content;
+- final build access;
+- final handover documentation.
+
+Post-processing was requested during Week 6, but it was removed from the Week 7 implementation scope. The team decided to prioritize gameplay, UI clarity, interaction, monster content, audio, and final delivery evidence.
 
 ## What we learned from final transition work
 
-TODO: update after final customer confirmation.
+Final transition work showed that delivery is not only about uploading a build.
 
-Expected point to cover:
+The product also needs:
 
-The team learned that final delivery is not only about uploading a build. It also requires clear run instructions, handover documentation, release evidence, UAT results, and confirmation of what the customer can actually do with the product.
+- clear run instructions;
+- customer-facing documentation;
+- release evidence;
+- UAT results;
+- final customer confirmation;
+- explicit handover status;
+- public/private evidence separation.
+
+The planned handover level is Ready for independent use, but it must be confirmed with the customer during the Week 7 meeting.
 
 ## What we learned from customer usefulness feedback
 
 TODO: update after the Week 7 customer meeting.
 
+Expected points to discuss:
+
+- whether the final build is understandable;
+- whether the customer can run it with the provided instructions;
+- whether the changed camera, fonts, buttons, and monster content improve the product;
+- which follow-up items remain after MVP v3.
+
 ## What we learned from final delivery of MVP v3
 
 TODO: update after final build and release.
 
+Expected points to discuss:
+
+- what was completed in the final build;
+- what was not completed;
+- what had to be changed from the original Week 7 plan;
+- how final product access and release evidence were prepared.
+
 ## What worked well
 
 - The team converted Week 6 feedback into clear Week 7 follow-up tasks.
-- The product direction became clearer after the customer asked for camera, UI, atmosphere, and gameplay improvements.
+- The product direction became clearer after the customer asked for camera, UI, gameplay, and monster improvements.
 - GitHub issues, milestones, reports, and release evidence helped keep the work traceable.
 - The team separated public evidence from private evidence.
+- Documentation work and implementation work were handled in parallel.
+- PRs were separated by issue more carefully after receiving feedback about large PRs.
 
 ## What did not work well
 
-TODO: update after final Sprint Review.
+Current points before final review:
 
-Possible points:
-
-- some product work depended on late final build preparation;
-- final links could only be added after build, demo video, and release were created;
-- presentation rehearsal needed improvement to reduce reading from a written script.
+- final build and final demo video links were not available at the start of documentation work;
+- some final evidence depends on work that can only be completed after the customer meeting;
+- presentation rehearsal needed improvement to reduce reading from a written script;
+- post-processing had to be removed from the Week 7 scope;
+- final report sections still depend on final build testing and customer confirmation.
 
 ## What we would do differently
 
-TODO: update after retrospective.
-
-Possible points:
+Current points before final retrospective:
 
 - start final demo video preparation earlier;
 - prepare QR codes earlier;
 - rehearse the presentation more before the lab;
-- confirm customer transition status earlier.
+- confirm final scope changes earlier;
+- separate final evidence PRs by issue earlier to avoid large PRs that close multiple issues at once;
+- prepare final product access evidence earlier.
 
 ## Public/private evidence note
 
