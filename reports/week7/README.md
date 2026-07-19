@@ -266,22 +266,16 @@ Sprint 5 has been planned and Week 7 product work is in progress. The expected f
 
 ## Screenshot evidence
 
-Screenshots should be placed in:
+The following screenshots provide public Week 7 evidence for Sprint 5 planning, final product access, demo evidence, review workflow, and final MVP v3 gameplay.
 
-`reports/week7/images/`
-
-Planned screenshots:
-
-- Sprint 5 milestone;
-- Sprint 5 Project view;
-- final MVP v3 release;
-- final product access artifact / Google Drive build;
-- public sanitized demo video;
-- example reviewed issue-linked PR;
-- final updated game screenshot;
-- final transition or handover evidence if public-safe.
-
-TODO: embed final screenshots after they are added.
+| Screenshot | Description |
+|---|---|
+| [Sprint 5 milestone](images/sprint-5-milestone.png) | Shows the Week 7 Sprint 5 milestone used for final MVP v3 planning. |
+| [Sprint 5 Project view](images/sprint-5-project-view.png) | Shows the Week 7 Project view used to track final evidence and delivery tasks. |
+| [Final product access folder](images/final-product-access-google-drive.png) | Shows the Google Drive folder containing the final MVP v3 build archive and demo video. |
+| [Public demo video evidence](images/public-demo-video.png) | Shows the public sanitized demo video prepared for MVP v3. |
+| [Reviewed Week 7 PR](images/reviewed-pr-week7-evidence.png) | Shows issue-linked Week 7 review workflow evidence. |
+| [Final gameplay main menu](images/final-gameplay-main-menu.png) | Shows the final MVP v3 main menu. |
 
 ## Remaining blockers and limitations
 
