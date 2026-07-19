@@ -1,101 +1,86 @@
 # Customer Handover Guide
 
-This document describes the current actual handover state of Card Duel Project for Assignment 6 Week 6. It is intended for the customer, TA, and course reviewers who need to understand how the current trial / handover-candidate version can be accessed, reviewed, and maintained.
+This document describes the current actual handover state of Card Duel Project for Assignment 6 Week 7.
+
+It is intended for the customer, TA, and course reviewers who need to understand how the current product can be accessed, reviewed, and maintained.
 
 ## Current handover stage
 
-Current stage: Week 6 trial / handover-candidate
+Current stage: Week 7 final delivery in progress
 
-The product is not yet marked as the final course version. The Week 6 goal is to provide a stable trial version, review the customer-facing documentation, discuss transition readiness, and identify follow-up work for Week 7.
+Target final version: MVP v3
 
-The final handover level will be confirmed in Week 7 as one of:
+Planned handover level:
 
-- Ready for independent use
-- Independently used by customer
-- Deployed or operated on customer side
+Ready for independent use
 
-The final customer-confirmation status will also be confirmed in Week 7 as one of:
+Planned customer-confirmation status:
 
-- Accepted
-- Accepted with follow-up items
-- Not yet accepted
+Accepted with follow-up items
+
+These values must be confirmed during the Week 7 customer meeting. If the customer gives a different response, this document must be updated honestly.
 
 ## Product access
 
-Current Week 6 product access artifact:
+### Final Week 7 MVP v3 build
+
+TODO: add new Week 7 Google Drive build link after the final build is uploaded.
+
+Expected build format:
+
+- archived Windows build;
+- includes `.exe` file;
+- reviewer downloads the archive, extracts it, and runs the `.exe` file.
+
+### Week 6 trial build
+
+Week 6 trial / handover-candidate build:
 
 https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing
 
-Current source repository:
+Week 6 release:
+
+https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.3.0-week6-trial
+
+### Source repository
 
 https://github.com/2OfClubsy/card-duel-project
 
-Hosted documentation site:
+### Hosted documentation site
 
 https://2ofclubsy.github.io/card-duel-project/
 
-The public repository should not contain private credentials, private recordings, exact private access instructions, customer-identifying evidence, private consent evidence, or private timecodes. If such information is needed for grading, it is provided through the private Moodle PDF submission.
+## What is currently available in MVP v3
 
-## What is currently available
+The expected final Week 7 / MVP v3 product includes:
 
-The current product version is a Godot-based 3D card-duel prototype. The current gameplay direction includes:
+- working betting system where the player can place money before playing;
+- working quota system with goals that must be completed during gameplay;
+- inventory system for collected items;
+- item usage for puzzle-solving;
+- interactive environment objects that require correct interaction;
+- monster model;
+- monster dialogue and player interaction;
+- music and sound effects;
+- adjustable audio settings;
+- changed fonts;
+- more visual in-game buttons;
+- changed gameplay camera view;
+- saving and loading system.
 
-- updated 3D room where the card duel takes place;
-- 3D lobby and card-table interaction;
-- blackjack-inspired duel flow;
-- random initial card dealing;
-- score calculation when drawing cards;
-- active card usage during blackjack rounds;
-- split functionality in the blackjack system;
-- bust / loss detection when the player exceeds 21;
-- pass / end-turn behavior;
-- dealer turn after the player passes;
-- win/loss result resolution;
-- new round / restart behavior after a game ends;
-- improved pause menu with settings and save options;
-- additional puzzle-related 3D models for future gameplay expansion.
+This section must be checked again after the final build is tested.
 
-Betting flow and quota-related mechanics are currently treated as work in progress. They should be verified before being presented as stable customer-facing functionality.
+## Run instructions
 
-## Maintained documentation
+### Run the final Week 7 build
 
-The current maintained documentation set includes:
+1. Open the final Week 7 Google Drive build folder.
+2. Download the archived build.
+3. Extract the archive to a local folder.
+4. Open the extracted folder.
+5. Run the game `.exe` file.
 
-- [README.md](../README.md) — public repository entry point
-- [Roadmap](roadmap.md) — product direction and current Sprint direction
-- [Testing documentation](testing.md) — verification approach
-- [User acceptance tests](user-acceptance-tests.md) — customer-facing UAT scenarios
-- [Quality requirements](quality-requirements.md) — maintained quality requirements
-- [Quality requirement tests](quality-requirement-tests.md) — quality verification
-- [Definition of Done](definition-of-done.md) — completion expectations
-- [Development process](development-process.md) — workflow and process notes
-- [Architecture documentation](architecture/README.md) — static, dynamic, and deployment views
-
-## Ownership and access arrangements
-
-Current repository ownership:
-
-The repository is currently retained and maintained by the student team through the GitHub repository owner.
-
-Current customer access arrangement:
-
-The customer receives access to the Week 6 trial product artifact and public documentation links for review.
-
-Current deployment / operation arrangement:
-
-The Week 6 trial version is provided as a downloadable archived build through Google Drive. The reviewer should download the archive, extract it to a local folder, and run the game `.exe` file.
-
-The product is not confirmed as deployed or operated on the customer side during Week 6. The current arrangement supports trial review and feedback collection before Week 7 follow-up work.
-
-Current transition scope:
-
-- The team maintains the GitHub repository during Assignment 6.
-- The customer can review the public repository documentation.
-- The customer can try the Week 6 trial artifact through the Google Drive build.
-- Week 6 feedback will be converted into follow-up work for Week 7.
-- Final transition status will be confirmed after Week 7 follow-up work.
-
-## Setup and run instructions
+Expected result: the final MVP v3 build starts and the reviewer can inspect the final product state.
 
 ### Run from source
 
@@ -112,20 +97,42 @@ Steps:
 
 Expected result: the project opens in Godot and the current Card Duel prototype can be run from the editor.
 
-### Run the Week 6 trial build
+## Maintained documentation
 
-1. Open the Week 6 Google Drive folder:
+| Document | Purpose |
+|---|---|
+| [README.md](../README.md) | Main public entry point for repository visitors. |
+| [Roadmap](roadmap.md) | Current course outcome, Sprint 5 direction, and MVP v3 state. |
+| [User acceptance tests](user-acceptance-tests.md) | UAT scenarios and result summaries. |
+| [Testing documentation](testing.md) | Verification approach. |
+| [Quality requirements](quality-requirements.md) | Maintained quality requirements. |
+| [Quality requirement tests](quality-requirement-tests.md) | Quality verification documentation. |
+| [Definition of Done](definition-of-done.md) | Completion expectations. |
+| [Development process](development-process.md) | Workflow and process notes. |
+| [Architecture documentation](architecture/README.md) | Static, dynamic, and deployment architecture views. |
 
-   https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing
+## Ownership and access arrangements
 
-2. Download the archived build.
-3. Extract the archive to a local folder.
-4. Open the extracted folder.
-5. Run the game `.exe` file.
+Current repository ownership:
 
-Expected result: the Week 6 trial / handover-candidate build starts and the reviewer can inspect the current product state.
+The repository is currently retained and maintained by the student team through the GitHub repository owner.
 
-Do not publish private credentials or restricted access instructions in this file. If limited-permission access details are needed, place them only in the private Moodle PDF.
+Current customer access arrangement:
+
+The customer receives access to the final Week 7 MVP v3 build through a Google Drive artifact and to public documentation through the GitHub repository and hosted documentation site.
+
+Current deployment / operation arrangement:
+
+The product is provided as a downloadable archived Windows build with an `.exe` file. It is not currently confirmed as deployed or operated on the customer side.
+
+Current transition scope:
+
+- The team provides the final MVP v3 build artifact.
+- The team provides public repository documentation.
+- The team provides the customer handover guide.
+- The customer can download, extract, and run the build independently.
+- Final customer confirmation will be collected during the Week 7 meeting.
+- Stronger transition levels must be claimed only if supported by actual customer evidence.
 
 ## Configuration and secrets handling
 
@@ -139,42 +146,51 @@ The current public repository must not contain:
 - private access credentials;
 - private consent evidence.
 
-If future deployment or external services require environment variables or secrets, they must be documented by name and purpose only, without exposing their values.
-
 Current known public configuration notes:
 
 No public secret values are required for running the Godot source project from the repository.
 
+If future deployment or external services require environment variables or secrets, they must be documented by name and purpose only, without exposing their values.
+
 ## Verification steps
 
-Before sending a trial or handover-candidate version to the customer, the team should verify:
+Before final submission, the team should verify:
 
-1. The project opens in Godot 4.6.stable.
-2. The main scene runs without immediate blocking errors.
-3. The player can reach the updated game room.
-4. The player can reach the card-table interaction.
-5. Initial cards are dealt.
-6. Drawing cards updates the score.
-7. Active card usage can be inspected or demonstrated.
-8. Split functionality can be inspected or demonstrated.
-9. Bust / loss behavior works when the player exceeds 21.
-10. Pass / end-turn behavior starts the dealer turn.
-11. The round result is shown or resolved.
-12. A new round can be started after the previous round ends where available.
-13. The pause menu opens and shows settings and save options.
-14. Public documentation links are accessible.
+1. The final build link is accessible.
+2. The build archive can be downloaded.
+3. The archive can be extracted.
+4. The `.exe` file starts the game.
+5. The main menu opens.
+6. The main lobby is visible.
+7. The updated gameplay camera is visible.
+8. The player can place a bet.
+9. The quota system is visible or understandable.
+10. The player can collect items.
+11. Inventory is visible.
+12. Inventory items can be used for puzzle-solving where implemented.
+13. Environment objects require interaction where implemented.
+14. Monster model is visible.
+15. Monster dialogue or interaction is visible.
+16. Music and sound effects work.
+17. Audio settings can be adjusted.
+18. Fonts are changed from the previous pixel-style version.
+19. In-game buttons are more visual.
+20. Save and load functionality can be inspected.
+21. Public documentation links are accessible.
+22. Week 7 report links final evidence.
+23. Final release links the build, report, handover guide, and demo video.
 
 ## Troubleshooting
+
+### The build does not start
+
+Check that the downloaded build archive was fully extracted before running the executable. Do not run the executable directly from inside an archive.
 
 ### The project does not open in Godot
 
 Check that the selected file is `game/project.godot`.
 
 Also check that the Godot version is compatible with the required editor version listed in this guide.
-
-### The build does not start
-
-Check that the downloaded build archive was fully extracted before running the executable. Do not run the executable directly from inside an archive.
 
 ### The documentation link does not open
 
@@ -184,86 +200,64 @@ Main repository documentation entry point: README.md
 
 Main handover entry point: docs/customer-handover.md
 
-## Known limitations at Week 6
+## Known limitations at Week 7
 
-Current known limitations:
+Current known limitations before final confirmation:
 
-- Final customer confirmation is not completed yet.
-- Final MVP v3 release is not created yet.
-- Final public sanitized demo video is planned for Week 7.
-- Week 6 customer feedback may still result in product, documentation, access, or handover follow-up work.
-- Betting flow and quota-related mechanics are currently in progress and should be verified before being presented as stable customer-facing functionality.
-- Visual post-processing needs improvement based on customer feedback.
-- The gameplay camera view still needs redesign or improvement. The customer suggested a top-down view or another camera redesign.
-- Current fonts should be replaced with cleaner non-pixel fonts.
-- In-game buttons should be redesigned to use larger image-based UI elements instead of mostly text.
-- The full game loop still needs completion and verification.
-- Monster integration was requested by the customer and is planned as Week 7 follow-up work.
+- final Week 7 build link is not added yet;
+- final public sanitized demo video link is not added yet;
+- final MVP v3 release is not created yet;
+- final customer confirmation is not recorded yet;
+- customer-side deployment or operation is not confirmed yet.
 
-## Week 6 customer feedback and follow-up
+Possible remaining product follow-up items must be updated after the Week 7 customer meeting.
 
-During the Week 6 customer review, the customer provided concrete feedback for Week 7 follow-up work.
+## Week 6 feedback response
 
-Customer feedback:
-
-| Feedback point | Follow-up direction |
+| Week 6 feedback | Week 7 response |
 |---|---|
-| Add stronger post-processing | Improve visual polish and atmosphere for the final MVP v3 version. |
-| Change or redesign the gameplay camera view | Investigate a top-down camera view or another improved gameplay camera angle. |
-| Replace pixel-style fonts | Use cleaner non-pixel fonts for better readability. |
-| Redesign in-game buttons | Make buttons more visual and image-based instead of mostly text-based. |
-| Finish the game loop | Complete and verify the final gameplay cycle. |
-| Add a monster | Add or integrate a monster to strengthen the atmosphere and final experience. |
+| Add stronger post-processing | Visual polish and atmosphere improvements are part of Week 7 work where feasible. |
+| Change or redesign gameplay camera | Gameplay camera view was changed. |
+| Replace pixel-style fonts | Fonts were changed. |
+| Redesign in-game buttons | More visual buttons were added. |
+| Finish the full game loop | Final game loop is part of MVP v3 completion work. |
+| Add a monster | Monster model and monster dialogue/interaction were added. |
 
-These points are treated as Week 7 follow-up work. They do not change the Week 6 status: the current product is still a trial / handover-candidate build, not the final MVP v3 release.
+## Final transition confirmation
+
+The Week 7 customer meeting is planned for:
+
+2026-07-19 at 20:30
+
+Planned meeting evidence:
+
+- recording: yes;
+- note-taker: Sergey;
+- customer will watch the demo and try the final build.
+
+During the meeting, the team must confirm:
+
+- whether the customer can access the final build;
+- whether the customer can run the product with the provided instructions;
+- whether the product is ready for independent use;
+- whether the customer accepts the current handover documentation;
+- whether the customer-confirmation status is Accepted, Accepted with follow-up items, or Not yet accepted;
+- what limitations or follow-up items remain.
 
 ## Support expectations
 
-During Week 6, the team remains responsible for:
+During final submission, the team remains responsible for:
 
-- preparing the trial artifact;
+- keeping the final build link accessible until grading is complete;
 - keeping public documentation links accessible;
-- answering customer questions about how to access or run the trial version;
-- collecting customer feedback;
-- converting actionable feedback into traceable Week 7 follow-up work.
+- answering customer or TA questions about access and run instructions;
+- preserving private evidence only in Moodle;
+- updating this document if final transition status changes before submission.
 
-For Week 7, support and follow-up work should focus on:
+After final delivery, support expectations depend on the customer-confirmation status and any remaining follow-up items.
 
-- processing the Week 6 customer feedback;
-- prioritizing the visual, UI, camera, monster, and game-loop requests;
-- updating the trial build into the final MVP v3 version;
-- updating the public documentation after final changes;
-- confirming the final handover level and customer-confirmation status.
+## Public/private evidence note
 
-After Week 7, the final support expectations must be updated according to the actual handover level reached.
+This public handover guide does not include private recording links, exact private timecodes, credentials, customer-identifying details, private access instructions, or consent evidence.
 
-## Week 6 customer review checklist
-
-During the Week 6 customer review, the team should ask whether:
-
-- the product is complete enough for trial use;
-- the trial artifact can be accessed;
-- the run instructions are understandable;
-- the handover guide is clear;
-- any setup, deployment, or access steps are missing;
-- known limitations are explained honestly;
-- the customer sees blockers for final transition;
-- any requested changes must be handled in Week 7.
-
-## Week 7 follow-up direction
-
-Week 7 follow-up work will be refined after the Week 6 customer trial and transition-readiness meeting.
-
-Expected follow-up categories:
-
-- product fixes or usability improvements found during the trial;
-- visual post-processing improvements;
-- gameplay camera redesign;
-- font and in-game button UI updates;
-- full game loop completion;
-- monster integration;
-- documentation updates requested by the customer;
-- access or run instruction fixes;
-- final transition confirmation;
-- final MVP v3 release preparation;
-- final public report and demo evidence.
+Private evidence is submitted through Moodle only where required.
