@@ -22,7 +22,7 @@ The customer confirmed that the demo works and accepted the reached handover sta
 
 Final MVP v3 product access folder:
 
-PASTE_GOOGLE_DRIVE_FOLDER_LINK_HERE
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
 
 The folder contains:
 
