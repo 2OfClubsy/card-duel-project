@@ -85,7 +85,7 @@ The Week 7 MVP v3 product increment includes the following changes:
 | Final MVP v3 product access artifact | PASTE_GOOGLE_DRIVE_FOLDER_LINK_HERE |
 | Build format | Archived Windows build with `.exe` |
 | Current run or access instructions | Download the archive, extract it, open the extracted folder, and run the game `.exe` file. |
-| Final public sanitized demo video | PASTE_GOOGLE_DRIVE_FOLDER_LINK_HERE |
+| Final public sanitized demo video | https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link |
 
 The Google Drive folder contains:
 
@@ -98,7 +98,7 @@ The final product access artifact must remain accessible until grading is comple
 
 Public sanitized demo video:
 
-PASTE_GOOGLE_DRIVE_FOLDER_LINK_HERE
+https://drive.google.com/drive/folders/1VExU45tOdSg94wNuUHKuhpwMWYHMwd2H?usp=drive_link
 
 The demo video shows the final MVP v3 state, including:
 
