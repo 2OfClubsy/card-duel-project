@@ -58,7 +58,7 @@ The Week 6 report contains Sprint 4 trial-release evidence, customer feedback, t
 | Replace pixel-style fonts | Fonts were changed for better readability. |
 | Redesign in-game buttons | More visual buttons were added. |
 | Finish the full game loop | The final game loop is part of the MVP v3 completion work. |
-| Add a monster | A monster model was added, and the monster now has dialogue/interaction with the player. |
+| Add a monster | Monster content is being added for Week 7. Final status must be confirmed after the final build is tested. |
 
 ## Final MVP v3 product changes
 
@@ -105,11 +105,11 @@ The demo should show the final MVP v3 state, including:
 - quota system;
 - inventory and item usage;
 - environment interaction;
-- monster model and dialogue;
 - music and sound settings;
 - changed fonts and visual buttons;
 - changed gameplay camera;
 - save and load system.
+- monster model and dialogue, if included in the final build;
 
 This video is different from the private rehearsed presentation video. It should be linked from this Week 7 report and from the final MVP v3 release.
 
