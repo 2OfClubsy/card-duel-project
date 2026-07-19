@@ -42,7 +42,9 @@ Week 6 produced a trial / handover-candidate release.
 
 Release tag:
 
-`v0.3.0-week6-trial`
+```text
+v0.3.0-week6-trial
+```
 
 Week 6 focus:
 
@@ -80,7 +82,9 @@ Deliver final MVP v3, respond to Week 6 customer feedback, update customer-facin
 
 Planned release tag:
 
-`v0.4.0-mvp-v3`
+```text
+v0.4.0-mvp-v3
+```
 
 Expected Week 7 / MVP v3 product changes:
 
@@ -89,14 +93,25 @@ Expected Week 7 / MVP v3 product changes:
 - inventory system for collected items;
 - item usage for puzzle-solving;
 - interactive environment objects that require correct interaction;
-- monster model;
-- monster dialogue and player interaction;
+- monster content is being added and must be confirmed after final build testing;
+- monster dialogue and player interaction if included in the final build;
 - music and sound effects;
 - adjustable audio settings;
 - changed fonts;
 - more visual in-game buttons;
 - changed gameplay camera view;
 - saving and loading system.
+
+## Week 7 response to Week 6 feedback
+
+| Week 6 feedback | Week 7 response |
+|---|---|
+| Add stronger post-processing | Not implemented in Week 7. The team removed post-processing from Sprint 5 scope and keeps it as a remaining limitation / possible future improvement. |
+| Change or redesign gameplay camera | Gameplay camera view was changed for Week 7. |
+| Replace pixel-style fonts | Fonts were changed for better readability. |
+| Redesign in-game buttons | More visual buttons were added. |
+| Finish full game loop | Final game loop is part of MVP v3 completion work. |
+| Add a monster | Monster content is being added for Week 7. Final status must be confirmed after the final build is tested. |
 
 ## Week 7 documentation and evidence work
 
@@ -120,11 +135,15 @@ Week 7 documentation and evidence work includes:
 
 Planned handover level:
 
+```text
 Ready for independent use
+```
 
 Planned customer-confirmation status:
 
+```text
 Accepted with follow-up items
+```
 
 These values must be confirmed during the Week 7 customer meeting.
 
@@ -140,6 +159,7 @@ If the customer gives a different response, the final handover guide and Week 7 
 - Execute Week 7 UAT / customer trial.
 - Conduct Week 7 Sprint Review and transition confirmation.
 - Update final handover level and customer-confirmation status.
+- Confirm final monster status after final build testing.
 - Add Week 7 screenshot evidence.
 - Prepare Week 7 Moodle PDF.
 - Submit updated slide deck PDF.
