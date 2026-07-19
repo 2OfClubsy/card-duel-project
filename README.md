@@ -2,47 +2,103 @@
 
 Card Duel Project is a 3D card-duel game prototype developed as a customer-driven course project.
 
-The player enters a dark tabletop environment, interacts with a card table, and plays a blackjack-inspired duel round against the dealer. The project follows a Sprint-based maintained-product model with public documentation, weekly reports, release evidence, testing evidence, and customer feedback traceability.
+The player enters a dark tabletop environment, interacts with a card table, and plays a blackjack-inspired duel with additional systems such as betting, quotas, inventory, environmental interaction, monster dialogue, audio settings, and save/load functionality.
+
+The project follows a Sprint-based maintained-product model with public documentation, weekly reports, release evidence, testing evidence, customer feedback traceability, and handover documentation.
 
 ## Current status
 
-The current Assignment 6 Week 6 goal is to prepare a stable trial / handover-candidate version of the product.
+The current stage is:
 
-Sprint 4 focuses on:
+```text
+Assignment 6 Week 7 — Sprint 5
+```
 
-- preparing the Week 6 trial release candidate;
+The current target release is:
+
+```text
+MVP v3
+```
+
+Sprint 5 focuses on:
+
+- responding to Week 6 customer feedback;
+- completing the final MVP v3 product increment;
 - updating customer-facing documentation;
-- reviewing product access and run instructions;
-- preparing customer handover guidance;
-- collecting customer feedback for Week 7 follow-up work.
+- preparing final product access and run instructions;
+- preparing final transition evidence;
+- creating the final MVP v3 GitHub release;
+- preparing the Week 7 public report and Moodle submission evidence;
+- preparing Demo Day materials and public sanitized demo video.
 
-The Week 6 trial release is not the final MVP v3 release. Final MVP v3 delivery and final transition confirmation are planned for Week 7 after customer trial feedback.
+Planned handover level:
+
+```text
+Ready for independent use
+```
+
+Planned customer-confirmation status:
+
+```text
+Accepted with follow-up items
+```
+
+These values must be confirmed during the Week 7 customer meeting. If the customer gives a different response, the Week 7 report and customer handover guide must be updated honestly.
 
 ## Current product access
 
-- Week 6 trial build: TODO: add Week 6 build or access link after the trial artifact is prepared
+### Week 7 final MVP v3 build
+
+TODO: add new Week 7 Google Drive build link after the final build is uploaded.
+
+Expected build format:
+
+- archived Windows build;
+- includes `.exe` file;
+- reviewer downloads the archive, extracts it, and runs the `.exe` file.
+
+### Week 6 trial build
+
+Week 6 trial / handover-candidate build:
+
+https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing
+
+Week 6 GitHub release:
+
+https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.3.0-week6-trial
+
+### Other important links
+
 - Hosted documentation site: https://2ofclubsy.github.io/card-duel-project/
 - Customer handover guide: [docs/customer-handover.md](docs/customer-handover.md)
-- Week 6 public report: TODO: add link after `reports/week6/README.md` is created
+- Week 7 public report: [reports/week7/README.md](reports/week7/README.md)
+- Week 6 public report: [reports/week6/README.md](reports/week6/README.md)
 - GitHub releases: https://github.com/2OfClubsy/card-duel-project/releases
 
-Private credentials, exact private access instructions, private recordings, customer-identifying evidence, and private timecodes are not stored in the public repository. They are provided only through the private Moodle PDF submission when required.
+Private credentials, exact private access instructions, private recordings, customer-identifying evidence, consent evidence, and private timecodes are not stored in the public repository. They are provided only through the private Moodle PDF submission when required.
 
 ## Product overview
 
 The current product direction is a 3D card-duel experience inspired by dark tabletop card-game references.
 
-The current prototype includes or targets the following core experience:
+The final MVP v3 direction includes:
 
 - 3D lobby and table-centered interaction;
 - blackjack-inspired duel flow;
-- random initial card dealing;
-- correct score calculation when drawing cards;
-- bust / loss detection when the player exceeds 21;
-- pass / end-turn behavior;
-- dealer turn and win/loss result resolution;
-- ability to start a new round after one game round ends;
-- maintained documentation, testing, architecture, and release evidence.
+- working betting system where the player can place money before playing;
+- working quota system with goals that must be completed during gameplay;
+- inventory system for collected items;
+- item usage for puzzle-solving;
+- interactive environment objects that require correct interaction;
+- monster model;
+- monster dialogue and player interaction;
+- music and sound effects;
+- adjustable audio settings;
+- changed fonts;
+- more visual in-game buttons;
+- changed gameplay camera view;
+- saving and loading system;
+- maintained documentation, testing, architecture, release, and handover evidence.
 
 ## How to run from source
 
@@ -70,17 +126,35 @@ To open the project from source:
 
 Expected result: the Godot editor opens the Card Duel Project source, including scenes, scripts, assets, shaders, and themes.
 
-## How to run the current trial build
+## How to run the current build
 
-TODO: add Week 6 trial build instructions after the trial artifact is prepared.
+### Final Week 7 MVP v3 build
 
-Expected public-safe instructions should include:
+TODO: add final Week 7 build link after the build is uploaded.
 
-1. where to access the build;
-2. how to download it;
-3. how to extract it;
-4. which executable to run;
-5. what the customer or TA should see after launch.
+Expected public-safe run instructions:
+
+1. Open the Week 7 Google Drive build folder.
+2. Download the archived build.
+3. Extract the archive to a local folder.
+4. Open the extracted folder.
+5. Run the game `.exe` file.
+
+Expected result: the final MVP v3 build starts and the reviewer can inspect the final product state.
+
+### Week 6 trial build
+
+The Week 6 trial build is still available here:
+
+https://drive.google.com/drive/folders/1QhsqIS2SyDSs8gf0daVFGCuqlrSjdKqZ?usp=sharing
+
+To run the Week 6 trial build:
+
+1. Open the Google Drive folder.
+2. Download the archived build.
+3. Extract the archive.
+4. Open the extracted folder.
+5. Run the game `.exe` file.
 
 Restricted credentials or private access details must not be committed to this public file.
 
@@ -105,7 +179,7 @@ card-duel-project/
 └── LICENSE
 ```
 
-The `game/` directory contains the source-level Godot project. Exported builds are not used as the only project artifact.
+The `game/` directory contains the source-level Godot project. Exported builds are provided separately as release or access artifacts and are not used as the only project artifact.
 
 ## Maintained documentation
 
@@ -133,11 +207,41 @@ Important entry points:
 - [Week 2 report](reports/week2/README.md)
 - [Week 4 report](reports/week4/README.md)
 - [Week 5 report](reports/week5/README.md)
-- Week 6 report: TODO: add link after `reports/week6/README.md` is created
+- [Week 6 report](reports/week6/README.md)
+- [Week 7 report](reports/week7/README.md)
+
+The Week 7 report is the final Assignment 6 public submission index. It links the full Week 6 evidence and the final Week 7 / MVP v3 evidence.
+
+## Sprint and release links
+
+| Item | Link |
+|---|---|
+| Product Backlog / GitHub Project | https://github.com/users/2OfClubsy/projects/1 |
+| Sprint 5 Backlog view | https://github.com/users/2OfClubsy/projects/1/views/7 |
+| Sprint 5 milestone | https://github.com/2OfClubsy/card-duel-project/milestone/6 |
+| Week 6 release | https://github.com/2OfClubsy/card-duel-project/releases/tag/v0.3.0-week6-trial |
+| Final MVP v3 release | TODO: add final release link after `v0.4.0-mvp-v3` is created |
 
 ## Historical builds and increments
 
 Earlier project increments are preserved as historical evidence.
+
+### MVP v2
+
+MVP v2 was the Assignment 5 / Sprint 3 increment.
+
+MVP v2 focused on:
+
+- random initial card dealing;
+- correct score calculation when drawing cards;
+- bust / loss detection when the player exceeds 21;
+- pass / end-turn behavior;
+- dealer turn after the player passes;
+- win/loss result resolution;
+- new round / restart behavior;
+- architecture documentation;
+- quality requirements;
+- UAT planning and review evidence.
 
 ### MVP v1
 
@@ -169,19 +273,51 @@ User-visible changes are tracked in:
 - [CHANGELOG.md](CHANGELOG.md)
 - [GitHub releases](https://github.com/2OfClubsy/card-duel-project/releases)
 
-The Week 6 trial / handover-candidate release will be linked from the Week 6 report after it is created.
+Current planned final release tag:
+
+```text
+v0.4.0-mvp-v3
+```
+
+The final MVP v3 release will be linked here after it is created from `main`.
 
 ## Current handover status
 
 The current handover status is:
 
 ```text
-Week 6 trial / handover-candidate
+Week 7 final delivery in progress
 ```
 
-The product is being prepared for customer trial, documentation review, and transition-readiness discussion.
+Target handover level:
 
-The final handover level and customer-confirmation status will be confirmed in Week 7 after customer feedback and final follow-up work.
+```text
+Ready for independent use
+```
+
+Target customer-confirmation status:
+
+```text
+Accepted with follow-up items
+```
+
+The final handover level and customer-confirmation status will be confirmed during the Week 7 customer meeting and documented in:
+
+- [docs/customer-handover.md](docs/customer-handover.md)
+- [reports/week7/README.md](reports/week7/README.md)
+
+## Public/private evidence note
+
+The public repository does not include:
+
+- private recording links;
+- exact private timecodes;
+- private customer-identifying details;
+- credentials;
+- consent evidence;
+- restricted access instructions.
+
+Private evidence is submitted only through Moodle where required.
 
 ## License
 
